@@ -1,2 +1,2 @@
 # ads1115with16JTS
-kicad experiment
+Trying to use git to manage kicad files for a PCB design.

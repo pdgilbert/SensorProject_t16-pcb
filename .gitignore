@@ -1,0 +1,10 @@
+*.-backups
+*.kicad_pcb-before
+*auto_saved*
+report.txt
+DRC.rpt
+
+*.erc
+*.net
+*-cache.lib
+*-rescue.lib
