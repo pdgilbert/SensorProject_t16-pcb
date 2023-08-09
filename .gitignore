@@ -1,4 +1,4 @@
-*.-backups
+*-backups/
 *.kicad_pcb-before
 *auto_saved*
 report.txt
@@ -8,3 +8,6 @@ DRC.rpt
 *.net
 *-cache.lib
 *-rescue.lib
+
+fp-info-cache
+sym-lib-table
