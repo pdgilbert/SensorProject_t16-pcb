@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "PGfootprints")(type "KiCad")(uri "${KIPRJMOD}/PG.pretty")(options "")(descr ""))
+)

@@ -3,7 +3,7 @@
   (descr "sockets for blackpill stm32f401")
   (tags "blackpill bluepill pinSockets")
   (attr through_hole)
-  (fp_text reference "pads**" (at -1.905 28.575 unlocked) (layer "F.SilkS")
+  (fp_text reference "J**" (at -1.905 28.575 unlocked) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.1)))
     (tstamp 7ebfafd4-0235-4dba-919a-5d19d944b703)
   )
@@ -87,4 +87,9 @@
   (pad "18" thru_hole oval (at 0 19.05) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 98441c4e-4fc2-4c8c-8d14-33b6e817dc37))
   (pad "19" thru_hole oval (at 0 21.59) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 7ad62e21-b5f6-48dd-8a04-c614faecfe53))
   (pad "20" thru_hole oval (at 0 24.13) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 46f1a553-96f9-477d-ab5b-438ac0a47b3f))
+  (model "${KICAD7_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x20_P2.54mm_Vertical.step"
+    (offset (xyz 0 24 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

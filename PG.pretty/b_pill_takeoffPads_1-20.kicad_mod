@@ -3,7 +3,7 @@
   (descr "sockets for blackpill stm32f401")
   (tags "blackpill bluepill pinSockets")
   (attr through_hole)
-  (fp_text reference "J**" (at -5.08 26.67 unlocked) (layer "F.SilkS")
+  (fp_text reference "J**b" (at -5.08 26.67 unlocked) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.1)))
     (tstamp 7ebfafd4-0235-4dba-919a-5d19d944b703)
   )
