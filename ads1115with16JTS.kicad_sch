@@ -6,7 +6,8 @@
 
   (title_block
     (title "ADCs for 10K thermistors")
-    (date "2023-05-31")
+    (date "2023-08-29")
+    (rev "v0.1.0")
   )
 
   (lib_symbols
