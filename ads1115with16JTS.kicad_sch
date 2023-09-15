@@ -2885,6 +2885,30 @@
     )
   )
 
+  (symbol (lib_id "ProjectLib:MountingHole") (at 19.05 20.32 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6b8c4bb3-bf8a-4f33-ab57-b4384b6ea6f6)
+    (property "Reference" "H3" (at 21.59 19.05 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 21.59 21.59 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" (at 19.05 20.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 19.05 20.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "ads1115with16JTS"
+        (path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
+          (reference "H3") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "ProjectLib:Conn_01x02_Pin") (at 43.18 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6c31a02f-e50e-4130-9cb9-8e23202a0e1b)
@@ -3027,6 +3051,30 @@
       (project "ads1115with16JTS"
         (path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
           (reference "J**1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "ProjectLib:MountingHole") (at 19.05 260.35 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 74d55b8d-4816-4fd0-8b17-a3c0948ea73d)
+    (property "Reference" "H4" (at 21.59 259.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 21.59 261.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" (at 19.05 260.35 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 19.05 260.35 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "ads1115with16JTS"
+        (path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
+          (reference "H4") (unit 1)
         )
       )
     )
