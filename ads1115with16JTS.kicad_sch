@@ -10,7 +10,7 @@
 		(rev "v0.1.0")
 	)
 	(lib_symbols
-		(symbol "Device:C"
+		(symbol "C_1"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254)
@@ -36,7 +36,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "ProjectLib:C_0805_2012Metric"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -81,7 +81,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_0_1"
+			(symbol "C_1_0_1"
 				(polyline
 					(pts
 						(xy -2.032 -0.762) (xy 2.032 -0.762)
@@ -107,7 +107,415 @@
 					)
 				)
 			)
-			(symbol "C_1_1"
+			(symbol "C_1_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "C_2"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "ProjectLib:C_0805_2012Metric"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_2_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_2_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "C_3"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "ProjectLib:C_0805_2012Metric"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_3_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_3_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "C_4"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "ProjectLib:C_0805_2012Metric"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_4_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_4_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -166,7 +574,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+			(property "Footprint" "ProjectLib::TSSOP-10_3x3mm_P0.5mm"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -433,7 +841,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "ProjectLib:C_0805_2012Metric"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -565,7 +973,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "ProjectLib:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1051,7 +1459,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "ProjectLib:R_0603_1608Metric"
 				(at 1.016 -0.254 90)
 				(effects
 					(font
@@ -1219,7 +1627,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "ProjectLib:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3510,12 +3918,6 @@
 		(uuid "0a16e3b6-cd43-4965-afca-ee685f372301")
 	)
 	(junction
-		(at 160.02 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "12bf8f38-7184-4f9e-95cf-b1d13c62849a")
-	)
-	(junction
 		(at 49.53 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3568,6 +3970,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3cedd4c4-f0ca-4bb2-9c62-369add76b757")
+	)
+	(junction
+		(at 161.29 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50420db1-df7c-4d59-96a1-b412378e3716")
 	)
 	(junction
 		(at 140.97 67.31)
@@ -3726,12 +4134,6 @@
 		(uuid "ca60f9fb-d4c9-4b98-94a8-bdff6e0bbfa1")
 	)
 	(junction
-		(at 160.02 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb648833-6476-472f-96e7-7c7cafdd6d09")
-	)
-	(junction
 		(at 48.26 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3772,6 +4174,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e951aebc-926c-4f40-a4b5-5838356662dd")
+	)
+	(junction
+		(at 161.29 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e98269f1-8deb-4614-82eb-933476d81726")
 	)
 	(junction
 		(at 48.26 157.48)
@@ -4371,7 +4779,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 86.36) (xy 160.02 86.36)
+			(xy 151.13 86.36) (xy 161.29 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4521,7 +4929,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 78.74) (xy 160.02 78.74)
+			(xy 151.13 78.74) (xy 161.29 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4801,6 +5209,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 78.74) (xy 168.91 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b8051d1-6eda-4738-a348-d3030fb62849")
+	)
+	(wire
+		(pts
 			(xy 157.48 140.97) (xy 162.56 140.97)
 		)
 		(stroke
@@ -4898,6 +5316,16 @@
 			(type default)
 		)
 		(uuid "9f87bec3-87b5-4820-bf2a-45794049d7b7")
+	)
+	(wire
+		(pts
+			(xy 161.29 86.36) (xy 168.91 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fce7ffe-6c3f-49eb-bccc-4986b16f60d7")
 	)
 	(wire
 		(pts
@@ -5271,16 +5699,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 78.74) (xy 168.91 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9bd8b6c-0bcd-46ce-b4a6-1ffb409e9d9f")
-	)
-	(wire
-		(pts
 			(xy 168.91 86.36) (xy 177.8 86.36)
 		)
 		(stroke
@@ -5288,16 +5706,6 @@
 			(type default)
 		)
 		(uuid "dd71d460-1c08-40f0-bc4e-2df9ce94e272")
-	)
-	(wire
-		(pts
-			(xy 160.02 86.36) (xy 168.91 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddc98b17-1eb2-417f-b516-7605219cf26c")
 	)
 	(wire
 		(pts
@@ -5806,6 +6214,7 @@
 		)
 	)
 	(symbol
+		(lib_name "C_2")
 		(lib_id "ProjectLib:C")
 		(at 120.65 85.09 270)
 		(mirror x)
@@ -5831,7 +6240,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "ProjectLib:C_0805_2012Metric"
 			(at 116.84 84.1248 0)
 			(effects
 				(font
@@ -5849,7 +6258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 120.65 85.09 0)
 			(effects
 				(font
@@ -5898,7 +6307,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "ProjectLib:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 76.2 227.33 0)
 			(effects
 				(font
@@ -5916,7 +6325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 76.2 227.33 0)
 			(effects
 				(font
@@ -5968,7 +6377,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "ProjectLib:TSSOP-10_3x3mm_P0.5mm"
 			(at 125.73 55.88 0)
 			(effects
 				(font
@@ -5986,7 +6395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10"
 			(at 125.73 43.18 0)
 			(effects
 				(font
@@ -6125,7 +6534,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "ProjectLib:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 44.45 250.19 0)
 			(effects
 				(font
@@ -6143,7 +6552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 44.45 250.19 0)
 			(effects
 				(font
@@ -6448,7 +6857,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "ProjectLib:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 43.18 184.15 0)
 			(effects
 				(font
@@ -6466,7 +6875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 43.18 184.15 0)
 			(effects
 				(font
@@ -6581,7 +6990,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "ProjectLib:C_0805_2012Metric"
 			(at 167.9448 86.36 0)
 			(effects
 				(font
@@ -6599,7 +7008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 168.91 82.55 0)
 			(effects
 				(font
@@ -6714,7 +7123,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "ProjectLib:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 76.2 172.72 0)
 			(effects
 				(font
@@ -6732,7 +7141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 76.2 172.72 0)
 			(effects
 				(font
@@ -6850,7 +7259,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0603_1608Metric"
 			(at 82.296 197.104 90)
 			(effects
 				(font
@@ -6868,7 +7277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 81.28 196.85 0)
 			(effects
 				(font
@@ -6983,7 +7392,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "ProjectLib:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 44.45 214.63 0)
 			(effects
 				(font
@@ -7001,7 +7410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 44.45 214.63 0)
 			(effects
 				(font
@@ -7119,7 +7528,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0603_1608Metric"
 			(at 49.276 153.924 90)
 			(effects
 				(font
@@ -7137,7 +7546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 48.26 153.67 0)
 			(effects
 				(font
@@ -7294,75 +7703,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 151.13 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "50d0ab5c-2fbe-470f-a6bc-d1baf9849e47")
-		(property "Reference" "C8"
-			(at 149.86 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10µF"
-			(at 154.94 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ProjectLib:C_0805_2012Metric"
-			(at 152.0952 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 151.13 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3879c84a-f49b-47af-907c-7af3847b7358")
-		)
-		(pin "2"
-			(uuid "10b14507-82ac-4a9b-91f1-845e060a849d")
-		)
-		(instances
-			(project "ads1115with16JTS"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ProjectLib:Conn_01x02_Pin")
 		(at 44.45 127 0)
 		(unit 1)
@@ -7387,7 +7727,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "ProjectLib:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 44.45 127 0)
 			(effects
 				(font
@@ -7405,7 +7745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 44.45 127 0)
 			(effects
 				(font
@@ -7454,7 +7794,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "ProjectLib:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 73.66 148.59 0)
 			(effects
 				(font
@@ -7472,7 +7812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 73.66 148.59 0)
 			(effects
 				(font
@@ -7788,7 +8128,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0603_1608Metric"
 			(at 79.756 51.054 90)
 			(effects
 				(font
@@ -7806,7 +8146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 78.74 50.8 0)
 			(effects
 				(font
@@ -8052,7 +8392,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "ProjectLib:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 43.18 39.37 0)
 			(effects
 				(font
@@ -8070,7 +8410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 43.18 39.37 0)
 			(effects
 				(font
@@ -8188,7 +8528,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0603_1608Metric"
 			(at 82.296 223.774 90)
 			(effects
 				(font
@@ -8206,7 +8546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 81.28 223.52 0)
 			(effects
 				(font
@@ -8231,6 +8571,7 @@
 		)
 	)
 	(symbol
+		(lib_name "C_1")
 		(lib_id "ProjectLib:C")
 		(at 120.65 24.13 270)
 		(mirror x)
@@ -8256,7 +8597,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "ProjectLib:C_0805_2012Metric"
 			(at 116.84 23.1648 0)
 			(effects
 				(font
@@ -8274,7 +8615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 120.65 24.13 0)
 			(effects
 				(font
@@ -8574,7 +8915,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "ProjectLib:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 43.18 157.48 0)
 			(effects
 				(font
@@ -8592,7 +8933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 43.18 157.48 0)
 			(effects
 				(font
@@ -8710,7 +9051,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0603_1608Metric"
 			(at 79.756 112.014 90)
 			(effects
 				(font
@@ -8728,7 +9069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 78.74 111.76 0)
 			(effects
 				(font
@@ -8780,7 +9121,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0603_1608Metric"
 			(at 79.756 145.034 90)
 			(effects
 				(font
@@ -8798,7 +9139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 78.74 144.78 0)
 			(effects
 				(font
@@ -8883,6 +9224,74 @@
 			(project "ads1115with16JTS"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectLib:C")
+		(at 161.29 82.55 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "826be288-8ed9-4397-8274-accbb76dc67b")
+		(property "Reference" "C7"
+			(at 161.29 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10µF"
+			(at 165.1 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ProjectLib:C_0805_2012Metric"
+			(at 160.3248 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 161.29 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63364aca-1217-4933-8eca-41054a121f61")
+		)
+		(pin "2"
+			(uuid "6aff301e-abdd-42ac-b66e-4162cebcd3d2")
+		)
+		(instances
+			(project "ads1115with16JTS"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -9021,6 +9430,7 @@
 		)
 	)
 	(symbol
+		(lib_name "C_3")
 		(lib_id "ProjectLib:C")
 		(at 123.19 196.85 270)
 		(mirror x)
@@ -9046,7 +9456,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "ProjectLib:C_0805_2012Metric"
 			(at 119.38 195.8848 0)
 			(effects
 				(font
@@ -9064,7 +9474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 123.19 196.85 0)
 			(effects
 				(font
@@ -9182,7 +9592,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0603_1608Metric"
 			(at 49.276 62.484 90)
 			(effects
 				(font
@@ -9200,7 +9610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 48.26 62.23 0)
 			(effects
 				(font
@@ -9516,7 +9926,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "ProjectLib:TSSOP-10_3x3mm_P0.5mm"
 			(at 128.27 228.6 0)
 			(effects
 				(font
@@ -9534,7 +9944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10"
 			(at 128.27 215.9 0)
 			(effects
 				(font
@@ -10188,7 +10598,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "ProjectLib:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 43.18 66.04 0)
 			(effects
 				(font
@@ -10206,7 +10616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 43.18 66.04 0)
 			(effects
 				(font
@@ -10231,6 +10641,7 @@
 		)
 	)
 	(symbol
+		(lib_name "C_4")
 		(lib_id "ProjectLib:C")
 		(at 120.65 142.24 270)
 		(mirror x)
@@ -10256,7 +10667,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "ProjectLib:C_0805_2012Metric"
 			(at 116.84 141.2748 0)
 			(effects
 				(font
@@ -10274,7 +10685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 120.65 142.24 0)
 			(effects
 				(font
@@ -10324,7 +10735,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "ProjectLib:C_0805_2012Metric"
 			(at 176.8348 86.36 0)
 			(effects
 				(font
@@ -10342,7 +10753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 177.8 82.55 0)
 			(effects
 				(font
@@ -10426,6 +10837,74 @@
 			(project "ads1115with16JTS"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectLib:C")
+		(at 151.13 82.55 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8ab5d2b-37b3-4ce6-973a-9608cb5c56e3")
+		(property "Reference" "C8"
+			(at 151.13 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10µF"
+			(at 154.94 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ProjectLib:C_0805_2012Metric"
+			(at 150.1648 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 151.13 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ddac2de-5dd8-4fef-8cac-2f6c7968b4ab")
+		)
+		(pin "2"
+			(uuid "c7d4d089-acf9-4116-bad0-851f2269db1d")
+		)
+		(instances
+			(project "ads1115with16JTS"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -10922,7 +11401,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "ProjectLib:TSSOP-10_3x3mm_P0.5mm"
 			(at 125.73 173.99 0)
 			(effects
 				(font
@@ -10940,7 +11419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10"
 			(at 125.73 161.29 0)
 			(effects
 				(font
@@ -11413,7 +11892,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0603_1608Metric"
 			(at 49.276 35.814 90)
 			(effects
 				(font
@@ -11431,7 +11910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 48.26 35.56 0)
 			(effects
 				(font
@@ -11620,7 +12099,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "ProjectLib:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 73.66 27.94 0)
 			(effects
 				(font
@@ -11638,7 +12117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 73.66 27.94 0)
 			(effects
 				(font
@@ -11690,7 +12169,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0603_1608Metric"
 			(at 79.756 24.384 90)
 			(effects
 				(font
@@ -11708,7 +12187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 78.74 24.13 0)
 			(effects
 				(font
@@ -11826,7 +12305,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0603_1608Metric"
 			(at 50.546 123.444 90)
 			(effects
 				(font
@@ -11844,7 +12323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 49.53 123.19 0)
 			(effects
 				(font
@@ -11896,7 +12375,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0603_1608Metric"
 			(at 50.546 211.074 90)
 			(effects
 				(font
@@ -11914,7 +12393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 49.53 210.82 0)
 			(effects
 				(font
@@ -11963,7 +12442,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "ProjectLib:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 76.2 200.66 0)
 			(effects
 				(font
@@ -11981,7 +12460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 76.2 200.66 0)
 			(effects
 				(font
@@ -12072,75 +12551,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 160.02 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d8e20c50-22fa-4f2a-bfb0-117f01ed60b8")
-		(property "Reference" "C7"
-			(at 158.75 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10µF"
-			(at 163.83 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ProjectLib:C_0805_2012Metric"
-			(at 160.9852 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 160.02 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2b5b1bb8-e50a-4060-9b18-726da554f8bb")
-		)
-		(pin "2"
-			(uuid "9f2c153e-5512-41de-99b4-2af1ecbe219b")
-		)
-		(instances
-			(project "ads1115with16JTS"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ProjectLib:R_US")
 		(at 49.53 246.38 0)
 		(unit 1)
@@ -12168,7 +12578,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0603_1608Metric"
 			(at 50.546 246.634 90)
 			(effects
 				(font
@@ -12186,7 +12596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 49.53 246.38 0)
 			(effects
 				(font
@@ -12304,7 +12714,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0603_1608Metric"
 			(at 51.816 96.774 90)
 			(effects
 				(font
@@ -12322,7 +12732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 50.8 96.52 0)
 			(effects
 				(font
@@ -12374,7 +12784,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0603_1608Metric"
 			(at 49.276 180.594 90)
 			(effects
 				(font
@@ -12392,7 +12802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 48.26 180.34 0)
 			(effects
 				(font
@@ -12441,7 +12851,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "ProjectLib:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 73.66 54.61 0)
 			(effects
 				(font
@@ -12459,7 +12869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 73.66 54.61 0)
 			(effects
 				(font
@@ -12511,7 +12921,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0603_1608Metric"
 			(at 82.296 169.164 90)
 			(effects
 				(font
@@ -12529,7 +12939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 81.28 168.91 0)
 			(effects
 				(font
@@ -12581,7 +12991,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "ProjectLib:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
 			(at 170.18 73.66 0)
 			(effects
 				(font
@@ -12599,7 +13009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 170.18 73.66 0)
 			(effects
 				(font
@@ -12648,7 +13058,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "ProjectLib:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 73.66 88.9 0)
 			(effects
 				(font
@@ -12666,7 +13076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 73.66 88.9 0)
 			(effects
 				(font
@@ -12715,7 +13125,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "ProjectLib:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 73.66 115.57 0)
 			(effects
 				(font
@@ -12733,7 +13143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 73.66 115.57 0)
 			(effects
 				(font
@@ -12851,7 +13261,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0603_1608Metric"
 			(at 79.756 85.344 90)
 			(effects
 				(font
@@ -12869,7 +13279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 78.74 85.09 0)
 			(effects
 				(font
@@ -12918,7 +13328,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "ProjectLib:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 45.72 100.33 0)
 			(effects
 				(font
@@ -12936,7 +13346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 45.72 100.33 0)
 			(effects
 				(font
@@ -12988,7 +13398,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "ProjectLib:TSSOP-10_3x3mm_P0.5mm"
 			(at 125.73 116.84 0)
 			(effects
 				(font
@@ -13006,7 +13416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10"
 			(at 125.73 104.14 0)
 			(effects
 				(font
