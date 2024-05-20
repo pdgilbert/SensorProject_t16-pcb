@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "10µF5"
+	(property "Value" "C_0805_2012Metric"
 		(at 5.334 0.635 180)
 		(layer "F.Fab")
 		(uuid "55dd8a4d-c463-4671-9994-023a399bb972")
@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "C_0805_2012Metric"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
