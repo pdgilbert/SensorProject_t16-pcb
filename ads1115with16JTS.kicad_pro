@@ -521,7 +521,7 @@
       "idf": "",
       "netlist": "",
       "plot": "./outputs",
-      "pos_files": "",
+      "pos_files": "outputs",
       "specctra_dsn": "",
       "step": "ads1115with16JTS.step",
       "svg": "",

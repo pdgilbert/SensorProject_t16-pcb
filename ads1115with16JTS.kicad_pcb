@@ -83,7 +83,8 @@
 		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
-		(aux_axis_origin 49.53 95.25)
+		(aux_axis_origin 49.65 95.19)
+		(grid_origin 49.65 95.19)
 		(pcbplotparams
 			(layerselection 0x00310fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
@@ -17489,7 +17490,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "v0.1.0 2024-04"
+	(gr_text "v0.1.0 2024-05"
 		(at 81.026 94.742 0)
 		(layer "F.SilkS")
 		(uuid "47497532-f073-4510-ae28-6255e991c482")
