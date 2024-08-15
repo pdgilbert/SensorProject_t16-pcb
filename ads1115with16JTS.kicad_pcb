@@ -221,6 +221,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -233,10 +234,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -245,6 +247,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -396,6 +399,220 @@
 	)
 	(footprint "ProjectLib:R_0603_1608Metric"
 		(layer "F.Cu")
+		(uuid "08c8dd55-9f5f-4860-b352-79dd25652dae")
+		(at 92.48 31.19 -90)
+		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor")
+		(property "Reference" "R18"
+			(at 2.159 0 360)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "644c0d7b-44c2-4bdb-9fe6-8e2bf219af30")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 0.87 -2.24 0)
+			(layer "F.Fab")
+			(uuid "9ec0c5af-8ce0-438f-8b0d-86ccc616478b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "ProjectLib:R_0603_1608Metric"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25744708-5269-44d7-8116-b42c04aa7c9e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf9b6cb4-5700-45e3-8f63-5e73b49b69c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7692927d-f196-47e1-a5c8-590521c93aa4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/f47b4fd4-a037-4941-bda4-549807232ff3")
+		(sheetname "Root")
+		(sheetfile "ads1115with16JTS.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.237258 0.5225)
+			(end 0.237258 0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0ef3371b-093b-42f4-9324-cbd2b4c8eb1d")
+		)
+		(fp_line
+			(start -0.237258 -0.5225)
+			(end 0.237258 -0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1949d60f-9298-4b3b-92cc-8f918e4c2133")
+		)
+		(fp_line
+			(start -1.48 0.73)
+			(end -1.48 -0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3d9f0dfc-9a34-434c-93f4-ccf98a4184cb")
+		)
+		(fp_line
+			(start 1.48 0.73)
+			(end -1.48 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9a2e22f7-e215-4153-98da-361ff5784201")
+		)
+		(fp_line
+			(start -1.48 -0.73)
+			(end 1.48 -0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "bc2e38ad-3497-42d7-8b50-40e443a942ee")
+		)
+		(fp_line
+			(start 1.48 -0.73)
+			(end 1.48 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e4ec56e7-5e81-4b75-90ad-c900d27bf426")
+		)
+		(fp_line
+			(start -0.8 0.4125)
+			(end -0.8 -0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "af0f7aa1-b6ba-455d-b7a8-546390e7af16")
+		)
+		(fp_line
+			(start 0.8 0.4125)
+			(end -0.8 0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9f5d7793-19c1-4f4d-b927-4901cc842047")
+		)
+		(fp_line
+			(start -0.8 -0.4125)
+			(end 0.8 -0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b69e7539-b654-49a6-a3d7-5187e314041d")
+		)
+		(fp_line
+			(start 0.8 -0.4125)
+			(end 0.8 0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "20ca70ee-4920-4811-8b38-e2ee48ddb8ed")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(uuid "deccdb32-f806-4ee0-b795-5094bb7663c9")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.825 0 270)
+			(size 0.8 0.95)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 1 "+3V3")
+			(pintype "passive")
+			(uuid "9bce71bd-c24e-4a00-b306-3ad8563ec8ca")
+		)
+		(pad "2" smd roundrect
+			(at 0.825 0 270)
+			(size 0.8 0.95)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 23 "/SDA1")
+			(pintype "passive")
+			(uuid "879d5e93-4158-437a-873f-1cf0d1742566")
+		)
+		(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "ProjectLib:R_0603_1608Metric"
+		(layer "F.Cu")
 		(uuid "099c8a63-38b2-4a96-a802-31ffc98fde6e")
 		(at 60.96 38.34 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -432,6 +649,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -444,10 +662,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -456,6 +675,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -642,6 +862,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -654,10 +875,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -666,6 +888,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1097,6 +1320,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1109,10 +1333,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1121,6 +1346,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1552,6 +1778,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1564,10 +1791,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1576,6 +1804,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2007,6 +2236,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2019,10 +2249,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2031,6 +2262,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2428,7 +2660,7 @@
 	(footprint "ProjectLib:MountingHole_2.2mm_M2_ISO7380_Pad"
 		(layer "F.Cu")
 		(uuid "22662cb3-b227-477e-b62b-394b2f79180c")
-		(at 95.631 93.091)
+		(at 95.65 93.19)
 		(descr "Mounting Hole 2.2mm, M2, ISO7380")
 		(tags "mounting hole 2.2mm m2 iso7380")
 		(property "Reference" "H1"
@@ -2462,6 +2694,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2474,6 +2707,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2486,6 +2720,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2574,6 +2809,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2586,10 +2822,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2598,6 +2835,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2784,6 +3022,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2796,10 +3035,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2808,6 +3048,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3239,6 +3480,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3251,10 +3493,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3263,6 +3506,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3581,6 +3825,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3593,10 +3838,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3605,6 +3851,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3923,6 +4170,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3935,10 +4183,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3947,6 +4196,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4378,6 +4628,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4390,10 +4641,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4402,6 +4654,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4589,6 +4842,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4601,10 +4855,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4613,6 +4868,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4799,6 +5055,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4811,10 +5068,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4823,6 +5081,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5009,6 +5268,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5021,10 +5281,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5033,6 +5294,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5464,6 +5726,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5476,6 +5739,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5488,6 +5752,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5677,6 +5942,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5689,6 +5955,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5701,6 +5968,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6019,6 +6287,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6031,6 +6300,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6043,6 +6313,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6229,6 +6500,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6241,6 +6513,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6253,6 +6526,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6439,6 +6713,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6451,10 +6726,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6463,6 +6739,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6896,6 +7173,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6908,6 +7186,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6920,6 +7199,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7628,6 +7908,220 @@
 	)
 	(footprint "ProjectLib:R_0603_1608Metric"
 		(layer "F.Cu")
+		(uuid "5d327973-442e-4e8c-8a54-30a91b7c3a08")
+		(at 92.43 34.99 -90)
+		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor")
+		(property "Reference" "R17"
+			(at 2.159 0 360)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a4b309ae-ad41-437a-b91c-72aa905eb59b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at -0.01 -2.07 0)
+			(layer "F.Fab")
+			(uuid "465ca5f3-d384-4ec9-b723-606431ab7600")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "ProjectLib:R_0603_1608Metric"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7dbe3dba-3f18-4d00-8bad-32d4ce5b3e54")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2477428-1463-4bf8-a3c9-d320ddb20564")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da2bb1cb-ce44-4dbe-8827-5f4a4c55582e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/29da7315-0e93-4d6f-b745-f477a300e726")
+		(sheetname "Root")
+		(sheetfile "ads1115with16JTS.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.237258 0.5225)
+			(end 0.237258 0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8e5b84ee-3a93-4c67-87e3-3780df6ca93d")
+		)
+		(fp_line
+			(start -0.237258 -0.5225)
+			(end 0.237258 -0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "afccaf78-42d5-4622-897a-733ef079dc1e")
+		)
+		(fp_line
+			(start -1.48 0.73)
+			(end -1.48 -0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "aee6fff9-72f6-45b9-b52d-219905690430")
+		)
+		(fp_line
+			(start 1.48 0.73)
+			(end -1.48 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e5a0a4a3-7c8b-4dfa-a169-54ee62e36151")
+		)
+		(fp_line
+			(start -1.48 -0.73)
+			(end 1.48 -0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "436b20bf-dcd8-45b0-9d96-fd1b7eb695cd")
+		)
+		(fp_line
+			(start 1.48 -0.73)
+			(end 1.48 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "21b24ac4-0396-4f5c-bd5c-8c8efc78e3d9")
+		)
+		(fp_line
+			(start -0.8 0.4125)
+			(end -0.8 -0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b46b9c74-eaa8-4dec-9fce-e4abd9171f58")
+		)
+		(fp_line
+			(start 0.8 0.4125)
+			(end -0.8 0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c136afd0-4962-4710-b8cb-acf18f93d9ba")
+		)
+		(fp_line
+			(start -0.8 -0.4125)
+			(end 0.8 -0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "78cb6499-79e8-494b-8445-1acdab7fad8f")
+		)
+		(fp_line
+			(start 0.8 -0.4125)
+			(end 0.8 0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b79c8bd9-0788-4273-a0fd-3eeb5ce852c3")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(uuid "3b2e4799-c0ef-4fb4-a8c7-f18ff5fd406b")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.825 0 270)
+			(size 0.8 0.95)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 1 "+3V3")
+			(pintype "passive")
+			(uuid "3207533d-9313-4fb3-9445-9a11a8c5d3b4")
+		)
+		(pad "2" smd roundrect
+			(at 0.825 0 270)
+			(size 0.8 0.95)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 24 "/SCL1")
+			(pintype "passive")
+			(uuid "e8c22602-2533-4c60-ae52-59dccda995e1")
+		)
+		(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "ProjectLib:R_0603_1608Metric"
+		(layer "F.Cu")
 		(uuid "62d62622-89c7-4916-91bd-a4510e875664")
 		(at 61.0075 49.4525 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -7664,6 +8158,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7676,10 +8171,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7688,6 +8184,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7840,7 +8337,7 @@
 	(footprint "ProjectLib:MountingHole_2.2mm_M2_ISO7380_Pad"
 		(layer "F.Cu")
 		(uuid "6846b381-f290-4218-a9fd-5d9d2b335868")
-		(at 51.65 26.25)
+		(at 51.65 26.29)
 		(descr "Mounting Hole 2.2mm, M2, ISO7380")
 		(tags "mounting hole 2.2mm m2 iso7380")
 		(property "Reference" "H3"
@@ -7874,6 +8371,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7886,6 +8384,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7898,6 +8397,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7985,6 +8485,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7997,6 +8498,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8009,6 +8511,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8195,6 +8698,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8207,10 +8711,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8219,6 +8724,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8537,6 +9043,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8549,10 +9056,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8561,6 +9069,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8747,6 +9256,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8759,10 +9269,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8771,10 +9282,12 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
 		(property ki_fp_filters "C_*")
+		(path "/2be25878-64b4-477c-8396-91f322058fd9")
 		(sheetname "Root")
 		(sheetfile "ads1115with16JTS.kicad_sch")
 		(attr smd)
@@ -8956,6 +9469,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8968,6 +9482,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8980,6 +9495,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9167,6 +9683,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9179,10 +9696,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9191,6 +9709,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9378,6 +9897,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9390,10 +9910,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9402,6 +9923,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9589,6 +10111,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9601,10 +10124,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9613,6 +10137,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9765,7 +10290,7 @@
 	(footprint "ProjectLib:MountingHole_2.2mm_M2_ISO7380_Pad"
 		(layer "F.Cu")
 		(uuid "970c4b0b-325c-488b-a260-b8d8e98df230")
-		(at 51.64 93.13)
+		(at 51.65 93.19)
 		(descr "Mounting Hole 2.2mm, M2, ISO7380")
 		(tags "mounting hole 2.2mm m2 iso7380")
 		(property "Reference" "H4"
@@ -9799,6 +10324,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9811,6 +10337,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9823,6 +10350,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9910,6 +10438,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9922,6 +10451,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9934,6 +10464,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10387,6 +10918,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10399,10 +10931,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10411,6 +10944,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10729,6 +11263,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10741,10 +11276,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10753,6 +11289,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11184,6 +11721,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11196,10 +11734,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11208,6 +11747,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11639,6 +12179,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11651,10 +12192,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11663,10 +12205,12 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
 		(property ki_fp_filters "C_*")
+		(path "/a2436bc6-688c-4b3d-8e86-f829f415832d")
 		(sheetname "Root")
 		(sheetfile "ads1115with16JTS.kicad_sch")
 		(attr smd)
@@ -11849,6 +12393,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11861,10 +12406,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11873,6 +12419,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12059,6 +12606,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12071,10 +12619,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12083,6 +12632,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12514,6 +13064,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12526,10 +13077,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12538,6 +13090,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12972,6 +13525,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12984,6 +13538,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12996,6 +13551,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13324,6 +13880,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13336,6 +13893,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13348,6 +13906,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14087,6 +14646,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14099,10 +14659,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14111,6 +14672,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14298,6 +14860,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14310,10 +14873,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14322,6 +14886,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14508,6 +15073,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14520,10 +15086,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14532,6 +15099,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14963,6 +15531,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14975,6 +15544,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14987,6 +15557,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15174,6 +15745,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15186,10 +15758,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15198,6 +15771,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15385,6 +15959,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15397,10 +15972,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15409,6 +15985,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15561,11 +16138,11 @@
 	(footprint "ProjectLib:MountingHole_2.2mm_M2_ISO7380_Pad"
 		(layer "F.Cu")
 		(uuid "e093ddb0-b8d9-48bf-b2bd-504fad8746e7")
-		(at 95.631 26.289)
+		(at 95.65 26.29)
 		(descr "Mounting Hole 2.2mm, M2, ISO7380")
 		(tags "mounting hole 2.2mm m2 iso7380")
 		(property "Reference" "H2"
-			(at 0.889 3.048 0)
+			(at -3.12 -1.11 0)
 			(layer "F.SilkS")
 			(uuid "108270f6-45c3-4bdf-b8b2-f5bbf54d9211")
 			(effects
@@ -15595,6 +16172,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15607,6 +16185,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15619,6 +16198,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15706,6 +16286,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15718,10 +16299,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15730,6 +16312,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -16126,6 +16709,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -16138,10 +16722,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16150,6 +16735,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -16581,6 +17167,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -16593,10 +17180,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16605,6 +17193,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17036,6 +17625,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17048,10 +17638,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17060,6 +17651,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17490,7 +18082,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "v0.1.0 2024-05"
+	(gr_text "v0.1.x 202x-0x"
 		(at 81.026 94.742 0)
 		(layer "F.SilkS")
 		(uuid "47497532-f073-4510-ae28-6255e991c482")
@@ -17515,7 +18107,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "ads1115with16JTS"
+	(gr_text "ads1115with16JST"
 		(at 66.167 94.869 0)
 		(layer "F.SilkS")
 		(uuid "5e712137-e3b6-4b8c-9263-c97c4575a17d")
@@ -17541,7 +18133,7 @@
 		)
 	)
 	(gr_text "+"
-		(at 91.186 31.369 0)
+		(at 94.19 31.44 0)
 		(layer "F.SilkS")
 		(uuid "7b45f72d-7da9-48b5-88f3-cd672273ed11")
 		(effects
@@ -17553,7 +18145,7 @@
 		)
 	)
 	(gr_text "SCL1"
-		(at 91.694 36.576 0)
+		(at 93.49 36.89 0)
 		(layer "F.SilkS")
 		(uuid "93b5d983-3a9f-46c8-8f81-6c7acdd3777c")
 		(effects
@@ -17578,7 +18170,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 91.29 29.04 0)
+		(at 93.84 29.38 0)
 		(layer "F.SilkS")
 		(uuid "d1dfd4de-fc95-45d1-88e4-16cdc59ad1d9")
 		(effects
@@ -17603,7 +18195,7 @@
 		)
 	)
 	(gr_text "SDA1"
-		(at 91.44 34.29 0)
+		(at 93.59 33.89 0)
 		(layer "F.SilkS")
 		(uuid "eb8e9fb0-6225-4cb7-b519-e03b6c29ce76")
 		(effects
@@ -17633,6 +18225,14 @@
 		(layer "F.Cu")
 		(net 1)
 		(uuid "01d72c49-3d9c-4d49-b374-06777f917c24")
+	)
+	(segment
+		(start 93.33 31.215)
+		(end 92.48 30.365)
+		(width 0.35)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "03483a6b-e514-43fe-b143-9bb6ea150c94")
 	)
 	(segment
 		(start 51.435 41.38)
@@ -17723,6 +18323,14 @@
 		(uuid "1a7e046e-d234-4c2f-8548-1fec9e3377a6")
 	)
 	(segment
+		(start 89.545 30.365)
+		(end 92.48 30.365)
+		(width 0.35)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "1a88bc56-e348-4858-b7ac-a0db0188c926")
+	)
+	(segment
 		(start 60.071 64.279)
 		(end 60.071 65.8225)
 		(width 0.35)
@@ -17777,6 +18385,14 @@
 		(layer "F.Cu")
 		(net 1)
 		(uuid "2181e60e-664c-4123-9429-eadaf3bd6b10")
+	)
+	(segment
+		(start 92.43 34.165)
+		(end 93.33 33.265)
+		(width 0.35)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "26203890-bba3-4bfa-aafe-28151015d4dc")
 	)
 	(segment
 		(start 51.435 65.913)
@@ -17865,6 +18481,14 @@
 		(layer "F.Cu")
 		(net 1)
 		(uuid "44c3a3e2-ec02-44a6-994a-3863a4bcddce")
+	)
+	(segment
+		(start 88.775 31.135)
+		(end 89.545 30.365)
+		(width 0.35)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "45819d14-7059-4648-bac4-19267b894b5f")
 	)
 	(segment
 		(start 93.163 40.64)
@@ -18139,6 +18763,14 @@
 		(uuid "9bbdcea5-2b80-4e6d-8617-bd9c4973097d")
 	)
 	(segment
+		(start 93.33 33.265)
+		(end 93.33 31.215)
+		(width 0.35)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "9c0c0b14-51d4-4ad5-ad7f-336bdea2afe6")
+	)
+	(segment
 		(start 51.638 75.26)
 		(end 59.817 75.26)
 		(width 0.35)
@@ -18233,6 +18865,14 @@
 		(layer "F.Cu")
 		(net 1)
 		(uuid "b25ac155-2bea-4e94-8429-28ae108ae22a")
+	)
+	(segment
+		(start 88.536 31.135)
+		(end 88.775 31.135)
+		(width 0.35)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "b6fad42c-c497-4752-ab89-2018d3489ed0")
 	)
 	(segment
 		(start 60.18 32.35)
@@ -19624,6 +20264,14 @@
 		(uuid "8175528a-e7b9-4241-9fd2-ee60a86e0cf0")
 	)
 	(segment
+		(start 88.536 33.635)
+		(end 90.86 33.635)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 23)
+		(uuid "8e0941f9-b542-492a-a59e-c02fb3b7ca17")
+	)
+	(segment
 		(start 95.181 37.973)
 		(end 95.181 47.117)
 		(width 0.25)
@@ -19742,6 +20390,14 @@
 		(layer "F.Cu")
 		(net 23)
 		(uuid "e63d1749-c2e9-4c75-843e-d9da58b3edb3")
+	)
+	(segment
+		(start 90.86 33.635)
+		(end 92.48 32.015)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 23)
+		(uuid "eadcb33e-72f0-4e2a-bce5-f2cedc7cce36")
 	)
 	(segment
 		(start 73.8875 48.0325)
@@ -19888,6 +20544,14 @@
 		(uuid "6fd0e1f8-2481-4fa8-bd6e-18ff63e5adee")
 	)
 	(segment
+		(start 88.856 35.815)
+		(end 88.536 36.135)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 24)
+		(uuid "7bdacfbd-e8ac-482e-8cae-a468142a4b89")
+	)
+	(segment
 		(start 84.368 41.061)
 		(end 84.368 45.252)
 		(width 0.25)
@@ -19926,6 +20590,14 @@
 		(layer "F.Cu")
 		(net 24)
 		(uuid "b697b2ae-c527-4e1b-b144-895c64cc8f21")
+	)
+	(segment
+		(start 92.43 35.815)
+		(end 88.856 35.815)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 24)
+		(uuid "bc38c6c4-71da-40df-9341-34b602cb7198")
 	)
 	(segment
 		(start 73.4375 67.0825)
