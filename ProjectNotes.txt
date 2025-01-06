@@ -1,0 +1,60 @@
+grep "/////////////// " ProjectNotes.txt   # for section index
+
+////////////////////////////////////////////////////////////////////////////////
+///////////////            To Do
+////////////////////////////////////////////////////////////////////////////////
+
+- surface mount JST connectors.
+
+- add radio.
+
+- MCU on board?
+
+- change to parts used in ads..  so BOM gets generated correctly. Done
+
+-- For part line 4 item #2 TSSOP-10_3x3mm_P0.5mm the part you will supply
+      ADS1115IDGSR   Texas Instruments  IC ADC 16BIT SIGMA-DELTA 10VSSOP
+   is  OK.  An equivalent would also be OK.
+
+- check squareness of mounting holes.  Done. 44 x 66.9 mm  hole centers
+
+- jst not jts in silk screen. Done.   and repo.
+
+- put 10K pull-up resistors on sla, sda. Done.
+
+- put  alert/rdy (1k - 10k typ.) -  possibly higher, check power loss implication
+    see  [ADS111x](http://www.ti.com/lit/ds/symlink/ads1115.pdf)
+
+- no mask on holes that may have solder connections. Done
+
+- document parts actually used (substitues) in v0.1.0.
+
+- connect  alert/rdy to gpio (test in breadboard). Do not conflict with serial, lora or other?
+
+- connect other chip pins to something on MCU?
+
+- MCU on board?
+
+-spice
+
+////////////////////////////////////////////////////////////////////////////////
+///////////////     tags and versions
+////////////////////////////////////////////////////////////////////////////////
+
+-tag 
+
+////////////////////////////////////////////////////////////////////////////////
+///////////////     altenate equivalent  parts
+////////////////////////////////////////////////////////////////////////////////
+- J18, J19,  1x20_P2.54mm_Vertical      Female Header 2.54mm 180°Vertical Single row 20 Circuits(DIP)
+     TXGA FFH25405-S20S1001K6K  or  JILN 22850120ANG1SYA01 or ...
+
+- J20   1x02_P2.54mm_Horizontal   2 Screw horz TerminalBlock
+  Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"  or Cixi Kefa Elec	KF128-2.54-2P	or ...
+https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-2-54-2P_C474920.pdf
+
+////////////////////////////////////////////////////////////////////////////////
+///////////////     General Notes
+////////////////////////////////////////////////////////////////////////////////
+
+- CHECK  The mounting hole centers are 44mm apart in x direction and 66.9 mm in y direction.
