@@ -79,6 +79,7 @@
         "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -447,7 +448,7 @@
     ]
   },
   "meta": {
-    "filename": "ads1115with16JTS.kicad_pro",
+    "filename": "SensorProject_t16-f401-pcb.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -523,7 +524,7 @@
       "plot": "./outputs",
       "pos_files": "outputs",
       "specctra_dsn": "",
-      "step": "ads1115with16JTS.step",
+      "step": "SensorProject_t16-f401-pcb.step",
       "svg": "",
       "vrml": ""
     },

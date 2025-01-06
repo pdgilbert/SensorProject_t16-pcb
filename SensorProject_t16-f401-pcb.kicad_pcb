@@ -254,7 +254,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7820745c-555d-4f9c-a537-2916edbf08fb")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -468,7 +468,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f47b4fd4-a037-4941-bda4-549807232ff3")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -682,7 +682,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/60565fd8-154d-4f72-b1ff-d17c5c4125fe")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -895,7 +895,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/50d67a10-cb32-404f-b6a3-b357fbd35f1b")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -1353,7 +1353,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/eb0494ad-e997-4185-8b7e-f6d832e3a45c")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -1811,7 +1811,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c99bf32f-5680-46c5-8a04-0f8fd0897b9a")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -2269,7 +2269,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/3efa3228-3feb-4866-abbd-70c65c427f2f")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -2727,7 +2727,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/97e06d61-2048-44bf-bea5-86c8aeb12065")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -2842,7 +2842,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/eebd8188-14a6-4616-a598-7494b2da11ea")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -3055,7 +3055,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/9f1705bf-c712-4b3d-b56d-6c332d29d451")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -3513,7 +3513,7 @@
 		(property ki_fp_filters "TSSOP*3x3mm*P0.5mm*")
 		(path "/b9243dc4-2b4c-4c9a-b62d-7e8405791a0a")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.625 1.625)
@@ -3858,7 +3858,7 @@
 		(property ki_fp_filters "TSSOP*3x3mm*P0.5mm*")
 		(path "/95db31d0-c727-4889-9b7b-a736c1f4643b")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.625 1.625)
@@ -4203,7 +4203,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/316342c3-779f-4b11-ac6b-eb0f24cb8d6d")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -4661,7 +4661,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d3cf875b-30c4-4036-9f0c-72de64d4ebaa")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -4875,7 +4875,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e76278aa-75ae-4452-b469-9bd64bc86c76")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -5088,7 +5088,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/cac2099f-0d65-4bab-b845-4416c4e2af56")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -5301,7 +5301,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/0dc0e685-bffc-4606-91e3-2dbbc49e884e")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -5759,7 +5759,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0686bda3-f547-42be-99a9-c4c734e38420")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -5975,7 +5975,7 @@
 		(property ki_fp_filters "b_pill*")
 		(path "/972c073e-1932-4ed0-be99-2e17ad3f079c")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.286 -25.146)
@@ -6320,7 +6320,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9f34e8c9-888a-4110-b5d4-7d69310fa4d2")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -6533,7 +6533,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/72bb5f03-666c-4f8d-9c9d-f194b1578591")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -6746,7 +6746,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/6c31a02f-e50e-4130-9cb9-8e23202a0e1b")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -7206,7 +7206,7 @@
 		(property ki_fp_filters "b_pill*")
 		(path "/03a2379e-97ef-4a43-b5bc-150dcf91bc95")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -15.24 -25.7302)
@@ -7977,7 +7977,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/29da7315-0e93-4d6f-b745-f477a300e726")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -8191,7 +8191,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/dbf2d424-cf1b-4870-8987-8c270cbcb7b3")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -8404,7 +8404,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/6b8c4bb3-bf8a-4f33-ab57-b4384b6ea6f6")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -8518,7 +8518,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8605abd7-0e10-4833-9b59-a57d63b3682e")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -8731,7 +8731,7 @@
 		(property ki_fp_filters "TSSOP*3x3mm*P0.5mm*")
 		(path "/fb020a8e-203f-4123-8cbb-18eddf3731f3")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.625 1.625)
@@ -9076,7 +9076,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/790fdf56-aaf7-4a56-b01f-6839355cbd69")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -9289,7 +9289,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/2be25878-64b4-477c-8396-91f322058fd9")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -9502,7 +9502,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/826be288-8ed9-4397-8274-accbb76dc67b")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -9716,7 +9716,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/46264ef7-b922-43d2-83e5-16720e5a297b")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -9930,7 +9930,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d5320f75-eb6b-4526-8072-2b283cdd4446")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -10144,7 +10144,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/3520cc8f-cceb-4697-b1c8-83d8e9174a69")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -10357,7 +10357,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/74d55b8d-4816-4fd0-8b17-a3c0948ea73d")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -10471,7 +10471,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c9635300-c6bd-44b6-b59c-da982cc46caa")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.56 3.51)
@@ -10951,7 +10951,7 @@
 		(property ki_fp_filters "TSSOP*3x3mm*P0.5mm*")
 		(path "/097e2c42-5f00-4727-b3f7-16923be56136")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.625 1.625)
@@ -11296,7 +11296,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/fa61573a-7a32-49f4-a52d-64cb974904ce")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -11754,7 +11754,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/d5b75b94-15e2-4038-a1e6-c19c8d3a44ae")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -12212,7 +12212,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/a2436bc6-688c-4b3d-8e86-f829f415832d")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -12426,7 +12426,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8d2ea25f-2035-43a4-b002-25a18ffff1b9")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -12639,7 +12639,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/074c8642-6dfe-4243-b438-fcebab511da1")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -13097,7 +13097,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/25e16c07-66d7-43a0-a814-b73f8b425ba1")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -13558,7 +13558,7 @@
 		(property ki_fp_filters "b_pill*")
 		(path "/744be153-2014-4cb2-abd0-aabbdefbf43a")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -6.096 -25.146)
@@ -13913,7 +13913,7 @@
 		(property ki_fp_filters "b_pill*")
 		(path "/104578bd-275d-44e8-9d96-62ed98c8571f")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 -22.86)
@@ -14679,7 +14679,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d8ea32bd-4e2d-467e-94bb-cdcef8122be6")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -14893,7 +14893,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c4dd4903-bebc-487e-ab82-1335206c506e")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -15106,7 +15106,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/51cf83de-120c-4091-bece-74d24231b614")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -15564,7 +15564,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/a8ab5d2b-37b3-4ce6-973a-9608cb5c56e3")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -15778,7 +15778,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6e3686dd-9e3e-40b1-ab62-991ee3e5a222")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -15992,7 +15992,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/dd50178a-904c-469d-a014-35c300991221")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -16205,7 +16205,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/99e88154-98af-435b-9b4d-b1177eaeed03")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -16319,7 +16319,7 @@
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/e9ceb7fe-d524-4336-b4dc-d3789420b962")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 4.1 -3.16)
@@ -16742,7 +16742,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e003c0ba-5665-4146-8302-9ff80fccb2dc")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -17200,7 +17200,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/766964d2-c839-463a-b0de-e7c2430f5718")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -17658,7 +17658,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/ebc53833-b22e-4c64-a4a4-f02a15447ff1")
 		(sheetname "Root")
-		(sheetfile "ads1115with16JTS.kicad_sch")
+		(sheetfile "SensorProject_t16-f401-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -18107,7 +18107,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "ads1115with16JST"
+	(gr_text "SensorProject_t16-f401-pcb"
 		(at 66.167 94.869 0)
 		(layer "F.SilkS")
 		(uuid "5e712137-e3b6-4b8c-9263-c97c4575a17d")

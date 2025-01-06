@@ -1,4 +1,4 @@
-# ads1115with16JTS
+# SensorProject_t16-f401-pcb
 Connect multiple temperature sensors to an analog digital converter.
 
 ##  Contents
@@ -15,9 +15,9 @@ These are inexpensive and easily available in lengths up to 3m.
 The MCU socket is arranged for a blackpill module.
 
 The `.png` files are produced from kicad  in the `3D Viewer`  with `File > Export Current View as PNG`.
-![alt text](Graphics/ads1115with16JTS_top1.png)
+![alt text](Graphics/SensorProject_t16-f401-pcb_top1.png)
 
-![alt text](Graphics/ads1115with16JTS_top2.png)
+![alt text](Graphics/SensorProject_t16-f401-pcb_top2.png)
 
-![alt text](Graphics/ads1115with16JTS_bottom1.png)
+![alt text](Graphics/SensorProject_t16-f401-pcb_bottom1.png)
 

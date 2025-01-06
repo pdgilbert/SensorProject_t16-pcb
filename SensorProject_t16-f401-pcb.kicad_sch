@@ -6235,7 +6235,7 @@
 			(uuid "0b184d6c-958e-4c84-b20b-e1bd6aecd4c0")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR010")
 					(unit 1)
@@ -6357,7 +6357,7 @@
 			(uuid "2c0de2fa-3609-44bc-9eff-c62f8b10e903")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "J19")
 					(unit 1)
@@ -6426,7 +6426,7 @@
 			(uuid "cbe92732-8b07-48f2-9156-61da956876b0")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "C2")
 					(unit 1)
@@ -6493,7 +6493,7 @@
 			(uuid "c0213110-1f0f-4d94-91f6-6eec669f5c86")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "J15")
 					(unit 1)
@@ -6587,7 +6587,7 @@
 			(uuid "86f80ddb-6160-4cbb-a65c-15d381794ee6")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "U1")
 					(unit 1)
@@ -6653,7 +6653,7 @@
 			(uuid "56ea27c6-633a-4194-9b6a-926812a927e0")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR046")
 					(unit 1)
@@ -6720,7 +6720,7 @@
 			(uuid "8ddaee43-292a-48df-a36a-3476fe4db94e")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "J16")
 					(unit 1)
@@ -6844,7 +6844,7 @@
 			(uuid "bae4b573-10e8-4e30-b9f8-8a55bbd2c0ef")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "J18")
 					(unit 1)
@@ -6910,7 +6910,7 @@
 			(uuid "832a9a21-cab7-436e-8ab7-da5fca524d7c")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR036")
 					(unit 1)
@@ -6976,7 +6976,7 @@
 			(uuid "7ebe8dba-815c-4d7b-a421-4e001eb857bb")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR029")
 					(unit 1)
@@ -7043,7 +7043,7 @@
 			(uuid "80b36c35-d680-4a19-9024-5ad193ef8880")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "J12")
 					(unit 1)
@@ -7178,7 +7178,7 @@
 			(uuid "eff932d2-16b6-4a83-9963-e47bcf673482")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR05")
 					(unit 1)
@@ -7246,7 +7246,7 @@
 			(uuid "f822e974-1fde-4e86-9479-61b869cc8cba")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "C6")
 					(unit 1)
@@ -7312,7 +7312,7 @@
 			(uuid "85973c9f-e9dd-4581-b8c9-a4c916e518e8")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR020")
 					(unit 1)
@@ -7379,7 +7379,7 @@
 			(uuid "82ae3e44-be78-498c-a8b1-7207d6000546")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "J11")
 					(unit 1)
@@ -7445,7 +7445,7 @@
 			(uuid "37c65eae-6b2c-4a15-9db6-88d7a63ae065")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR017")
 					(unit 1)
@@ -7515,7 +7515,7 @@
 			(uuid "fb771500-a2e1-40f6-92c5-bcc8086a0727")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "R13")
 					(unit 1)
@@ -7581,7 +7581,7 @@
 			(uuid "f9341da2-d485-44a9-96ba-55ada82b140d")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR048")
 					(unit 1)
@@ -7648,7 +7648,7 @@
 			(uuid "bb59dbfe-113f-4429-a9dd-d1c704d7bf77")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "J14")
 					(unit 1)
@@ -7714,7 +7714,7 @@
 			(uuid "8d0de337-9996-49a3-ad0e-d8da1cdbcb97")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR09")
 					(unit 1)
@@ -7784,7 +7784,7 @@
 			(uuid "be83a3a4-8588-402b-b5c8-e1a4d74eff19")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "R10")
 					(unit 1)
@@ -7850,7 +7850,7 @@
 			(uuid "ba16c48c-7e3e-4396-bedd-f14d13c4c57c")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR038")
 					(unit 1)
@@ -7916,7 +7916,7 @@
 			(uuid "5a72180b-5ca1-418f-987f-e710ce17f58b")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR015")
 					(unit 1)
@@ -7983,7 +7983,7 @@
 			(uuid "309a06f0-2374-4216-95a0-add13cc07ebb")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "J8")
 					(unit 1)
@@ -8050,7 +8050,7 @@
 			(uuid "6f804333-5337-4e84-906d-705281e7ca13")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "J9")
 					(unit 1)
@@ -8116,7 +8116,7 @@
 			(uuid "20d0ce91-4191-4594-b925-45d797e949e9")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR050")
 					(unit 1)
@@ -8182,7 +8182,7 @@
 			(uuid "b7f5f8c4-05dd-4317-97fe-a4cdfce852b2")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR042")
 					(unit 1)
@@ -8314,7 +8314,7 @@
 			(uuid "ca6917b1-8cc7-41a5-b0b4-3aab724d926b")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR041")
 					(unit 1)
@@ -8380,7 +8380,7 @@
 			(uuid "5e14a6a0-1db8-4e13-b58d-9cbc53cc8597")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR035")
 					(unit 1)
@@ -8450,7 +8450,7 @@
 			(uuid "d2e68f02-8717-4885-b225-7fa9fc178281")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "R3")
 					(unit 1)
@@ -8516,7 +8516,7 @@
 			(uuid "4e5b72e2-81bb-4710-a085-f9e99ceeeb30")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR08")
 					(unit 1)
@@ -8582,7 +8582,7 @@
 			(uuid "689e3a6a-e8c4-44d7-89cd-c5d6bcbd2daf")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR012")
 					(unit 1)
@@ -8646,7 +8646,7 @@
 			)
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "H3")
 					(unit 1)
@@ -8714,7 +8714,7 @@
 			(uuid "7fedced6-ce19-414c-9d1b-6556b0c5ba21")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "J2")
 					(unit 1)
@@ -8780,7 +8780,7 @@
 			(uuid "21865b30-6161-432a-99b1-f8fd39271d2f")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR043")
 					(unit 1)
@@ -8850,7 +8850,7 @@
 			(uuid "8d94a672-e507-41f2-a071-7a56a42bfcd3")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "R15")
 					(unit 1)
@@ -8919,7 +8919,7 @@
 			(uuid "362e7d11-77a6-40f1-9939-bef5680aefd7")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "C1")
 					(unit 1)
@@ -9041,7 +9041,7 @@
 			(uuid "0f6af3d4-932f-432e-b203-9516b827d3ad")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "J**1")
 					(unit 1)
@@ -9105,7 +9105,7 @@
 			)
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "H4")
 					(unit 1)
@@ -9170,7 +9170,7 @@
 			(uuid "3ed47d64-c78e-47e5-8fd7-4cc4078f8f3c")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR021")
 					(unit 1)
@@ -9237,7 +9237,7 @@
 			(uuid "78e7d01c-4372-4cc3-96f5-2fa455bb562f")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "J10")
 					(unit 1)
@@ -9303,7 +9303,7 @@
 			(uuid "9e108c0f-514b-40b9-aef2-38a7821949ad")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR03")
 					(unit 1)
@@ -9373,7 +9373,7 @@
 			(uuid "1b831108-6869-4ded-bdd9-044470be0a33")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "R7")
 					(unit 1)
@@ -9443,7 +9443,7 @@
 			(uuid "a07013ad-8814-415b-ae61-c512b3fde367")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "R9")
 					(unit 1)
@@ -9509,7 +9509,7 @@
 			(uuid "b226a38d-6be8-4d58-b30c-c59042d3252c")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR01")
 					(unit 1)
@@ -9577,7 +9577,7 @@
 			(uuid "6aff301e-abdd-42ac-b66e-4162cebcd3d2")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "C7")
 					(unit 1)
@@ -9643,7 +9643,7 @@
 			(uuid "fd6344ab-40d3-4038-b984-a491fa026f4d")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR032")
 					(unit 1)
@@ -9709,7 +9709,7 @@
 			(uuid "4eea2445-3254-4451-8351-5ed9a5761182")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#FLG01")
 					(unit 1)
@@ -9778,7 +9778,7 @@
 			(uuid "a8861d26-f510-418f-9a6f-8b2a3d099619")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "C4")
 					(unit 1)
@@ -9844,7 +9844,7 @@
 			(uuid "dc68423f-3b69-4ad5-9aa3-beb61cc763c4")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR034")
 					(unit 1)
@@ -9914,7 +9914,7 @@
 			(uuid "32c0436b-bd7c-4d64-87ec-efc5b587301b")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "R4")
 					(unit 1)
@@ -9980,7 +9980,7 @@
 			(uuid "5ad8f79b-6b75-4a8a-8ecb-ec8c99fc7fd1")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR033")
 					(unit 1)
@@ -10046,7 +10046,7 @@
 			(uuid "3531a844-161c-44ac-a41c-f8631cda5c9a")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR014")
 					(unit 1)
@@ -10112,7 +10112,7 @@
 			(uuid "8a6545f7-6b35-4a74-8bee-71e713774933")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR024")
 					(unit 1)
@@ -10178,7 +10178,7 @@
 			(uuid "08145a13-ef6a-4ff5-886a-eafba98af760")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR04")
 					(unit 1)
@@ -10272,7 +10272,7 @@
 			(uuid "5eee3444-7d90-4a18-8941-ce4b9768ea6f")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "U4")
 					(unit 1)
@@ -10393,7 +10393,7 @@
 			(uuid "0b402f13-9923-47d2-b663-55c9619476fa")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "J**2")
 					(unit 1)
@@ -10460,7 +10460,7 @@
 			(uuid "cd9d6892-e44d-49b7-8f0e-f534f6aeb199")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR019")
 					(unit 1)
@@ -10524,7 +10524,7 @@
 			)
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "H1")
 					(unit 1)
@@ -10590,7 +10590,7 @@
 			(uuid "d00e2de6-1d2c-49da-b91b-8043a47ef64f")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR06")
 					(unit 1)
@@ -10656,7 +10656,7 @@
 			(uuid "41108570-936a-4d49-9d99-e279a6cd33a5")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR028")
 					(unit 1)
@@ -10720,7 +10720,7 @@
 			)
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "H2")
 					(unit 1)
@@ -10786,7 +10786,7 @@
 			(uuid "1f7710e1-5972-4873-bb04-136a628decdf")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR025")
 					(unit 1)
@@ -10852,7 +10852,7 @@
 			(uuid "5f1f0874-2698-4701-9081-4bfa6b2d2699")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR049")
 					(unit 1)
@@ -10920,7 +10920,7 @@
 			(uuid "d75f6788-864e-4388-b33b-9baee73cc2cd")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "J4")
 					(unit 1)
@@ -10989,7 +10989,7 @@
 			(uuid "9568d738-9f3d-4bdf-aa07-a779a6b75a47")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "C3")
 					(unit 1)
@@ -11057,7 +11057,7 @@
 			(uuid "fc7f465e-1fc2-4e47-828e-afe2e82ea94a")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "C5")
 					(unit 1)
@@ -11122,7 +11122,7 @@
 			(uuid "529ffb9e-bf17-4be7-8be5-e77757bcbb45")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR011")
 					(unit 1)
@@ -11190,7 +11190,7 @@
 			(uuid "c7d4d089-acf9-4116-bad0-851f2269db1d")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "C8")
 					(unit 1)
@@ -11256,7 +11256,7 @@
 			(uuid "7d3bc43d-1002-4b90-8e10-1f227604944e")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR026")
 					(unit 1)
@@ -11321,7 +11321,7 @@
 			(uuid "e01a1a41-6f23-43a9-919d-3cb53ad81329")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR031")
 					(unit 1)
@@ -11388,7 +11388,7 @@
 			(uuid "4ecae620-6b65-4f0b-9d8d-18860e46f30c")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR045")
 					(unit 1)
@@ -11454,7 +11454,7 @@
 			(uuid "b7eb932d-e67f-4cd2-a952-beafc15fd47b")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR02")
 					(unit 1)
@@ -11521,7 +11521,7 @@
 			(uuid "7e8cf01d-2ae4-4bdd-9360-45955831b757")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR039")
 					(unit 1)
@@ -11587,7 +11587,7 @@
 			(uuid "12ba0baf-a8ee-47ac-ade8-e59fe3a662f4")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR013")
 					(unit 1)
@@ -11653,7 +11653,7 @@
 			(uuid "d75d1ece-deb7-4707-8e8e-38bae1d7195c")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR016")
 					(unit 1)
@@ -11747,7 +11747,7 @@
 			(uuid "e64b6e06-bebe-42a8-b9c5-5fc70eb5f15f")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "U3")
 					(unit 1)
@@ -11813,7 +11813,7 @@
 			(uuid "9534f8f8-bd7a-4c3e-b141-1388fc043e2e")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR040")
 					(unit 1)
@@ -11879,7 +11879,7 @@
 			(uuid "a4542b3a-6298-4fca-be9c-db50854e9469")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR030")
 					(unit 1)
@@ -11946,7 +11946,7 @@
 			(uuid "c44390c5-c949-427a-90d4-df8e545a997a")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR047")
 					(unit 1)
@@ -12012,7 +12012,7 @@
 			(uuid "c2d0c182-37a7-4eab-9104-1951dabf7b86")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR018")
 					(unit 1)
@@ -12078,7 +12078,7 @@
 			(uuid "a61852af-90f4-4662-aaab-39ae70bb78e8")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR022")
 					(unit 1)
@@ -12144,7 +12144,7 @@
 			(uuid "9f611bdf-eb65-4b00-99be-5d8fc26e646a")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#FLG02")
 					(unit 1)
@@ -12214,7 +12214,7 @@
 			(uuid "a4c5d24c-9af0-473d-b9c4-8ae9c965c903")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "R2")
 					(unit 1)
@@ -12280,7 +12280,7 @@
 			(uuid "d9ab39e4-d511-4345-b2a0-3d1240b5d635")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR044")
 					(unit 1)
@@ -12354,7 +12354,7 @@
 			(uuid "31393d17-d857-48b1-ae05-30a34390c629")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "J17")
 					(unit 1)
@@ -12421,7 +12421,7 @@
 			(uuid "a9cc6b2c-b395-44b6-8ba1-e181d00fdd4a")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "J1")
 					(unit 1)
@@ -12491,7 +12491,7 @@
 			(uuid "f16c5397-20fc-4057-98db-4ec04e497cba")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "R1")
 					(unit 1)
@@ -12557,7 +12557,7 @@
 			(uuid "1d7c3f95-78e5-4032-a404-4b96c4136685")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR027")
 					(unit 1)
@@ -12627,7 +12627,7 @@
 			(uuid "f595eaa6-d8ae-4f88-b2c2-ab83131ecccb")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "R8")
 					(unit 1)
@@ -12697,7 +12697,7 @@
 			(uuid "aa082514-43b6-4e4a-9d20-2fb6c0f73d70")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "R14")
 					(unit 1)
@@ -12764,7 +12764,7 @@
 			(uuid "22502d2d-9cf6-4374-b77a-178e1c8491f2")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "J13")
 					(unit 1)
@@ -12830,7 +12830,7 @@
 			(uuid "8ffbc9bf-cc9a-4ddb-a97f-4f839d217854")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR023")
 					(unit 1)
@@ -12900,7 +12900,7 @@
 			(uuid "888fcb93-4c26-494d-b23c-ee1653e7c57a")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "R16")
 					(unit 1)
@@ -12966,7 +12966,7 @@
 			(uuid "3103a430-9a1c-42fa-9015-7502cc3c5f6d")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR07")
 					(unit 1)
@@ -13036,7 +13036,7 @@
 			(uuid "e077a1b7-cf9d-4c65-a1f4-98039d6ee6ce")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "R6")
 					(unit 1)
@@ -13106,7 +13106,7 @@
 			(uuid "0e47db44-fe81-4dae-a151-12ed00179239")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "R12")
 					(unit 1)
@@ -13173,7 +13173,7 @@
 			(uuid "e9fa1061-5964-4c0a-b548-770a4d9e1e83")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "J3")
 					(unit 1)
@@ -13309,7 +13309,7 @@
 			(uuid "b8e3c737-4981-41cc-a234-c05a1e419a79")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "R11")
 					(unit 1)
@@ -13379,7 +13379,7 @@
 			(uuid "efc8e499-849d-4edf-b49c-8ac77bedf1d9")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "J20")
 					(unit 1)
@@ -13446,7 +13446,7 @@
 			(uuid "93b0628f-ffe4-4f93-bbfb-10cb40700c65")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "J5")
 					(unit 1)
@@ -13513,7 +13513,7 @@
 			(uuid "63897fd9-ea71-4acd-b92f-1c2168754dff")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "J7")
 					(unit 1)
@@ -13579,7 +13579,7 @@
 			(uuid "5e4d200d-f359-4402-a168-7f0d8a0f64b3")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR037")
 					(unit 1)
@@ -13649,7 +13649,7 @@
 			(uuid "e1e352df-98c1-48e7-a1e1-1576c3e322f2")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "R5")
 					(unit 1)
@@ -13786,7 +13786,7 @@
 			(uuid "50dd2c42-ea06-4364-b7ef-9ec2307531b9")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "J6")
 					(unit 1)
@@ -13880,7 +13880,7 @@
 			(uuid "08a01f77-a1b6-4128-9605-678552d99591")
 		)
 		(instances
-			(project "ads1115with16JTS"
+			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "U2")
 					(unit 1)
