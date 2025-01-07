@@ -4343,22 +4343,6 @@
 		(color 0 0 0 0)
 		(uuid "fdd41aef-796b-4110-8c72-a7a7944729f5")
 	)
-	(no_connect
-		(at 135.89 156.21)
-		(uuid "22d36ec1-54b6-4bca-9b5c-65f9573e0b0c")
-	)
-	(no_connect
-		(at 135.89 38.1)
-		(uuid "2b90fdbe-2923-4c93-86d0-612b58207c78")
-	)
-	(no_connect
-		(at 138.43 210.82)
-		(uuid "48cf8128-a98b-4e47-a820-1aab09bac1bd")
-	)
-	(no_connect
-		(at 135.89 99.06)
-		(uuid "627a203d-db84-46e4-84fb-01cf79f6aadf")
-	)
 	(wire
 		(pts
 			(xy 157.48 148.59) (xy 162.56 148.59)
@@ -6509,10 +6493,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "097e2c42-5f00-4727-b3f7-16923be56136")
 		(property "Reference" "U1"
-			(at 127.6859 27.94 0)
+			(at 119.888 31.242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6521,7 +6504,7 @@
 			)
 		)
 		(property "Value" "ADS1115IDGS"
-			(at 127.6859 30.48 0)
+			(at 129.286 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6656,6 +6639,76 @@
 			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectLib:R_US")
+		(at 135.89 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d99f524-f313-4d5b-adb2-b436cc4cfa11")
+		(property "Reference" "R20"
+			(at 138.43 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 138.43 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ProjectLib:R_0603_1608Metric"
+			(at 136.906 95.504 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 135.89 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "507d16c9-943b-4801-a682-e7024adecfd7")
+		)
+		(pin "2"
+			(uuid "37551693-4f77-4197-a095-8ff93e38dd9e")
+		)
+		(instances
+			(project "SensorProject_t16-f401-pcb"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -6847,6 +6900,72 @@
 			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3V3_1")
+		(lib_id "power:+3V3")
+		(at 135.89 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "167b5c75-44e6-435a-974f-ce6bbd621828")
+		(property "Reference" "#PWR056"
+			(at 135.89 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 139.446 146.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 135.89 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a43e5e8a-9a7e-470a-9df5-fc54cef8a2f4")
+		)
+		(instances
+			(project "SensorProject_t16-f401-pcb"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -7382,6 +7501,76 @@
 			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectLib:R_US")
+		(at 135.89 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31b49029-a6de-4812-accf-ed41c3aa9602")
+		(property "Reference" "R21"
+			(at 138.43 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 138.43 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ProjectLib:R_0603_1608Metric"
+			(at 136.906 152.654 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 135.89 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "655e6388-5f7f-4f49-b641-2b2e95947e57")
+		)
+		(pin "2"
+			(uuid "5f0be780-df0a-457a-a439-cce57432ab31")
+		)
+		(instances
+			(project "SensorProject_t16-f401-pcb"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -8459,6 +8648,76 @@
 		)
 	)
 	(symbol
+		(lib_id "ProjectLib:R_US")
+		(at 138.43 207.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62a5bbd7-fde6-499d-a364-d39ef867c1bb")
+		(property "Reference" "R22"
+			(at 140.97 205.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 140.97 208.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ProjectLib:R_0603_1608Metric"
+			(at 139.446 207.264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 138.43 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "febc0e59-c06f-4b75-a6a7-4b3f8a143de2")
+		)
+		(pin "2"
+			(uuid "554df8bd-543d-492b-b50b-1b09e19d9b0a")
+		)
+		(instances
+			(project "SensorProject_t16-f401-pcb"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 78.74 57.15 0)
 		(unit 1)
@@ -9518,6 +9777,76 @@
 		)
 	)
 	(symbol
+		(lib_id "ProjectLib:R_US")
+		(at 135.89 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7eac86cd-9c5e-4f17-91cf-dcfeae740826")
+		(property "Reference" "R19"
+			(at 138.43 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 138.43 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ProjectLib:R_0603_1608Metric"
+			(at 136.906 34.544 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 135.89 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9948b29-f1ae-4f4a-9711-b33f1efa48db")
+		)
+		(pin "2"
+			(uuid "6f8eddcf-3282-47c6-a05b-96fff9ecb7f3")
+		)
+		(instances
+			(project "SensorProject_t16-f401-pcb"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ProjectLib:C")
 		(at 161.29 82.55 0)
 		(mirror y)
@@ -9781,6 +10110,72 @@
 			(project "SensorProject_t16-f401-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3V3_1")
+		(lib_id "power:+3V3")
+		(at 135.89 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "870431d0-ec9c-491d-bea7-c6105f5ee0fc")
+		(property "Reference" "#PWR055"
+			(at 135.89 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 139.446 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 135.89 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94ffe948-0037-41d9-8cef-137bf093ff50")
+		)
+		(instances
+			(project "SensorProject_t16-f401-pcb"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -10194,10 +10589,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "95db31d0-c727-4889-9b7b-a736c1f4643b")
 		(property "Reference" "U4"
-			(at 130.2259 200.66 0)
+			(at 122.682 203.962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10206,7 +10600,7 @@
 			)
 		)
 		(property "Value" "ADS1115IDGS"
-			(at 130.2259 203.2 0)
+			(at 129.286 198.628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11131,6 +11525,72 @@
 		)
 	)
 	(symbol
+		(lib_name "+3V3_1")
+		(lib_id "power:+3V3")
+		(at 135.89 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a86975e0-7de0-4488-85c6-e121a1ddd73c")
+		(property "Reference" "#PWR054"
+			(at 135.89 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 139.446 28.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 135.89 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fed54bdd-9f17-4fa8-9557-73d634a1856f")
+		)
+		(instances
+			(project "SensorProject_t16-f401-pcb"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ProjectLib:C")
 		(at 151.13 82.55 0)
 		(mirror y)
@@ -11662,6 +12122,72 @@
 		)
 	)
 	(symbol
+		(lib_name "+3V3_1")
+		(lib_id "power:+3V3")
+		(at 138.43 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8b273e1-b623-48f1-ad64-1976adcb9992")
+		(property "Reference" "#PWR057"
+			(at 138.43 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 141.986 200.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 138.43 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c86a956-cd2b-4afb-9027-94172be82c9e")
+		)
+		(instances
+			(project "SensorProject_t16-f401-pcb"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ProjectLib:ADS1115IDGS")
 		(at 125.73 161.29 0)
 		(unit 1)
@@ -11669,10 +12195,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b9243dc4-2b4c-4c9a-b62d-7e8405791a0a")
 		(property "Reference" "U3"
-			(at 127.6859 146.05 0)
+			(at 118.872 149.606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11681,7 +12206,7 @@
 			)
 		)
 		(property "Value" "ADS1115IDGS"
-			(at 127.6859 148.59 0)
+			(at 127.254 143.002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13236,7 +13761,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "9ad23439-237f-4921-8fa3-715fc87474f6")
+			(uuid "9ad23439-237f-4921-8fa3-715fc87474f7")
 		)
 		(instances
 			(project ""
@@ -13713,10 +14238,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "0de25fba-5602-4098-92e2-a554779332e7")
+			(uuid "0de25fba-5602-4098-92e2-a554779332e8")
 		)
 		(pin "2"
-			(uuid "58a3faf6-8f30-4d1c-b540-70de04d1e238")
+			(uuid "58a3faf6-8f30-4d1c-b540-70de04d1e239")
 		)
 		(instances
 			(project ""
@@ -13802,10 +14327,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fb020a8e-203f-4123-8cbb-18eddf3731f3")
 		(property "Reference" "U2"
-			(at 127.6859 88.9 0)
+			(at 119.126 92.456 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13814,7 +14338,7 @@
 			)
 		)
 		(property "Value" "ADS1115IDGS"
-			(at 127.6859 91.44 0)
+			(at 126.492 86.614 0)
 			(effects
 				(font
 					(size 1.27 1.27)

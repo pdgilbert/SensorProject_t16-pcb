@@ -4,11 +4,10 @@ grep "/////////////// " ProjectNotes.txt   # for section index
 ///////////////            To Do
 ////////////////////////////////////////////////////////////////////////////////
 
-- surface mount JST connectors.
+-  add header for ssd.
 
-- add radio.
-
-- MCU on board?
+- surface mount JST connectors not available in 2 connector.
+- add radio needs MCU on board or second board
 
 - change to parts used in ads..  so BOM gets generated correctly. Done
 
@@ -18,22 +17,21 @@ grep "/////////////// " ProjectNotes.txt   # for section index
 
 - check squareness of mounting holes.  Done. 44 x 66.9 mm  hole centers
 
-- jst not jts in silk screen. Done.   and repo.
+- jst not jts in silk screen. Done.   Repo switched to SensorProject_t16-f401-pcb.
 
 - put 10K pull-up resistors on sla, sda. Done.
 
 - put  alert/rdy (1k - 10k typ.) -  possibly higher, check power loss implication
-    see  [ADS111x](http://www.ti.com/lit/ds/symlink/ads1115.pdf)
+    see  [ADS111x](http://www.ti.com/lit/ds/symlink/ads1115.pdf)  Done.
 
 - no mask on holes that may have solder connections. Done
 
 - document parts actually used (substitues) in v0.1.0.
 
-- connect  alert/rdy to gpio (test in breadboard). Do not conflict with serial, lora or other?
+- connect other ads chip pins to something on MCU?
+- connect  alert/rdy to gpio. (Determine how this is used first and test in breadboard).
+      Do not conflict with serial, lora or other?
 
-- connect other chip pins to something on MCU?
-
-- MCU on board?
 
 -spice
 
