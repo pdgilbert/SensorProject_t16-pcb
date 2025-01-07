@@ -448,7 +448,7 @@
     ]
   },
   "meta": {
-    "filename": "SensorProject_t16-f401-pcb.kicad_pro",
+    "filename": "SensorProject_t16-pcb.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -524,7 +524,7 @@
       "plot": "./outputs",
       "pos_files": "outputs",
       "specctra_dsn": "",
-      "step": "SensorProject_t16-f401-pcb.step",
+      "step": "SensorProject_t16-pcb.step",
       "svg": "",
       "vrml": ""
     },

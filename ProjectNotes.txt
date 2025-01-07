@@ -17,7 +17,7 @@ grep "/////////////// " ProjectNotes.txt   # for section index
 
 - check squareness of mounting holes.  Done. 44 x 66.9 mm  hole centers
 
-- jst not jts in silk screen. Done.   Repo switched to SensorProject_t16-f401-pcb.
+- jst not jts in silk screen. Done.   Repo switched to SensorProject_t16-pcb.
 
 - put 10K pull-up resistors on sla, sda. Done.
 
