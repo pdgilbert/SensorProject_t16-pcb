@@ -6,7 +6,12 @@ grep "/////////////// " ProjectNotes.txt   # for section index
 
 -  add header for ssd.
 
-- surface mount JST connectors not available in 2 connector.
+- surface mount JST connectors not available in 2 connector. It is available for 3p and more.
+  through hole is JST part XH_B2B-XH-A
+  BM02B-XASS-TF(LF)(SN) is SMT but is XA connector, not sure it fits XH plugs
+    probably not according to 
+   https://www.mattmillman.com/info/crimpconnectors/common-jst-connector-types/#paxa
+
 - add radio needs MCU on board or second board
 
 - change to parts used in ads..  so BOM gets generated correctly. Done
@@ -33,16 +38,84 @@ grep "/////////////// " ProjectNotes.txt   # for section index
       Do not conflict with serial, lora or other?
 
 
--spice
+-spice?
+
+Move Spi Reset from PA0 to PA1 because PA0 is reset/wkup for mcu. Done
+
+/////////////////////  RFM95  LoRa radio
+
+Reset pin has internal pull-up.  Do not hold low for long. Leaving it floating mostly works 
+but connect to an io pin for programable reset. 
+(PA0 MAY NOT BE A GOOD CHOICE since it is WKUP on blackpill and  
+
+See  https://www.mouser.ca/datasheet/2/975/1463993415RFM95_96_97_98W-1858106.pdf
+"A manual reset of the RFM95/96/97/98(W) is possible even for applications in which VDD cannot
+be physically disconnected. Pin 7 should be pulled low for a hundred microseconds, 
+and then released. The user should then wait for 5 ms before using the chip."
+
+/////////////////////  MCU
+
+Considering
+
+regulator
+https://www.alldatasheet.com/html-pdf/49118/ADMOS/AMS1117/519/4/AMS1117.html
+
+
+MCU   STM32F401CCUx / UFQFPN48   x- temperture range and packaging
+
+leds
+blue:   Yongyu Photoelectric  yy0603bl-nn1s0-t2ar4  2.6~3.1v forward  0603 5ma 34~100mcd
+                              yy0603bl-nz1s0-t2ar4 
+                              yy0603bl-nn1s2-t2ar4            => 100 ohm resistor
+ 
+red:  (power led - consider Do Not Populate)
+   Yongyu Photoelectric  yy0603re-nn1s0-t2ar4  1.8~2.3v forward  0603 5ma 34~100mcd
+                         yy0603re-rn1s0-t2ar4 
+                         yy0603re-rn2s1-t2ar4            => 400 ohm resistor
+                         yy0603re-nn2s0-t2ar4 
+                         yy0603re-nn3s0-t2ar4 
+
+
+xtals
+https://www.ndk.com/en/products/
+https://www.ndk.com/en/products/lineup/crystal-unit/
+see AN2867 p31 which suggests cap values for various crystals
+
+    32.758 kHz   NDK_NX1610SE  
+    
+    25 MHz  NDK_NX1612SA     KKST 25.000 on blackpill
+
+Regarding capacitors for crystals see application note AN2867
+https://www.st.com/resource/en/application_note/cd00221665-oscillator-design-guide-for-stm8af-al-s-stm32-mcus-and-mpus-stmicroelectronics.pdf
+and https://community.st.com/t5/stm32-mcus-products/stm32-f4-crystal-calculation-and-discrepancy-with-nucleo-boards/td-p/607114
+and https://community.st.com/t5/stm32-mcus-products/calculate-external-capacitors-cl1-and-cl2-for-crystal-oscillator/td-p/620301
+
+"It's better to measure freq on first PCB release/prototype sample via MCO pin (available on 
+PA8 + others depends on device and package size). 
+Measuring must be done by counter or by scope with averaging (or in counter mode) to avoid short 
+term jitter. And then tune external capacitors accordingly to get nominal crystal frequency.
+fmeas > fnom \u2026 increase external capacitors
+fmeas < fnom \u2026 decrease external capacitors
+"
+And regarding measuring on PA8 see
+https://community.st.com/t5/missing-articles/how-can-i-output-a-clock-signal-to-the-stm32-s-mco-pin/td-p/49583
+
+
+Reference/Compare
+   https://www.pcbway.com/project/shareproject/10_channel_NTC_thermistor_based_temperature_logger_b1c5cdfe.html
+   https://stm32world.com/wiki/Black_Pill
+   https://stm32-base.org/assets/pdf/boards/original-schematic-STM32F411CEU6_WeAct_Black_Pill_V2.0.pdf
+   and   https://uglyduck.vajn.icu/STM32_Pills/BlackPill_STM32F411.pdf 
+   and   https://www.pcbway.com/project/shareproject/STM32F401CCUx_core_board.html
 
 ////////////////////////////////////////////////////////////////////////////////
 ///////////////     tags and versions
 ////////////////////////////////////////////////////////////////////////////////
 
--tag 
+See README.md  History section 
 
 ////////////////////////////////////////////////////////////////////////////////
-///////////////     altenate equivalent  parts
+///////////////     alternate equivalent  parts
 ////////////////////////////////////////////////////////////////////////////////
 - J18, J19,  1x20_P2.54mm_Vertical      Female Header 2.54mm 180°Vertical Single row 20 Circuits(DIP)
      TXGA FFH25405-S20S1001K6K  or  JILN 22850120ANG1SYA01 or ...
