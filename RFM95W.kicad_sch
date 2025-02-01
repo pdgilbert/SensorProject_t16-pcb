@@ -10,6 +10,114 @@
 		(rev "v0.1.1")
 	)
 	(lib_symbols
+		(symbol "Device:Antenna"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "AE"
+				(at -1.905 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "Antenna"
+				(at -1.905 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Antenna"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "antenna"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Antenna_0_1"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0 -2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Antenna_1_1"
+				(pin input line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "ProjectLib:RFM95W-915S2"
 			(pin_names
 				(offset 1.016)
@@ -44,8 +152,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.hoperf.com/modules/lora/RFM95W.html"
-				(at -9.906 -32.512 0)
+			(property "Datasheet" "https://www.hoperf.com/data/upload/portal/20181127/5bfcbea20e9ef.pdf"
+				(at -83.82 41.91 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -53,8 +161,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "LoRa module, SPI, 915MHz, spreading factor 6 to12, bandwidth 125 to 500kHz, -111 to -136 dBm, SMD-16"
-				(at 2.286 -37.338 0)
+			(property "Description" "Low power long range transceiver module, SPI and parallel interface, 915 MHz, spreading factor 6 to12, bandwidth 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -818,15 +926,6 @@
 		(uuid "0e5ac2b0-0223-4dbb-b830-e827bc7d6860")
 	)
 	(bus_entry
-		(at 154.94 68.58)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f0db362-0b71-49b5-b9b0-9b184ba9e515")
-	)
-	(bus_entry
 		(at 154.94 80.01)
 		(size -2.54 -2.54)
 		(stroke
@@ -912,16 +1011,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 66.04) (xy 135.89 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "136e389f-124b-4115-baf4-6487be2a7c77")
-	)
-	(wire
-		(pts
 			(xy 100.33 82.55) (xy 100.33 55.88)
 		)
 		(stroke
@@ -949,16 +1038,6 @@
 			(type default)
 		)
 		(uuid "3102b181-843b-4cfb-a32c-0e93e31362f7")
-	)
-	(bus
-		(pts
-			(xy 154.94 68.58) (xy 154.94 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "357e1a21-9fe2-41db-8eec-7da4d7d82f58")
 	)
 	(wire
 		(pts
@@ -1102,16 +1181,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 77.47) (xy 128.27 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "924c9c36-1d98-4630-8f49-c996fa28f813")
-	)
-	(wire
-		(pts
 			(xy 100.33 55.88) (xy 152.4 55.88)
 		)
 		(stroke
@@ -1210,19 +1279,9 @@
 		)
 		(uuid "bf7cabc6-7893-46ff-b1cb-e60d62aae311")
 	)
-	(wire
-		(pts
-			(xy 135.89 66.04) (xy 152.4 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca1dc273-1616-4be8-8f0c-a72992c318f7")
-	)
 	(bus
 		(pts
-			(xy 154.94 63.5) (xy 154.94 68.58)
+			(xy 154.94 63.5) (xy 154.94 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1290,16 +1349,6 @@
 		)
 		(uuid "2680c6b3-31da-4c66-b69d-4e39f5a74989")
 	)
-	(label "ANT"
-		(at 146.05 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8d649013-0d2f-497d-9666-bb2f3c0ead97")
-	)
 	(label "SCK"
 		(at 146.05 60.96 0)
 		(effects
@@ -1330,7 +1379,7 @@
 		)
 		(uuid "e630c10b-b663-4201-a02e-ffec7a0961b9")
 	)
-	(global_label "{RESET NSS MISO MOSI SCK DIO0 DIO1 ANT}"
+	(global_label "{RESET NSS MISO MOSI SCK DIO0 DIO1}"
 		(shape bidirectional)
 		(at 154.94 82.55 0)
 		(fields_autoplaced yes)
@@ -1342,13 +1391,115 @@
 		)
 		(uuid "7bd553cb-2d2e-4eca-87c5-b213aefa3f59")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.1559 82.55 0)
+			(at 197.8016 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Antenna")
+		(at 128.27 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "068f304e-7aa5-4db6-be24-360cfd458e94")
+		(property "Reference" "AE1"
+			(at 131.064 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "915mhz antenna"
+			(at 130.302 70.866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ProjectLib:915MHz_spring_antenna"
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nicerf.com/rf-antenna/915mhz-spring-antenna-sw915-th06.html"
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Antenna"
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "NiceRF"
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPart" "sw915-th06"
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MountType" "PTH"
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "004e57bf-70cc-44af-ac76-65a701485cd5")
+		)
+		(instances
+			(project "SensorProject_t16-pcb"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2db29b35-1005-45eb-b852-0b853354466f"
+					(reference "AE1")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1558,10 +1709,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8900236d-e90f-4978-a98c-d857964d9776")
 		(property "Reference" "U?"
-			(at 117.7641 69.85 0)
+			(at 128.778 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1570,7 +1720,7 @@
 			)
 		)
 		(property "Value" "RFM95W-915S2"
-			(at 117.7641 72.39 0)
+			(at 127.254 106.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1586,7 +1736,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.hoperf.com/modules/lora/RFM95W.html"
+		(property "Datasheet" "https://www.hoperf.com/data/upload/portal/20181127/5bfcbea20e9ef.pdf"
 			(at 31.75 43.18 0)
 			(effects
 				(font
@@ -1595,7 +1745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LoRa module, SPI, 915MHz, spreading factor 6 to12, bandwidth 125 to 500kHz, -111 to -136 dBm, SMD-16"
+		(property "Description" "Low power long range transceiver module, SPI and parallel interface, 915 MHz, spreading factor 6 to12, bandwidth 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16"
 			(at 115.57 85.09 0)
 			(effects
 				(font
@@ -1715,7 +1865,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k 1%"
 			(at 97.79 82.55 0)
 			(effects
 				(font

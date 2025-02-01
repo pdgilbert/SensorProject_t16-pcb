@@ -10,22 +10,158 @@
 		(rev "v0.1.1")
 	)
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x04"
+		(symbol "ProjectLib:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "ProjectLib:C_0805_2012Metric"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ProjectLib:Conn_01x01_Socket"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 5.08 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x04"
-				(at 0 -7.62 0)
+			(property "Value" "Conn_01x01_Socket"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -50,13 +186,21 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x01, script generated"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "ki_keywords" "connector"
@@ -77,64 +221,221 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x04_1_1"
+			(symbol "Conn_01x01_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.508)
+					(mid -0.5058 0)
+					(end 0 -0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ProjectLib:Conn_01x04_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04_Pin"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "ProjectLib:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
-					(start -1.27 -4.953)
+					(start 0.8636 -4.953)
 					(end 0 -5.207)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(rectangle
-					(start -1.27 -2.413)
+					(start 0.8636 -2.413)
 					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(rectangle
-					(start -1.27 0.127)
+					(start 0.8636 0.127)
 					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(rectangle
-					(start -1.27 2.667)
+					(start 0.8636 2.667)
 					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
+						(type outline)
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at 5.08 2.54 180)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -152,7 +453,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 5.08 0 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -170,7 +471,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at 5.08 -2.54 180)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -188,7 +489,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at 5.08 -5.08 180)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -207,7 +508,7 @@
 				)
 			)
 		)
-		(symbol "Device:Crystal"
+		(symbol "ProjectLib:Crystal"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -375,7 +676,7 @@
 				)
 			)
 		)
-		(symbol "Device:L"
+		(symbol "ProjectLib:L"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -532,7 +833,7 @@
 				)
 			)
 		)
-		(symbol "Device:LED"
+		(symbol "ProjectLib:LED"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -701,7 +1002,7 @@
 				)
 			)
 		)
-		(symbol "Device:R"
+		(symbol "ProjectLib:R_US"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -710,23 +1011,23 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 2.032 0 90)
+				(at 2.54 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "R"
-				(at 0 0 90)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
+			(property "Footprint" "ProjectLib:R_0603_1608Metric"
+				(at 1.016 -0.254 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -743,7 +1044,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor"
+			(property "Description" "Resistor, US symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -770,12 +1071,61 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -783,7 +1133,7 @@
 					)
 				)
 			)
-			(symbol "R_1_1"
+			(symbol "R_US_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -822,7 +1172,7 @@
 				)
 			)
 		)
-		(symbol "MCU_ST_STM32F4:STM32F401CCUx"
+		(symbol "ProjectLib:STM32F401CCUx"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1917,263 +2267,7 @@
 				)
 			)
 		)
-		(symbol "ProjectLib:C"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "ProjectLib:C_0805_2012Metric"
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "ProjectLib:Conn_01x01_Socket"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01_Socket"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x01_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0.508)
-					(mid -0.5058 0)
-					(end 0 -0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Switch:SW_Push"
+		(symbol "ProjectLib:SW_Push"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -2545,10 +2639,10 @@
 		(uuid "0a23c194-8dda-4006-9200-f5d16ef3e2bd")
 	)
 	(junction
-		(at 133.35 31.75)
+		(at 124.46 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4a14375d-0119-4305-a917-fc80ee44c669")
+		(uuid "2eb9c831-d05b-4b8f-90c5-0c4c5ae859b5")
 	)
 	(junction
 		(at 110.49 55.88)
@@ -2603,12 +2697,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d3876405-25f5-4e0e-a839-0de9251459e9")
-	)
-	(junction
-		(at 152.4 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eac3bfaa-23de-4add-adf0-146d115e0fdb")
 	)
 	(junction
 		(at 110.49 66.04)
@@ -2798,16 +2886,6 @@
 			(type default)
 		)
 		(uuid "0380b1dc-95fa-4181-bd5b-5fecd2bab01a")
-	)
-	(wire
-		(pts
-			(xy 133.35 31.75) (xy 144.78 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05b5c0b3-8053-46de-8878-97d8b67fee2e")
 	)
 	(wire
 		(pts
@@ -3880,7 +3958,7 @@
 		(uuid "3d32b02e-a066-493b-9783-f55266ae0f62")
 	)
 	(label "SWCLK"
-		(at 173.99 97.79 0)
+		(at 170.18 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3900,7 +3978,7 @@
 		(uuid "42f3dd88-ec3b-4dbf-ae45-0f39a86e65de")
 	)
 	(label "SWDIO"
-		(at 173.99 95.25 0)
+		(at 170.18 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4011,7 +4089,7 @@
 			)
 		)
 	)
-	(global_label "{RESET NSS MISO MOSI SCK DIO0 DIO1 ANT}"
+	(global_label "{RESET NSS MISO MOSI SCK DIO0 DIO1}"
 		(shape input)
 		(at 207.01 54.61 0)
 		(fields_autoplaced yes)
@@ -4023,7 +4101,7 @@
 		)
 		(uuid "b499cd65-7589-4bba-8bc7-fce22d311ff0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.1146 54.61 0)
+			(at 248.7603 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4078,7 +4156,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "ProjectLib:LED")
 		(at 41.91 66.04 270)
 		(mirror x)
 		(unit 1)
@@ -4103,7 +4181,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ProjectLib:LED_0603_1608Metric"
 			(at 41.91 66.04 0)
 			(effects
 				(font
@@ -4122,6 +4200,42 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 41.91 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yongyu Photoelectric"
+			(at 41.91 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPart" "yy0603re-nn1s0-t2ar4"
+			(at 41.91 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MountType" "SMT"
+			(at 41.91 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 41.91 66.04 0)
 			(effects
 				(font
@@ -4263,6 +4377,15 @@
 				(hide yes)
 			)
 		)
+		(property "MountType" "SMT"
+			(at 91.44 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c9a9d46e-3663-461c-b82c-0f7ee9eb089e")
 		)
@@ -4351,7 +4474,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1bfdf79f-52fd-4aef-97f7-439b173e97d8")
 		(property "Reference" "J18"
 			(at 163.322 74.93 0)
@@ -4362,7 +4485,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x01_Socket"
+		(property "Value" "THTPad"
 			(at 168.402 74.93 0)
 			(effects
 				(font
@@ -4371,7 +4494,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ProjectLib:TestPoint_THTPad_D1.0mm_Drill0.5mm"
 			(at 162.56 73.66 0)
 			(effects
 				(font
@@ -4390,6 +4513,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 162.56 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MountType" "PTH"
 			(at 162.56 73.66 0)
 			(effects
 				(font
@@ -4610,7 +4742,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "ProjectLib:R_US")
 		(at 96.52 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4627,7 +4759,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k 1%"
 			(at 90.678 96.774 0)
 			(effects
 				(font
@@ -4636,7 +4768,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ProjectLib:R_0603_1608Metric"
 			(at 94.742 95.25 90)
 			(effects
 				(font
@@ -4654,7 +4786,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, US symbol"
+			(at 96.52 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MountType" "SMT"
 			(at 96.52 95.25 0)
 			(effects
 				(font
@@ -4679,7 +4820,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal")
+		(lib_id "ProjectLib:Crystal")
 		(at 110.49 60.96 270)
 		(mirror x)
 		(unit 1)
@@ -4733,6 +4874,24 @@
 				(hide yes)
 			)
 		)
+		(property "MountType" "SMT"
+			(at 110.49 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
+			(at 110.49 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7b882830-d115-45d5-8101-dece7f3c0178")
 		)
@@ -4758,7 +4917,7 @@
 		(dnp no)
 		(uuid "4135ee3e-9022-4796-b218-9811ac79a30e")
 		(property "Reference" "C17"
-			(at 127.254 33.528 0)
+			(at 126.492 36.068 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4794,6 +4953,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 133.35 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MountType" "SMT"
 			(at 133.35 35.56 0)
 			(effects
 				(font
@@ -4885,17 +5053,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
+		(lib_id "ProjectLib:Conn_01x04_Pin")
 		(at 184.15 95.25 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "57754f72-0842-485d-a51f-62b6803e8f49")
 		(property "Reference" "J21"
-			(at 186.69 95.2499 0)
+			(at 191.008 96.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4903,8 +5071,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
-			(at 186.69 97.7899 0)
+		(property "Value" "Conn_01x04_Pin"
+			(at 186.436 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4912,7 +5080,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ProjectLib:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 184.15 95.25 0)
 			(effects
 				(font
@@ -4930,7 +5098,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 184.15 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MountType" "PTH"
 			(at 184.15 95.25 0)
 			(effects
 				(font
@@ -5092,8 +5269,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 148.59 31.75 90)
+		(lib_id "ProjectLib:L")
+		(at 124.46 27.94 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5101,23 +5278,23 @@
 		(dnp no)
 		(uuid "684a289d-891b-4d89-9f90-b6f9bdcec99f")
 		(property "Reference" "L1"
-			(at 145.288 29.21 90)
+			(at 127.762 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "2uH"
-			(at 147.574 33.782 90)
+		(property "Value" "2.2uH"
+			(at 128.778 28.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 148.59 31.75 0)
+		(property "Footprint" "ProjectLib:L_TDK_MLZ1608"
+			(at 124.46 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5125,8 +5302,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 148.59 31.75 0)
+		(property "Datasheet" "https://product.tdk.com/en/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_decoupling_mlz1608_en.pdf"
+			(at 124.46 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5135,7 +5312,43 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 148.59 31.75 0)
+			(at 124.46 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MountType" "SMT"
+			(at 124.46 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 124.46 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPart" "MLZ1608N2R2LT000"
+			(at 124.46 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
+			(at 124.46 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5159,7 +5372,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "ProjectLib:R_US")
 		(at 63.5 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5183,7 +5396,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ProjectLib:R_0603_1608Metric"
 			(at 63.5 76.708 90)
 			(effects
 				(font
@@ -5201,7 +5414,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, US symbol"
+			(at 63.5 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MountType" "SMT"
 			(at 63.5 74.93 0)
 			(effects
 				(font
@@ -5226,7 +5448,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "ProjectLib:R_US")
 		(at 41.91 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5250,7 +5472,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ProjectLib:R_0603_1608Metric"
 			(at 40.132 58.42 90)
 			(effects
 				(font
@@ -5268,7 +5490,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, US symbol"
+			(at 41.91 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MountType" "SMT"
 			(at 41.91 58.42 0)
 			(effects
 				(font
@@ -5359,7 +5590,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "ProjectLib:LED")
 		(at 71.12 74.93 0)
 		(mirror y)
 		(unit 1)
@@ -5384,7 +5615,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ProjectLib:LED_0603_1608Metric"
 			(at 71.12 74.93 0)
 			(effects
 				(font
@@ -5411,6 +5642,42 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Yongyu Photoelectric"
+			(at 71.12 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPart" "yy0603bl-nn1s0-t2ar4"
+			(at 71.12 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MountType" "SMT"
+			(at 71.12 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
+			(at 71.12 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6b20b77a-4f45-44c7-8ea7-f61bce564a92")
 		)
@@ -5421,6 +5688,72 @@
 			(project ""
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/081e8199-1e90-4c13-a160-99fdb3e9250b"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 124.46 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78fe1d9a-d627-4100-9640-0d20672764ed")
+		(property "Reference" "#PWR077"
+			(at 124.46 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 124.46 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 124.46 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2bae59ce-1aea-42cb-961f-35c1473f96bf")
+		)
+		(instances
+			(project ""
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/081e8199-1e90-4c13-a160-99fdb3e9250b"
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -5612,6 +5945,15 @@
 				(hide yes)
 			)
 		)
+		(property "MountType" "SMT"
+			(at 123.19 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ba83005a-d357-4182-9e83-6dac098c50ae")
 		)
@@ -5628,7 +5970,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "ProjectLib:R_US")
 		(at 93.98 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5646,7 +5988,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10K 1%"
 			(at 96.52 27.9399 0)
 			(effects
 				(font
@@ -5655,7 +5997,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ProjectLib:R_0603_1608Metric"
 			(at 92.202 26.67 90)
 			(effects
 				(font
@@ -5673,7 +6015,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, US symbol"
+			(at 93.98 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MountType" "SMT"
 			(at 93.98 26.67 0)
 			(effects
 				(font
@@ -5698,7 +6049,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "ProjectLib:R_US")
 		(at 74.93 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5716,7 +6067,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10K 1%"
 			(at 77.47 50.7999 0)
 			(effects
 				(font
@@ -5725,7 +6076,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ProjectLib:R_0603_1608Metric"
 			(at 73.152 49.53 90)
 			(effects
 				(font
@@ -5743,7 +6094,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, US symbol"
+			(at 74.93 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MountType" "SMT"
 			(at 74.93 49.53 0)
 			(effects
 				(font
@@ -5885,6 +6245,15 @@
 				(hide yes)
 			)
 		)
+		(property "MountType" "SMT"
+			(at 91.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c9a9d46e-3663-461c-b82c-0f7ee9eb089f")
 		)
@@ -6018,6 +6387,15 @@
 				(hide yes)
 			)
 		)
+		(property "MountType" "SMT"
+			(at 91.44 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c9a9d46e-3663-461c-b82c-0f7ee9eb08a0")
 		)
@@ -6100,7 +6478,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "ProjectLib:SW_Push")
 		(at 71.12 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6124,7 +6502,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ProjectLib:SW_SPST_B3U-1000P"
 			(at 71.12 20.32 0)
 			(effects
 				(font
@@ -6133,7 +6511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf"
 			(at 71.12 20.32 0)
 			(effects
 				(font
@@ -6143,6 +6521,33 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 71.12 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MountType" "SMT"
+			(at 71.12 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Omron"
+			(at 71.12 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPart" "B3U-1000P"
 			(at 71.12 25.4 0)
 			(effects
 				(font
@@ -6365,7 +6770,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "ProjectLib:SW_Push")
 		(at 68.58 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6389,7 +6794,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ProjectLib:SW_SPST_B3U-1000P"
 			(at 68.58 40.64 0)
 			(effects
 				(font
@@ -6398,7 +6803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf"
 			(at 68.58 40.64 0)
 			(effects
 				(font
@@ -6408,6 +6813,33 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 68.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MountType" "SMT"
+			(at 68.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Omron"
+			(at 68.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPart" "B3U-1000P"
 			(at 68.58 45.72 0)
 			(effects
 				(font
@@ -6432,7 +6864,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MCU_ST_STM32F4:STM32F401CCUx")
+		(lib_id "ProjectLib:STM32F401CCUx")
 		(at 142.24 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6450,7 +6882,7 @@
 			)
 		)
 		(property "Value" "STM32F401CCUx / UFQFPN48"
-			(at 163.83 129.032 0)
+			(at 161.036 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6478,6 +6910,15 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 256KB flash, 64KB RAM, 84 MHz, 1.7-3.6V, 36 GPIO, UFQFPN48"
+			(at 142.24 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MountType" "SMT"
 			(at 142.24 91.44 0)
 			(effects
 				(font
@@ -6694,6 +7135,15 @@
 				(hide yes)
 			)
 		)
+		(property "MountType" "SMT"
+			(at 91.44 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c9a9d46e-3663-461c-b82c-0f7ee9eb08a1")
 		)
@@ -6761,6 +7211,15 @@
 				(hide yes)
 			)
 		)
+		(property "MountType" "SMT"
+			(at 67.31 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a19f941f-5d14-4b33-b5eb-e77f79ff8db0")
 		)
@@ -6777,7 +7236,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal")
+		(lib_id "ProjectLib:Crystal")
 		(at 114.3 82.55 270)
 		(mirror x)
 		(unit 1)
@@ -6823,6 +7282,24 @@
 			)
 		)
 		(property "Description" "Two pin crystal"
+			(at 114.3 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MountType" "SMT"
+			(at 114.3 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 114.3 82.55 0)
 			(effects
 				(font

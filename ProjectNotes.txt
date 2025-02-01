@@ -29,7 +29,7 @@ grep "/////////////// " ProjectNotes.txt   # for section index
 - put  alert/rdy (1k - 10k typ.) -  possibly higher, check power loss implication
     see  [ADS111x](http://www.ti.com/lit/ds/symlink/ads1115.pdf)  Done.
 
-- no mask on holes that may have solder connections. Done
+- no mask on holes that may have solder connections. Done. CHECK oscill. test point.
 
 - document parts actually used (substitues) in v0.1.0.
 
@@ -53,23 +53,52 @@ See  https://www.mouser.ca/datasheet/2/975/1463993415RFM95_96_97_98W-1858106.pdf
 be physically disconnected. Pin 7 should be pulled low for a hundred microseconds, 
 and then released. The user should then wait for 5 ms before using the chip."
 
+
+/////////////////////  Antenna
+
+"1";"AE1";"1";"NiceRF";"sw915-th06";"Antenna";"915mhz antenna";"ProjectLib:915MHz_spring_antenna";"PTH";"or equivalent";"DNP";"https://www.nicerf.com/rf-antenna/915mhz-spring-antenna-sw915-th06.html"
+
+ceramic antennas
+ 
+Wurth 7488910915  https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/7488910915/12726548
+$1.24 Gain 0.5dBi
+
+Taoglas ILA.01 https://www.digikey.com/en/products/detail/taoglas-limited/ILA-01/2332707
+$14.17 Gain 1dBi max 5W
+
+Kyocera M620720
+ https://www.kyocera-avx.com/product/ism-868-915-mhz-embedded-ceramic-antenna-m620720/
+ https://www.digikey.ca/en/products/detail/kyocera-avx/M620720/6072490
+$4.61  Gain 0.75 dBi  6.00 x 2.00 x 1.08	
+
+Unictron Technologies Corporation  H2U646MHLQ0200
+https://www.digikey.com/en/products/detail/unictron-technologies-corporation/H2U646MHLQ0200/9921490
+$1.10  Gain 0.9dBi 2W
+
+	
+Johanson Technology Inc.
+https://www.digikey.com/en/products/detail/johanson-technology-inc/0915AT43A0026001E/2137136
+$1.54  Gain -1dBi 2 W
+
+
+
 /////////////////////  MCU
 
 Considering
 
 regulator
 https://www.alldatasheet.com/html-pdf/49118/ADMOS/AMS1117/519/4/AMS1117.html
-
+http://www.advanced-monolithic.com/pdf/ds1117.pdf
 
 MCU   STM32F401CCUx / UFQFPN48   x- temperture range and packaging
 
 leds
-blue:   Yongyu Photoelectric  yy0603bl-nn1s0-t2ar4  2.6~3.1v forward  0603 5ma 34~100mcd
+blue:   Yongyu Photoelectric  yy0603bl-nn1s0-t2ar4  2.6~3.1v forward  0603 (1608 metric) 5ma 34~100mcd
                               yy0603bl-nz1s0-t2ar4 
                               yy0603bl-nn1s2-t2ar4            => 100 ohm resistor
  
 red:  (power led - consider Do Not Populate)
-   Yongyu Photoelectric  yy0603re-nn1s0-t2ar4  1.8~2.3v forward  0603 5ma 34~100mcd
+   Yongyu Photoelectric  yy0603re-nn1s0-t2ar4  1.8~2.3v forward  0603 (1608 metric) 5ma 34~100mcd
                          yy0603re-rn1s0-t2ar4 
                          yy0603re-rn2s1-t2ar4            => 400 ohm resistor
                          yy0603re-nn2s0-t2ar4 
@@ -107,6 +136,11 @@ Reference/Compare
    https://stm32-base.org/assets/pdf/boards/original-schematic-STM32F411CEU6_WeAct_Black_Pill_V2.0.pdf
    and   https://uglyduck.vajn.icu/STM32_Pills/BlackPill_STM32F411.pdf 
    and   https://www.pcbway.com/project/shareproject/STM32F401CCUx_core_board.html
+
+   AN2606 Application note - STMicroelectronics STM32 microcontroller system memory boot mode Introduction 
+   https://community.st.com/ysqtg83639/attachments/ysqtg83639/stm32-mcu-products-forum/28746/1/cd00167594-stm32-microcontroller-system-memory-boot-mode-stmicroelectronics.pdf
+
+
 
 ////////////////////////////////////////////////////////////////////////////////
 ///////////////     tags and versions
