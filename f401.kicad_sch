@@ -3917,15 +3917,15 @@
 		)
 		(uuid "fdc756f5-53fa-4c5e-9f82-a23e4cb220e3")
 	)
-	(label "PA8  Oscilloscope"
-		(at 162.56 73.66 0)
+	(text "PA8  Oscilloscope"
+		(exclude_from_sim no)
+		(at 173.99 73.406 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
 		)
-		(uuid "1ac1ca69-d4ea-4738-9b2c-8e46662fbc71")
+		(uuid "e52396b9-b7ed-4719-be9b-06f58fde3523")
 	)
 	(label "SCL1"
 		(at 80.01 111.76 0)

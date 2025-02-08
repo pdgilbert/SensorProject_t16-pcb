@@ -59,30 +59,13 @@ and then released. The user should then wait for 5 ms before using the chip."
 "1";"AE1";"1";"NiceRF";"sw915-th06";"Antenna";"915mhz antenna";"ProjectLib:915MHz_spring_antenna";"PTH";"or equivalent";"DNP";"https://www.nicerf.com/rf-antenna/915mhz-spring-antenna-sw915-th06.html"
 
 ceramic antennas
- 
-Wurth 7488910915  https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/7488910915/12726548
-$1.24 Gain 0.5dBi
-
-Taoglas ILA.01 https://www.digikey.com/en/products/detail/taoglas-limited/ILA-01/2332707
-$14.17 Gain 1dBi max 5W
-
-Kyocera M620720
- https://www.kyocera-avx.com/product/ism-868-915-mhz-embedded-ceramic-antenna-m620720/
- https://www.digikey.ca/en/products/detail/kyocera-avx/M620720/6072490
-$4.61  Gain 0.75 dBi  6.00 x 2.00 x 1.08	
-
-Unictron Technologies Corporation  H2U646MHLQ0200
-https://www.digikey.com/en/products/detail/unictron-technologies-corporation/H2U646MHLQ0200/9921490
-$1.10  Gain 0.9dBi 2W
-
-	
-Johanson Technology Inc.
-https://www.digikey.com/en/products/detail/johanson-technology-inc/0915AT43A0026001E/2137136
-$1.54  Gain -1dBi 2 W
-
+ Unictron Technologies Corporation AA066   
+https://www.unictron.com/wireless-communications/wp-content/uploads/2021/04/AA066.pdf
+$1.10  Gain 0.9dBi 2W  10x3.2x0.5 mm
 
 
 /////////////////////  MCU
+
 
 Considering
 
