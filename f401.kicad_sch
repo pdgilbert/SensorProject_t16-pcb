@@ -4768,7 +4768,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectLib:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0201_0603Metric"
 			(at 94.742 95.25 90)
 			(effects
 				(font
@@ -4883,7 +4883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "or equivalent"
+		(property "Notes" ""
 			(at 110.49 60.96 0)
 			(effects
 				(font
@@ -5396,7 +5396,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProjectLib:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0201_0603Metric"
 			(at 63.5 76.708 90)
 			(effects
 				(font
@@ -5472,7 +5472,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProjectLib:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0201_0603Metric"
 			(at 40.132 58.42 90)
 			(effects
 				(font
@@ -5988,7 +5988,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K 1%"
+		(property "Value" "10k 1%"
 			(at 96.52 27.9399 0)
 			(effects
 				(font
@@ -5997,7 +5997,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectLib:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0201_0603Metric"
 			(at 92.202 26.67 90)
 			(effects
 				(font
@@ -6067,7 +6067,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K 1%"
+		(property "Value" "10k 1%"
 			(at 77.47 50.7999 0)
 			(effects
 				(font
@@ -6076,7 +6076,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectLib:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0201_0603Metric"
 			(at 73.152 49.53 90)
 			(effects
 				(font
@@ -6881,7 +6881,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32F401CCUx / UFQFPN48"
+		(property "Value" "256KB flash,  64KB RAM"
 			(at 161.036 137.16 0)
 			(effects
 				(font
@@ -6909,7 +6909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 256KB flash, 64KB RAM, 84 MHz, 1.7-3.6V, 36 GPIO, UFQFPN48"
+		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU,  84 MHz, 1.7-3.6V, 36 GPIO, UFQFPN48"
 			(at 142.24 91.44 0)
 			(effects
 				(font
@@ -6919,6 +6919,24 @@
 			)
 		)
 		(property "MountType" "SMT"
+			(at 142.24 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 142.24 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPart" "STM32F401CCUx / UFQFPN48"
 			(at 142.24 91.44 0)
 			(effects
 				(font
@@ -7299,7 +7317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "or equivalent"
+		(property "Notes" ""
 			(at 114.3 82.55 0)
 			(effects
 				(font

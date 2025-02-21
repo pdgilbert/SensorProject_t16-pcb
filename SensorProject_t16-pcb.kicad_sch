@@ -3149,7 +3149,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectLib:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0201_0603Metric"
 			(at 136.906 95.504 90)
 			(effects
 				(font
@@ -3577,7 +3577,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectLib:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0201_0603Metric"
 			(at 144.526 39.624 90)
 			(effects
 				(font
@@ -3863,7 +3863,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectLib:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0201_0603Metric"
 			(at 136.906 152.654 90)
 			(effects
 				(font
@@ -4008,7 +4008,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectLib:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0201_0603Metric"
 			(at 82.296 197.104 90)
 			(effects
 				(font
@@ -4295,7 +4295,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectLib:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0201_0603Metric"
 			(at 49.276 153.924 90)
 			(effects
 				(font
@@ -4789,7 +4789,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectLib:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0201_0603Metric"
 			(at 79.756 51.054 90)
 			(effects
 				(font
@@ -4868,7 +4868,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectLib:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0201_0603Metric"
 			(at 139.446 207.264 90)
 			(effects
 				(font
@@ -5286,7 +5286,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectLib:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0201_0603Metric"
 			(at 82.296 223.774 90)
 			(effects
 				(font
@@ -5713,7 +5713,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectLib:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0201_0603Metric"
 			(at 79.756 112.014 90)
 			(effects
 				(font
@@ -5792,7 +5792,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectLib:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0201_0603Metric"
 			(at 79.756 145.034 90)
 			(effects
 				(font
@@ -5937,7 +5937,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectLib:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0201_0603Metric"
 			(at 136.906 34.544 90)
 			(effects
 				(font
@@ -6356,7 +6356,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectLib:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0201_0603Metric"
 			(at 49.276 62.484 90)
 			(effects
 				(font
@@ -8560,7 +8560,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectLib:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0201_0603Metric"
 			(at 49.276 35.814 90)
 			(effects
 				(font
@@ -8781,7 +8781,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectLib:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0201_0603Metric"
 			(at 79.756 24.384 90)
 			(effects
 				(font
@@ -8992,7 +8992,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectLib:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0201_0603Metric"
 			(at 50.546 123.444 90)
 			(effects
 				(font
@@ -9071,7 +9071,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectLib:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0201_0603Metric"
 			(at 50.546 211.074 90)
 			(effects
 				(font
@@ -9292,7 +9292,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectLib:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0201_0603Metric"
 			(at 50.546 246.634 90)
 			(effects
 				(font
@@ -9437,7 +9437,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectLib:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0201_0603Metric"
 			(at 51.816 96.774 90)
 			(effects
 				(font
@@ -9516,7 +9516,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectLib:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0201_0603Metric"
 			(at 49.276 180.594 90)
 			(effects
 				(font
@@ -9736,7 +9736,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectLib:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0201_0603Metric"
 			(at 82.296 169.164 90)
 			(effects
 				(font
@@ -10033,7 +10033,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectLib:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0201_0603Metric"
 			(at 79.756 85.344 90)
 			(effects
 				(font
@@ -10112,7 +10112,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectLib:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0201_0603Metric"
 			(at 155.956 37.084 90)
 			(effects
 				(font

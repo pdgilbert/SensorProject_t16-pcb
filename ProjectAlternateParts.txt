@@ -1,0 +1,84 @@
+To see the current specificaation the BOM .csv  can be imported to Excel or LibreOffice Calc or
+displays nicely with
+         column -s ";" -t <  outputs/BOM.csv | less -#2 -N -S
+This assumes ; has been set as field separator. Otherwise "," in some fields causes problems
+Helps to set range delimiter to -
+( -N Don't use line numbers. -S Chop (truncate) long lines rather than wrapping. )
+
+
+/////////////////////  Antenna
+
+(previously used spring antenna, and self-installed, DNP)
+"1";"AE1";"1";"NiceRF";"sw915-th06";"Antenna";"915mhz antenna";"ProjectLib:915MHz_spring_antenna";"PTH";"or equivalent";"DNP";"https://www.nicerf.com/rf-antenna/915mhz-spring-antenna-sw915-th06.html"
+
+
+///////// ceramic chip antennas 
+
+ https://electronics.stackexchange.com/questions/243341/how-does-a-chip-antenna-work
+
+Specified:
+Unictron Technologies Corporation AA066   (digikey  H2U646MHLQ0200)
+https://www.unictron.com/wireless-communications/wp-content/uploads/2021/04/AA066.pdf
+$1.10  Gain 0.9dBi 2W  10x3.2x0.5 mm
+
+
+//Others  (footprint similarity not checked)
+
+Unictron Technologies Corporation   AA702 which is 915MHz, smaller and weaker,
+ gain 0.8 2W  5.0 x 3.0 x 0.5 but digikey shows it H2U64U1H2C0200 but NOT 915MHx.
+ and 
+Unictron Technologies Corporation  H2U646MHLQ0200
+https://www.digikey.com/en/products/detail/unictron-technologies-corporation/H2U646MHLQ0200/9921490
+$1.10  Gain 0.9dBi 2W  10x3..2x0.5
+have not found another source. Digikey has the evaluation board with 915!
+
+Wurth 7488910915  https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/7488910915/12726548
+$1.24 Gain 0.5dBi
+
+Taoglas ILA.01 https://www.digikey.com/en/products/detail/taoglas-limited/ILA-01/2332707
+$14.17 Gain 1dBi max 5W
+
+Kyocera M620720
+ https://www.kyocera-avx.com/product/ism-868-915-mhz-embedded-ceramic-antenna-m620720/
+ https://www.digikey.ca/en/products/detail/kyocera-avx/M620720/6072490
+$4.61  Gain 0.75 dBi  6.00 x 2.00 x 1.08  see datasheet p19 re glue
+	
+Johanson Technology Inc.
+https://www.digikey.com/en/products/detail/johanson-technology-inc/0915AT43A0026001E/2137136
+$1.54  Gain -1dBi 2 W
+
+/////////////////////  regulator
+
+https://www.alldatasheet.com/html-pdf/49118/ADMOS/AMS1117/519/4/AMS1117.html
+http://www.advanced-monolithic.com/pdf/ds1117.pdf
+
+
+/////////////////////  MCU 
+  STM32F401CCUx / UFQFPN48   x- temperture range and packaging
+STMicroelectronics Arm Cortex-M4 MCU, 256KB flash, 64KB RAM, 84 MHz, 1.7-3.6V, 36 GPIO, UFQFPN48
+
+
+  STM32F411CEU6 / UFQFPN48
+https://www.st.com/resource/en/datasheet/stm32f411ce.pdf
+STMicroelectronics Arm Cortex-M4 MCU+FPU, 125 DMIPS, 512KB Flash, 128KB RAM, USB OTG FS, 11 TIMs, 1 ADC, 13 comm. interfaces
+C = 48/49 pins
+E = 512 Kbytes of flash memory
+U = UFQFPN
+6 = Industrial temperature range, - 40 to 85 °C
+TR = tape and reel / No character = tray or tube
+
+/////////////////////  leds
+
+blue:   Yongyu Photoelectric  yy0603bl-nn1s0-t2ar4  2.6~3.1v forward  0603 (1608 metric) 5ma 34~100mcd
+                              yy0603bl-nz1s0-t2ar4 
+                              yy0603bl-nn1s2-t2ar4            => 100 ohm resistor
+ 
+red:  (power led - consider Do Not Populate)
+   Yongyu Photoelectric  yy0603re-nn1s0-t2ar4  1.8~2.3v forward  0603 (1608 metric) 5ma 34~100mcd
+                         yy0603re-rn1s0-t2ar4 
+                         yy0603re-rn2s1-t2ar4            => 400 ohm resistor
+                         yy0603re-nn2s0-t2ar4 
+                         yy0603re-nn3s0-t2ar4 
+
+
+
