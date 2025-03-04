@@ -3,6 +3,7 @@ grep "/////////////// " ProjectNotes.txt   # for section index
 ////////////////////////////////////////////////////////////////////////////////
 ///////////////            To Do
 ////////////////////////////////////////////////////////////////////////////////
+!!! When considering external capacitors for xtals use COG NPO 1% types to minimize the impact of capacitance change over temperature.
 
 -  add header for ssd.
 
@@ -54,88 +55,10 @@ be physically disconnected. Pin 7 should be pulled low for a hundred microsecond
 and then released. The user should then wait for 5 ms before using the chip."
 
 
-////////////////////////////////////////////////////////////////////////////////
-/////////   See ProjectAlternateParts.txt re specified and alternate parts
-////////////////////////////////////////////////////////////////////////////////
-
-
-xtals
-
-Notes from  AN2867
-https://community.nxp.com/t5/LPC-FAQs/How-to-calculate-the-value-of-crystal-load-capacitors/m-p/46458
-
-- p23 section 4  Guidelines to select a suitable crystal and external components
-
-- p25 Table 5 for which MCUs have which LSE oscillators, and thus implication for which crystals work.
-
-- p31 which suggests cap values for various crystals  and tips in section 7!
-
-- p10 For startup and stable oscillation of STM32 and STM8 products, the ratio between
-the negative resistance of the loop and the crystal maximal equivalent series resistance
-(ESR) is needed. It is recommended to have a ratio higher
-than 5 for the HSE oscillators, and higher than 3 for the LSE oscillators.
-
-- p13 the ratio between oscillator gain and oscillation loop critical gain cannot just (sic) exceed 1.
-  For cristal specified  Gm_crit_max  check for oscillation loop critical crystal gain p13.
-  
-//// Low speed oscillator (LSE)
-
-Considering
-Micro Crystal CM9V-T1A-32.768KHZ-7PF-20PPM-TA-QC (4pF as in AN2867 p31 table 7 not easily available)
-
-
-Considered but it is not listed in AN2867 p31 table 7
-Epson  FC1610AN 32.7680KA-AG5   32.7680KHZ 7PF SMD  90 kOhms
-https://support.epson.biz/td/api/doc_check.php?dl=brief_FC1610AN&lang=en
-
-
-Considered NDK and narrowed down to NX1610SE 32.768 kHz  specification# STD-MUD-6 but NDK crystals
-did not seem to be very readily available, so considering Epson.
-https://www.ndk.com/en/products/
-https://www.ndk.com/en/products/lineup/crystal-unit/
-https://www.ndk.com/images/products/catalog/crystal_e.pdf  
-- AN2867 p31 table 7   NDK   NX1610SE 32.768 kHz EXS00A-MU01501 is good for F4.
-                       Others, eg  -MU01500, are good for F4_g2, which includes F411 but not F401.  
-   NX1610SE 32.768 kHz EXS00A-MU01501  specs from table 7: 
-        ESR 60 kOhms max,  C_0 1.55pF,  C_L 6pF, g_mcrit 0.5799 uA/V
-However what is available on NDK site
-   https://www.ndk.com/en/products/lineup/crystal-unit/NX1610SE.html
-  data sheet https://www.ndk.com/en/products/upload/lineup/pdf/NDKX01-00011_en.pdf
- NX1610SE 32.768 kHz  specification# STD-MUD-6  Load capacitance CL 6.0pF;  ESR Max. 60 kOhms ;
-
-
-//// High speed oscillator (HSE)
--from Table 6 p29 for F4 HSE oscillators embedded in STM32 MCUs/MPUs
-   NB oscillator not xtal  Frequency range  4 - 26 MHz; gm (min) 5mA/V; Gm_crit_max 1mA/V
-
-    25 MHz  NDK_NX1612SA     KKST 25.000 on blackpill
-
-Regarding capacitors for crystals see application note AN2867
-https://www.st.com/resource/en/application_note/cd00221665-oscillator-design-guide-for-stm8af-al-s-stm32-mcus-and-mpus-stmicroelectronics.pdf
-and https://community.st.com/t5/stm32-mcus-products/stm32-f4-crystal-calculation-and-discrepancy-with-nucleo-boards/td-p/607114
-and https://community.st.com/t5/stm32-mcus-products/calculate-external-capacitors-cl1-and-cl2-for-crystal-oscillator/td-p/620301
-
-"It's better to measure freq on first PCB release/prototype sample via MCO pin (available on 
-PA8 + others depends on device and package size). 
-Measuring must be done by counter or by scope with averaging (or in counter mode) to avoid short 
-term jitter. And then tune external capacitors accordingly to get nominal crystal frequency.
-fmeas > fnom \u2026 increase external capacitors
-fmeas < fnom \u2026 decrease external capacitors
-"
-And regarding measuring on PA8 see
-https://community.st.com/t5/missing-articles/how-can-i-output-a-clock-signal-to-the-stm32-s-mco-pin/td-p/49583
-
-
-Reference/Compare
-   https://www.pcbway.com/project/shareproject/10_channel_NTC_thermistor_based_temperature_logger_b1c5cdfe.html
-   https://stm32world.com/wiki/Black_Pill
-   https://stm32-base.org/assets/pdf/boards/original-schematic-STM32F411CEU6_WeAct_Black_Pill_V2.0.pdf
-   and   https://uglyduck.vajn.icu/STM32_Pills/BlackPill_STM32F411.pdf 
-   and   https://www.pcbway.com/project/shareproject/STM32F401CCUx_core_board.html
-
-   AN2606 Application note - STMicroelectronics STM32 microcontroller system memory boot mode Introduction 
-   https://community.st.com/ysqtg83639/attachments/ysqtg83639/stm32-mcu-products-forum/28746/1/cd00167594-stm32-microcontroller-system-memory-boot-mode-stmicroelectronics.pdf
-
+/////////////////////////////////////////////////////////////////////////////////////////
+///  See ProjectAlternateParts.txt re alternative parts and especially xtal calculations
+///  See BOM.csv re specified selections
+/////////////////////////////////////////////////////////////////////////////////////////
 
 
 ////////////////////////////////////////////////////////////////////////////////
