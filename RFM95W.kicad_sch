@@ -1447,7 +1447,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ProjectLib:915MHz_spring_antenna"
 			(at 128.27 72.39 0)
 			(effects
 				(font
@@ -1549,7 +1549,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectLib:R_0201_0603Metric"
+		(property "Footprint" "ProjectLib:R_0603_1608Metric"
 			(at 96.266 81.534 90)
 			(effects
 				(font

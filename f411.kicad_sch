@@ -1096,8 +1096,8 @@
 			)
 			(symbol "STM32F411CEUx_0_1"
 				(rectangle
-					(start -15.24 -38.1)
-					(end 15.24 40.64)
+					(start -15.24 40.64)
+					(end 15.24 -38.1)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1629,6 +1629,24 @@
 					)
 				)
 				(pin power_in line
+					(at -5.08 -40.64 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
 					(at -2.54 43.18 270)
 					(length 2.54)
 					(name "VDD"
@@ -1639,6 +1657,24 @@
 						)
 					)
 					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -40.64 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1674,64 +1710,7 @@
 							)
 						)
 					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -40.64 90)
-					(length 2.54)
-					(hide yes)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -40.64 90)
-					(length 2.54)
-					(hide yes)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
 					(number "47"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -40.64 90)
-					(length 2.54)
-					(hide yes)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "49"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1760,14 +1739,15 @@
 				(pin power_in line
 					(at 2.54 -40.64 90)
 					(length 2.54)
-					(name "VSSA"
+					(hide yes)
+					(name "VSS"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "49"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1786,6 +1766,24 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 6.35 -40.64 90)
+					(length 2.54)
+					(name "VSSA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2562,6 +2560,12 @@
 		(uuid "04723bb1-23af-4fed-ba90-0be1b973850f")
 	)
 	(junction
+		(at 142.24 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05faf5e7-7cad-43a0-b142-191710f5bbbb")
+	)
+	(junction
 		(at 93.98 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2583,7 +2587,7 @@
 		(at 144.78 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "81e78b3a-f202-4d57-ba86-3c1144e6b4e1")
+		(uuid "8ed84dfe-37d0-4b44-8552-dde67be25fdb")
 	)
 	(junction
 		(at 64.77 59.69)
@@ -2596,6 +2600,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a4906908-2752-4506-828e-912792e9e253")
+	)
+	(junction
+		(at 139.7 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab5eff33-1bc2-4a43-ae88-da76dd91824c")
 	)
 	(junction
 		(at 144.78 59.69)
@@ -2991,6 +3001,16 @@
 			(type default)
 		)
 		(uuid "2b6f612f-d484-4b49-b79b-565899f68ca4")
+	)
+	(wire
+		(pts
+			(xy 144.78 143.51) (xy 147.32 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2db9da00-1bd9-4c38-b2a4-8661c33ffb56")
 	)
 	(wire
 		(pts
@@ -3414,6 +3434,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 143.51) (xy 142.24 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b18c1dd4-2346-4e04-83ca-fa8e5fd7b5b8")
+	)
+	(wire
+		(pts
 			(xy 144.78 59.69) (xy 147.32 59.69)
 		)
 		(stroke
@@ -3494,16 +3524,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 143.51) (xy 147.32 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2930c04-4c1a-4734-b5da-00e810abdb27")
-	)
-	(wire
-		(pts
 			(xy 74.93 144.78) (xy 110.49 144.78)
 		)
 		(stroke
@@ -3521,6 +3541,16 @@
 			(type default)
 		)
 		(uuid "c43cbe50-3dfd-4199-9e7f-9c4fbc81570a")
+	)
+	(wire
+		(pts
+			(xy 142.24 143.51) (xy 144.78 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4678fc3-2e76-4d34-b1a0-8c5bc90691f2")
 	)
 	(wire
 		(pts
@@ -4470,7 +4500,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectLib:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "ProjectLib:PinSocket_2x02_P2.54mm_Vertical"
 			(at 189.23 109.22 0)
 			(effects
 				(font
@@ -4504,6 +4534,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Note" "ST-LINK"
+			(at 178.054 104.648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -4620,7 +4658,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectLib:C_0805_2012Metric"
+		(property "Footprint" "ProjectLib:C_0603_1608Metric"
 			(at 124.1552 143.51 0)
 			(effects
 				(font
@@ -4689,7 +4727,7 @@
 				)
 			)
 		)
-		(property "Value" "LED blue"
+		(property "Value" "blue"
 			(at 70.612 88.392 0)
 			(effects
 				(font
@@ -4715,7 +4753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode blue"
 			(at 69.85 85.09 0)
 			(effects
 				(font
@@ -4770,6 +4808,72 @@
 			(project "SensorProject_t16-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f12d0b95-be3f-41e2-8b41-943aec5e1edf"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5dbc7207-0a59-471f-b2d9-86b1f2c0f797")
+		(property "Reference" "#PWR020"
+			(at 139.7 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3fce0c2-e3e5-47e7-9f28-58247f9cf392")
+		)
+		(instances
+			(project ""
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f12d0b95-be3f-41e2-8b41-943aec5e1edf"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -5010,7 +5114,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProjectLib:C_0805_2012Metric"
+		(property "Footprint" "ProjectLib:C_0603_1608Metric"
 			(at 71.12 43.4848 0)
 			(effects
 				(font
@@ -5182,7 +5286,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectLib:C_0805_2012Metric"
+		(property "Footprint" "ProjectLib:C_0603_1608Metric"
 			(at 171.1452 54.61 0)
 			(effects
 				(font
@@ -5335,10 +5439,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9ad14d98-f9fe-4900-8ec4-f4deb4c675b3")
 		(property "Reference" "U5"
-			(at 149.5141 143.51 0)
+			(at 146.304 113.284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5347,7 +5450,7 @@
 			)
 		)
 		(property "Value" "STM32F411CEUx"
-			(at 149.5141 146.05 0)
+			(at 142.494 116.332 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5355,7 +5458,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm"
+		(property "Footprint" "ProjectLib:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm"
 			(at 129.54 140.97 0)
 			(effects
 				(font
@@ -5375,6 +5478,24 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 512KB flash, 128KB RAM, 100 MHz, 1.7-3.6V, 36 GPIO, UFQFPN48"
+			(at 144.78 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STM"
+			(at 144.78 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPart" "STM32F411CEUx"
 			(at 144.78 102.87 0)
 			(effects
 				(font
@@ -5843,7 +5964,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 143.51 0)
+		(at 151.13 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5852,7 +5973,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba0cf058-6369-4521-80fb-949f5b257d1a")
 		(property "Reference" "#PWR80"
-			(at 144.78 149.86 0)
+			(at 151.13 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5861,7 +5982,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 148.59 0)
+			(at 151.13 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5869,7 +5990,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 143.51 0)
+			(at 151.13 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5878,7 +5999,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 143.51 0)
+			(at 151.13 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5887,7 +6008,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 143.51 0)
+			(at 151.13 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5991,7 +6112,7 @@
 				)
 			)
 		)
-		(property "Value" "LED red"
+		(property "Value" "red"
 			(at 35.56 80.264 90)
 			(effects
 				(font
@@ -6017,7 +6138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode red"
 			(at 41.91 80.01 0)
 			(effects
 				(font

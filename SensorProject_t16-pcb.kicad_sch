@@ -1566,6 +1566,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 101.6) (xy 115.57 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0da4c4e5-06fe-491e-9959-b3873c06e628")
+	)
+	(wire
+		(pts
 			(xy 115.57 184.15) (xy 115.57 166.37)
 		)
 		(stroke
@@ -1966,6 +1976,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 158.75) (xy 115.57 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a069a98-7d88-41a1-ae22-6ceab5b6e1f8")
+	)
+	(wire
+		(pts
 			(xy 105.41 45.72) (xy 115.57 45.72)
 		)
 		(stroke
@@ -2046,7 +2066,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 148.59) (xy 115.57 148.59)
+			(xy 78.74 148.59) (xy 110.49 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2146,7 +2166,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 148.59) (xy 115.57 158.75)
+			(xy 110.49 148.59) (xy 110.49 158.75)
 		)
 		(stroke
 			(width 0)
@@ -2306,7 +2326,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 101.6) (xy 115.57 88.9)
+			(xy 111.76 101.6) (xy 111.76 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2476,7 +2496,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 88.9) (xy 115.57 88.9)
+			(xy 78.74 88.9) (xy 111.76 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2740,7 +2760,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProjectLib:C_0805_2012Metric"
+		(property "Footprint" "ProjectLib:C_0603_1608Metric"
 			(at 116.84 84.1248 0)
 			(effects
 				(font
@@ -5361,7 +5381,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProjectLib:C_0805_2012Metric"
+		(property "Footprint" "ProjectLib:C_0603_1608Metric"
 			(at 116.84 23.1648 0)
 			(effects
 				(font
@@ -6078,7 +6098,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProjectLib:C_0805_2012Metric"
+		(property "Footprint" "ProjectLib:C_0603_1608Metric"
 			(at 119.38 195.8848 0)
 			(effects
 				(font
@@ -7369,7 +7389,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProjectLib:C_0805_2012Metric"
+		(property "Footprint" "ProjectLib:C_0603_1608Metric"
 			(at 116.84 141.2748 0)
 			(effects
 				(font

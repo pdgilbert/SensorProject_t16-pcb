@@ -3,6 +3,18 @@ grep "/////////////// " ProjectNotes.txt   # for section index
 ////////////////////////////////////////////////////////////////////////////////
 ///////////////            To Do
 ////////////////////////////////////////////////////////////////////////////////
+
+- specify HLE and caps
+
+- antenna footprint open loop?
+
+- proper footprint for MCU, change to WLCSP?
+
+- manuf / part# for everything
+
+- reverse-polarity-protection  https://electronics.stackexchange.com/questions/665044/which-reverse-polarity-protection-is-better-and-why
+
+
 !!! When considering external capacitors for xtals use COG NPO 1% types to minimize the impact of capacitance change over temperature.
 
 -  add header for ssd.

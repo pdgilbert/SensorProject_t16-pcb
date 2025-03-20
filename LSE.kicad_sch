@@ -834,7 +834,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProjectLib:C_0201_0603Metric"
+		(property "Footprint" "ProjectLib:C_0603_1608Metric"
 			(at 128.5748 109.22 0)
 			(effects
 				(font
@@ -910,7 +910,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProjectLib:C_0201_0603Metric"
+		(property "Footprint" "ProjectLib:C_0603_1608Metric"
 			(at 112.0648 109.22 0)
 			(effects
 				(font
@@ -1109,7 +1109,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.6K 1%"
+		(property "Value" "CHECK K 1%"
 			(at 131.572 82.804 0)
 			(effects
 				(font
@@ -1118,7 +1118,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ProjectLib:R_0603_1608Metric"
 			(at 130.556 85.344 90)
 			(effects
 				(font
@@ -1171,7 +1171,7 @@
 		(dnp no)
 		(uuid "e1673a10-5e20-49b9-a45c-14642f8c7e2b")
 		(property "Reference" "Y2"
-			(at 121.666 100.584 90)
+			(at 119.38 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1180,7 +1180,7 @@
 			)
 		)
 		(property "Value" "32.758kHz"
-			(at 119.38 98.806 90)
+			(at 116.078 100.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1197,7 +1197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/CM9V-T1A.pdf"
+		(property "Datasheet" "~"
 			(at 120.65 95.25 0)
 			(effects
 				(font
