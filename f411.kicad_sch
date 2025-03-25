@@ -6096,7 +6096,7 @@
 	)
 	(symbol
 		(lib_id "ProjectLib:LED")
-		(at 41.91 80.01 270)
+		(at 41.91 72.39 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6105,7 +6105,7 @@
 		(dnp no)
 		(uuid "dbd69084-a456-42e7-9205-b95d58a7bf63")
 		(property "Reference" "D1"
-			(at 45.212 79.756 90)
+			(at 45.212 72.136 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6113,7 +6113,7 @@
 			)
 		)
 		(property "Value" "red"
-			(at 35.56 80.264 90)
+			(at 35.56 72.644 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6121,7 +6121,7 @@
 			)
 		)
 		(property "Footprint" "ProjectLib:LED_0603_1608Metric"
-			(at 41.91 80.01 0)
+			(at 41.91 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6130,7 +6130,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 80.01 0)
+			(at 41.91 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6139,7 +6139,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode red"
-			(at 41.91 80.01 0)
+			(at 41.91 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6148,7 +6148,7 @@
 			)
 		)
 		(property "Manufacturer" "Yongyu Photoelectric"
-			(at 41.91 80.01 0)
+			(at 41.91 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6157,7 +6157,7 @@
 			)
 		)
 		(property "MfgPart" "yy0603re-nn1s0-t2ar4"
-			(at 41.91 80.01 0)
+			(at 41.91 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6166,7 +6166,7 @@
 			)
 		)
 		(property "MountType" "SMT"
-			(at 41.91 80.01 0)
+			(at 41.91 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6175,7 +6175,7 @@
 			)
 		)
 		(property "Notes" "or equivalent"
-			(at 41.91 80.01 0)
+			(at 41.91 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6488,7 +6488,7 @@
 	)
 	(symbol
 		(lib_id "ProjectLib:R_US")
-		(at 41.91 72.39 0)
+		(at 41.91 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6496,7 +6496,7 @@
 		(dnp no)
 		(uuid "fab1668a-0606-48a4-bce6-631f527fd282")
 		(property "Reference" "R23"
-			(at 45.72 72.39 0)
+			(at 45.72 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6504,7 +6504,7 @@
 			)
 		)
 		(property "Value" "0K4"
-			(at 37.338 72.39 0)
+			(at 37.338 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6512,7 +6512,7 @@
 			)
 		)
 		(property "Footprint" "ProjectLib:R_0603_1608Metric"
-			(at 40.132 72.39 90)
+			(at 40.132 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6521,7 +6521,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 72.39 0)
+			(at 41.91 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6530,7 +6530,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 41.91 72.39 0)
+			(at 41.91 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6539,7 +6539,7 @@
 			)
 		)
 		(property "MountType" "SMT"
-			(at 41.91 72.39 0)
+			(at 41.91 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
