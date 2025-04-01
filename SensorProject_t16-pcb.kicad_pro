@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 3.8,
-          "width": 2.0
+          "height": 0.8,
+          "width": 0.9
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -108,6 +108,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -494,6 +495,12 @@
       {
         "name": "GND_HSE",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "GND_LSE",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
@@ -507,7 +514,7 @@
         "microvia_drill": 0.1,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.35,
         "via_diameter": 0.8,
@@ -556,6 +563,10 @@
       {
         "netclass": "GND_HSE",
         "pattern": "GND_HSE"
+      },
+      {
+        "netclass": "GND_LSE",
+        "pattern": "GND_LSE"
       }
     ]
   },
