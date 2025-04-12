@@ -67,6 +67,17 @@ be physically disconnected. Pin 7 should be pulled low for a hundred microsecond
 and then released. The user should then wait for 5 ms before using the chip."
 
 
+///////////////////// 3D models added
+Private/3dmodels/RFM95_LoRa_v15.step  from multiplexI2C
+
+These go in
+${KICAD9_3DMODEL_DIR}/  which is
+/var/lib/flatpak/runtime/org.kicad.KiCad.Library.Packages3D/x86_64/stable/.../files/3dmodels/
+
+from https://kicad.github.io/packages3d/Package_DFN_QFN
+Package_DFN_QFN.3dshapes/QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm.wrl
+
+
 /////////////////////////////////////////////////////////////////////////////////////////
 ///  See ProjectAlternateParts.txt re alternative parts and especially xtal calculations
 ///  See BOM.csv re specified selections

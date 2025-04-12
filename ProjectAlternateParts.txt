@@ -82,6 +82,18 @@ $1.54  Gain -1dBi 2 W
 https://www.johansontechnology.com/products/antennas/rf-antennas/0915at43a0026001e/
 https://www.johansontechnology.com/docs/4410/Antenna-0915AT43A0026001E.pdf
 
+/////////////////////  battery holder
+
+Mfr.: Keystone Electronics   Mfr. #:1074
+https://www.keyelco.com/product.cfm/product_id/14390
+Coin Cell Battery Holders VERTICAL 2032 CELL HOLDER 
+
+
+datasheet: http://www.keystoneelectronics.net/ENG._DEPT/WEB_ORACLE/PDF/PDF%20CAT%20NO%20DRAWINGS/1000-1999/1074.PDF
+datasheet: https://www.mouser.ca/datasheet/2/215/Keystone_Electronics_04082019_1074-1551343.pdf
+https://www.mouser.ca/ProductDetail/Keystone-Electronics/1074?qs=u16ybLDytRZ%2FZj7HSRmD5g%3D%3D
+
+
 /////////////////////  regulator
 
 https://www.alldatasheet.com/html-pdf/49118/ADMOS/AMS1117/519/4/AMS1117.html

@@ -2395,7 +2395,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectLib:Battery_Panasonic_CR1025-VSK_Vertical_CircularHoles"
+		(property "Footprint" "ProjectLib:BatteryHolder_LINX_BAT-HLD-012-SMT"
 			(at 160.02 121.666 90)
 			(effects
 				(font

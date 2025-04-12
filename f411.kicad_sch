@@ -4491,7 +4491,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04_Pin"
+		(property "Value" "Conn_2x02_Pin"
 			(at 191.516 118.11 90)
 			(effects
 				(font
