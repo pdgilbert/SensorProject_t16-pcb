@@ -828,7 +828,7 @@
 				)
 			)
 			(property "Footprint" "ProjectLib:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
-				(at 0 0 0)
+				(at -1.524 -8.128 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -846,7 +846,7 @@
 				)
 			)
 			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
+				(at 1.27 5.334 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1974,7 +1974,7 @@
 		(dnp no)
 		(uuid "2f579583-166f-49ab-bdc8-bb25409adb3e")
 		(property "Reference" "U6"
-			(at 143.256 84.582 0)
+			(at 141.224 82.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1982,7 +1982,7 @@
 			)
 		)
 		(property "Value" "AMS1117-3.3"
-			(at 140.97 81.534 0)
+			(at 139.7 84.582 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2050,6 +2050,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "pads" "4"
+			(at 152.4 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -2275,6 +2283,14 @@
 				(hide yes)
 			)
 		)
+		(property "pads" "2"
+			(at 111.76 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5c52ec13-0ba8-4438-a972-018f3f42b296")
 		)
@@ -2352,6 +2368,14 @@
 				(hide yes)
 			)
 		)
+		(property "pads" "2"
+			(at 102.87 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ee3e68a9-68d8-43e8-8954-94fb52ed417e")
 		)
@@ -2375,7 +2399,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "51e3a893-f129-4c2e-a33b-ac24b3e6676b")
 		(property "Reference" "BT1"
 			(at 163.83 120.0784 0)
@@ -2386,7 +2409,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Battery_Cell"
+		(property "Value" "Battery_Cell_Holder"
 			(at 163.83 122.6184 0)
 			(effects
 				(font
@@ -2404,7 +2427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "~https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=BAT-HLD-012-SMT&DocType=Data+Sheet&DocLang=English&DocFormat=pdf&PartCntxt=BAT-HLD-012-SMT"
 			(at 160.02 121.666 90)
 			(effects
 				(font
@@ -2413,13 +2436,57 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single-cell battery"
+		(property "Description" "battery retainer coin 12mm smd"
 			(at 160.02 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity Linx"
+			(at 172.72 129.286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPart" "BAT-HLD-012-SMT"
+			(at 171.45 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MountType" "SMT"
+			(at 160.02 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
+			(at 172.72 131.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "pads" "3"
+			(at 160.02 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -2503,6 +2570,41 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Cixi Kefa Elec"
+			(at 165.1 70.866 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPart" "KF128-2.54-2P"
+			(at 165.1 72.898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
+			(at 165.608 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "pads" "2"
+			(at 152.4 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -2714,6 +2816,14 @@
 				(hide yes)
 			)
 		)
+		(property "pads" "2"
+			(at 85.09 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5dc448dc-8853-49a1-ab7b-c830a2ffed03")
 		)
@@ -2819,6 +2929,14 @@
 				(hide yes)
 			)
 		)
+		(property "pads" "2"
+			(at 144.78 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "db190524-39ec-4772-a387-5816a52f7feb")
 		)
@@ -2847,7 +2965,7 @@
 		(dnp no)
 		(uuid "d13f2655-2385-43d1-8d25-47cbcceff34d")
 		(property "Reference" "C16"
-			(at 151.384 97.028 0)
+			(at 161.544 98.298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2856,7 +2974,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 157.226 101.854 0)
+			(at 160.528 101.346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2898,6 +3016,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "pads" "2"
+			(at 156.21 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -2977,6 +3103,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "pads" "2"
+			(at 119.38 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -3186,6 +3320,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "pads" "2"
+			(at 95.25 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"

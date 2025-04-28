@@ -1389,8 +1389,8 @@
 				)
 			)
 		)
-		(property "Value" "6pF C0G, NP0, +/- 0.1pF"
-			(at 161.29 111.252 0)
+		(property "Value" "10pF C0G, NP0, +/- 0.1pF"
+			(at 172.212 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1433,6 +1433,14 @@
 				(hide yes)
 			)
 		)
+		(property "pads" "2"
+			(at 154.94 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0900e8e2-ae65-46c6-b1cc-48b353022f25")
 		)
@@ -1458,14 +1466,14 @@
 		(dnp no)
 		(uuid "6ef0b011-8f11-4809-ba4a-be61ba0534e1")
 		(property "Reference" "R30"
-			(at 157.988 81.026 0)
+			(at 159.766 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1.1k 1%"
+		(property "Value" "634  1%"
 			(at 161.544 83.312 0)
 			(effects
 				(font
@@ -1492,6 +1500,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 154.94 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MountType" "SMT"
+			(at 154.94 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "pads" "2"
 			(at 154.94 82.55 0)
 			(effects
 				(font
@@ -1681,7 +1707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://support.epson.biz/td/api/doc_check.php?dl=brief_FA-128&lang=en"
 			(at 147.32 93.98 0)
 			(effects
 				(font
@@ -1690,7 +1716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+		(property "Description" "Four pin crystal.  10pF"
 			(at 147.32 93.98 0)
 			(effects
 				(font
@@ -1699,7 +1725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Epson"
 			(at 147.32 93.98 0)
 			(effects
 				(font
@@ -1724,6 +1750,31 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MfgPart" "FA-128 25.0000MF20X-K0"
+			(at 123.952 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MountType" "SMT"
+			(at 147.32 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "pads" "4"
+			(at 147.32 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -1799,6 +1850,14 @@
 				(hide yes)
 			)
 		)
+		(property "pads" ""
+			(at 128.27 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "401322b4-89e1-4aa6-b759-d11a216a2f75")
 		)
@@ -1831,8 +1890,8 @@
 				)
 			)
 		)
-		(property "Value" "6pF C0G, NP0, +/- 0.1pF"
-			(at 133.604 111.506 0)
+		(property "Value" "10pF C0G, NP0, +/- 0.1pF"
+			(at 120.904 110.236 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1873,6 +1932,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "pads" "2"
+			(at 138.43 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"

@@ -6129,7 +6129,7 @@
 			)
 		)
 		(property "Footprint" "ProjectLib:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
-			(at 0 0 0)
+			(at -1.524 -8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6147,7 +6147,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 0)
+			(at 1.27 5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)

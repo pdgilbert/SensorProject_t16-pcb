@@ -1138,7 +1138,7 @@
 		(dnp no)
 		(uuid "2a135479-c7c5-4de8-a046-907b29a0a9a5")
 		(property "Reference" "C13"
-			(at 136.906 105.664 0)
+			(at 138.176 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1146,7 +1146,7 @@
 			)
 		)
 		(property "Value" "4pF C0G, NP0, +/- 0.1pF"
-			(at 144.526 103.124 0)
+			(at 145.542 108.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1189,6 +1189,14 @@
 				(hide yes)
 			)
 		)
+		(property "pads" "2"
+			(at 129.54 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "63fa2c41-ad69-474a-8c24-cca00e9479b3")
 		)
@@ -1214,7 +1222,7 @@
 		(dnp no)
 		(uuid "408174ab-a880-403f-8a50-d54dcab6b020")
 		(property "Reference" "C12"
-			(at 107.696 105.664 0)
+			(at 105.41 104.394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1222,7 +1230,7 @@
 			)
 		)
 		(property "Value" "4pF C0G, NP0, +/- 0.1pF"
-			(at 98.806 102.616 0)
+			(at 99.568 108.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1263,6 +1271,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "pads" "2"
+			(at 113.03 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -1330,6 +1346,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "pads" ""
+			(at 104.14 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -1422,7 +1446,7 @@
 		(dnp no)
 		(uuid "b025db1a-edcc-4afd-b390-15530bcc19af")
 		(property "Reference" "R29"
-			(at 132.588 86.614 0)
+			(at 133.604 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1430,8 +1454,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CHECK K 1%"
-			(at 131.572 82.804 0)
+		(property "Value" "0"
+			(at 135.128 86.614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1458,6 +1482,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 129.54 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MountType" "SMT"
+			(at 129.54 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "pads" "2"
 			(at 129.54 85.09 0)
 			(effects
 				(font
@@ -1584,7 +1626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/CM9V-T1A.pdf"
 			(at 120.65 95.25 0)
 			(effects
 				(font
@@ -1593,7 +1635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Two pin crystal"
+		(property "Description" "Two pin crystal, 7pF"
 			(at 120.65 95.25 0)
 			(effects
 				(font
@@ -1630,12 +1672,19 @@
 			)
 		)
 		(property "MfgPart" "CM9V-T1A-32.768KHZ-7PF-20PPM-TA-QC"
+			(at 89.916 93.472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pads" "2"
 			(at 120.65 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"

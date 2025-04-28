@@ -34,13 +34,18 @@ finer pick and place is needed.
 
 /////////////////////  Antenna
 
-Using spring antenna, and self-installed, DNP
+Using spring antenna
 "1";"AE1";"1";"NiceRF";"sw915-th06";"Antenna";"915mhz antenna";"ProjectLib:915MHz_spring_antenna";"PTH";"or equivalent";"DNP";"https://www.nicerf.com/rf-antenna/915mhz-spring-antenna-sw915-th06.html"
 This may need to be indicated as DNP (do not populate) for the pcb assembly,
 then self installed. (One PCB assembler could not source.)
-Cousider a socket for other possibilities.
+Consider a socket for other possibilities.
+
+///////// IPEX1 or IPEX4
+Consider a socket for other possibilities (simple wire?)
+
 
 ///////// ceramic chip antennas 
+Even thought the chip is small these seem to require a large area of the pcb for ground ...
 
  https://electronics.stackexchange.com/questions/243341/how-does-a-chip-antenna-work
  https://pcbartists.com/design/rf/chip-antenna-pcb-layout-bluetooth-wifi/
@@ -81,17 +86,6 @@ $1.54  Gain -1dBi 2 W
 7x2mm chip but footprint with ground plan is 42x26mm
 https://www.johansontechnology.com/products/antennas/rf-antennas/0915at43a0026001e/
 https://www.johansontechnology.com/docs/4410/Antenna-0915AT43A0026001E.pdf
-
-/////////////////////  battery holder
-
-Mfr.: Keystone Electronics   Mfr. #:1074
-https://www.keyelco.com/product.cfm/product_id/14390
-Coin Cell Battery Holders VERTICAL 2032 CELL HOLDER 
-
-
-datasheet: http://www.keystoneelectronics.net/ENG._DEPT/WEB_ORACLE/PDF/PDF%20CAT%20NO%20DRAWINGS/1000-1999/1074.PDF
-datasheet: https://www.mouser.ca/datasheet/2/215/Keystone_Electronics_04082019_1074-1551343.pdf
-https://www.mouser.ca/ProductDetail/Keystone-Electronics/1074?qs=u16ybLDytRZ%2FZj7HSRmD5g%3D%3D
 
 
 /////////////////////  regulator
@@ -158,8 +152,8 @@ Application Note  AN2867
 Guidelines for oscillator design on STM8AF/AL/S and STM32 MCUs/MPUs
 https://www.st.com/resource/en/application_note/cd00221665-oscillator-design-guide-for-stm8af-al-s-stm32-mcus-and-mpus-stmicroelectronics.pdf
 
-(Summary at https://ecsxtal.com/considerations-when-designing-crystals-into-stm32-microcontrollers/  is helpful.)
-https://ecsxtal.com/considerations-when-designing-crystals-into-stm32-microcontrollers/
+(Summary at 
+https://ecsxtal.com/considerations-when-designing-crystals-into-stm32-microcontrollers/  is helpful.)
 https://community.nxp.com/t5/LPC-FAQs/How-to-calculate-the-value-of-crystal-load-capacitors/m-p/464589
 https://electronics.stackexchange.com/questions/673522/how-do-you-design-a-crystal-oscillator-circuit-for-stm32f4-mcus
 
@@ -214,16 +208,18 @@ https://blog.brendans-bits.com/posts/2024/setting-the-stm32-system-clock/
 
 import math
 
-def crit_margin(F, ESR, C0, CL, CS, gm) :
+def crit_margin(F, ESR, C0, CL, CS, gm, Vpp) :
    '''
-   crit_margin(F, ESR, C0, CL, gm)
+   crit_margin(F, ESR, C0, CL, gm, Vpp)
      where
      F   in Hz is frequency.
      ESR in Ohms is equivalent series resistance of the crystal. 
      C0 in F is the crystal (shunt) capacitance.
-     CS in F is the stray capacitance in the board, often assumed about 5 uF. Needs to be measured for best accuracy. 
+     CS in F is the stray capacitance in the board, often assumed about 5 pF. Needs to be measured for best accuracy. 
+     Note: If CL < CS then calculated external capacitors have negative value!
      CL in F is the load capacitance that the crystal is design to expect from the board (from CS and C1 and C2). 
      gm in A/V
+     Vpp peak-to-peak voltage of oscillator. (which I think would not exceed Vss - Vdd)
    
    '''
    # C1 and C2 assumed equal and called C below. It is calculated from 
@@ -231,24 +227,32 @@ def crit_margin(F, ESR, C0, CL, CS, gm) :
    #   CL = CS + C**2 / 2*C  = CS + C/2
    #    C = C1 = C2 = 2 * (CL - CS)
    C = 2 * (CL - CS)
-   print("Require external capacitors C1 = C2 = ", C)
+   print("   Require external capacitors C1 = C2 = ", C)
    
    # (AN2867 p16 3.5.3) check ext resistor
    R_ext = 1.0 / (2.0 * math.pi * F * C)
-   print("Require external resistor R_ext = ", R_ext)
+   print("   Require external resistor R_ext = ", R_ext)
    
    # (AN2867 p14-16) need to check drive level   !!!!!
    
-   gm_critical = 4 * (ESR + R_ext) * (2 * math.pi * F)**2 * (C0 + CL)**2  #p16
+   gm_critical =   4 * (ESR + R_ext) * (2 * math.pi * F)**2 * (C0 + CL)**2  #p16
    gm_critical_no_R_ext = 4 * (ESR ) * (2 * math.pi * F)**2 * (C0 + CL)**2 
    
    gain_margin = gm / gm_critical   
-   print("gm_critical = ", gm_critical, " A/V; gain_margin =", gain_margin)
+   print("   gm_critical = ", gm_critical, " A/V; gain_margin =", gain_margin)
    
    gain_margin_no_R_ext = gm / gm_critical_no_R_ext   
-   print("gm_critical with no R_ext = ", gm_critical_no_R_ext, " A/V; gain_margin with no R_ext =", gain_margin_no_R_ext)
+   print("   gm_critical with no R_ext = ", gm_critical_no_R_ext, " A/V; gain_margin with no R_ext =", gain_margin_no_R_ext)
+   
+   # drive level (power dissipated by crystal  (AN2867 p14-16)
+   Ctot =CL + (CS/2)
+   DL = (ESR * (math.pi * F * Ctot)**2 * Vpp**2 ) /2   # No probe. Assuming Vpp =3.2v 
+   print("   drive level = ", DL*10**6, " uW must not exceed manuf. spec.")
    
    print("\nNotes")
+   print("R_ext is not recommended (=0) if the drive level is lower than specified by the manufacturer.")
+   print("Otherwise, R_ext is needed.")
+   print("gm should be (much) bigger than gm_critical, so gain margin >> 1")  #AN2867 p16
    print("Use COG NPO 1% capacitor types to minimize the impact of temperature.")
    
    if F > 10**7:  # HSE
@@ -286,6 +290,8 @@ F411 (generation_2 LSE oscillator  from AN2867 table 5, p25)
 //////// Low speed oscillator (LSE)  F = 32.768   # kHz 
 //////////////////////////////////////////////////////// 
 
+////////  1.6 x 1.0mm
+
 The sweet point for LSE crystals seems to be 7pF  from AN2867 Fig 12 p23). 
 This can achieve low power drive requirement and low drift.
 
@@ -294,7 +300,8 @@ eg: https://www.digikey.ca/en/products/detail/ ... to Wurth 830066431
 Otherwise select all atributes other than manufacture specific and "View Similar".
 
 
-######  Micro Crystal CM9V-T1A-32.768KHZ-xPF-20PPM-TA-QC  (4, 6, and 7pF work for F411 in AN2867 p31 table 7. )
+######  Micro Crystal 1.6 x 1.0mm
+        CM9V-T1A-32.768KHZ-xPF-20PPM-TA-QC  (4, 6, and 7pF work for F411 in AN2867 p32 table 7. )
     C_0  1.4 pF;  ESR max 90kOhm on table but 75kOhm on datasheet;
 C_L 4pF has gmcrit  0.4449 uA/V and works for F401 (g1) in AN2867 p31 table 7 but is not easily available. 
 C_L 7pF has gmcrit  1.0768 uA/V and works for F411 (g2) in AN2867 p31 table 7 and is available.
@@ -305,22 +312,30 @@ https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/CM9V-T1A.p
 drive level 0.5uW max
 gm_crit 1.078 uA/V  comes from AN2867 p31 table 7, p32, which also indicated the 7pF version of
 this chip is good for F4_g2. The datasheet does not specify gm, or gm_crit, or gain_margin.
- 
->>> crit_margin(F=32768.0,  ESR=70*10**3,  C0=1.4*10**-12, CL=7.0*10**-12, CS= 5*10**-12, gm=math.nan) 
 
-Require external capacitors C1 = C2 =  4.000000000000001e-12   # 4 pF
-Require external resistor R_ext =  1214255.852446711           # 1214 KOhms   CHECK THIS !!!!
-gm_critical =  1.536489948822002e-05  A/V; gain_margin = nan
-gm_critical with no R_ext =  8.374834049822095e-07  A/V; gain_margin with no R_ext = nan
+Assuming Vpp =3.2v  which is a max with 3.2v supply. (Would be better to measure with an oscillascope.
+>>> crit_margin(F=32768.0,  ESR=70*10**3,  C0=1.4*10**-12, CL=7.0*10**-12, CS= 5*10**-12, gm=math.nan, Vpp=3.2) 
+
+  Require external capacitors C1 = C2 =  4.000000000000001e-12   # 4 pF
+  Require external resistor R_ext =  1214255.852446711           
+  gm_critical =  1.536489948822002e-05  A/V; gain_margin = nan
+  gm_critical with no R_ext =  8.374834049822095e-07  A/V; gain_margin with no R_ext = nan
+  drive level =  0.3427794888872763  uW must not exceed manuf. spec.
+( With Vpp = 3.2v the DL <  0.5uW manuf. spec, so R_ext should be =0.
+  With Vpp = 5.0v the DL = 0.836 which exceeds the manuf. spec so an R_ext would be needed.)
 
 Notes
+R_ext is not recommended (=0) if the drive level is lower than specified by the manufacturer.
+Otherwise, R_ext is needed.
+gm should be (much) bigger than gm_critical, so gain margin >> 1
 Use COG NPO 1% capacitor types to minimize the impact of temperature.
 F411 (generation_2 LSE oscillator  from AN2867 table 5, p25)
      drive Low   g_m(min)=2.8 uA/V;  G_m_crit_max = 0.56 uA/V
      drive High  g_m(min)=7.5 uA/V;  G_m_crit_max = 1.5  uA/V
 
 
-DID THIS WITH WRONG FREQ (25MHz)
+DID THIS WITH WRONG FREQ (25MHz)25.0*10**6  NOTE BIG DIFFERENCE IN R_ext
+crit_margin(F=25.0*10**6,  ESR=70*10**3,  C0=1.4*10**-12, CL=7.0*10**-12, CS= 5*10**-12, gm=math.nan, Vpp=3.2) 
 Require external capacitors C1 = C2 =  4.000000000000001e-12   # 4 pF
 Require external resistor R_ext =  1591.5494309189532          # 1.6K
 gm_critical =  0.49856303946047026  A/V; gain_margin = nan
@@ -334,12 +349,12 @@ eg Murata Electronics GJM0335C1E4R0WB01D  CAP CER 4PF 25V C0G/NP0 0201
 ######  Wurth  830066431  IQXC-90   WE-XTAL QUARTZ CRYSTAL 32.7680 K   1.60mm x 1.00mm
 https://www.we-online.com/components/products/datasheet/830066431.pdf
 drive level 500nW max
->>> crit_margin(F=32768.0,  ESR=90*10**3,  C0=1.2*10**-12, CL=7.0*10**-12, CS= 5*10**-12, gm=math.nan) 
+>>> crit_margin(F=32768.0,  ESR=90*10**3,  C0=1.2*10**-12, CL=7.0*10**-12, CS= 5*10**-12, gm=math.nan, Vpp=3.2) 
 
 
 ######  TXC  9H03270102  1.6mm x 1mm   CL=6.0
 drive level 0.1 uW typ 0.5 uW max
->>> crit_margin(F=32768.0,  ESR=70*10**3,  C0=1.3*10**-12, CL=6.0*10**-12, CS= 5*10**-12, gm=math.nan) 
+>>> crit_margin(F=32768.0,  ESR=70*10**3,  C0=1.3*10**-12, CL=6.0*10**-12, CS= 5*10**-12, gm=math.nan, Vpp=3.2) 
 
 
 ######  Epson  FC1610AN 32.7680KA-AG5   32.7680KHZ 7PF SMD  90 kOhms
@@ -362,17 +377,67 @@ However what is available on NDK site
  NX1610SE 32.768 kHz  specification# STD-MUD-6  Load capacitance CL 6.0pF;  ESR Max. 60 kOhms ;
 
 
-######   ECS-.327-7-16-C-TR
-Part Number/s	          STM32 Series	    gm (uA/V)	Design Gm_crit-Max	Oscillator Margin	Actual gmcrit (µA/V)	Size	ESR k\u2126	Tolerance (ppm)	CL (pF)	C0	Operating Temp.	Rating	Data-sheet	Inventory
-ECS-.327-7-16-C-TR	F4_g2 series / high	7.50	1.5	7.13	1.0512	1.6 x 1.0mm	90	10	7.0	1.3	-40 ~ +85°C	-	https://ecsxtal.com/store/pdf/ECX-16.pdf	https://dilp.netcomponents.com/cgi-bin/ecsxtal.asp?=1&partnumber1=ECS-.327-7-16-C-TR
-ECS-.327-7-16-C-TR3
-https://ecsxtal.com/store/pdf/ECX-16.pdf
+######  considering  ECS-.327-7-16-C-TR   ESR=90Kohms, CL=7pF, C0=1.3pF
+Part Number/s	          STM32 Series
+	    gm (uA/V)	Design Gm_crit-Max	Oscillator Margin	Actual gmcrit (µA/V)	Size	ESR k\u2126	Tolerance (ppm)	CL (pF)	C0	Operating Temp.	Rating	Data-sheet	Inventory
+ECS-.327-7-16-C-TR	F4_g2 series / high
+	7.50	1.5	7.13	1.0512	1.6 x 1.0mm	90	10	7.0	1.3	-40 ~ +85°C	-	https://ecsxtal.com/store/pdf/ECX-16.pdf	https://dilp.netcomponents.com/cgi-bin/ecsxtal.asp?=1&partnumber1=ECS-.327-7-16-C-TR
 
+## from  ECS DESIGN TOOL https://ecsxtal.com/stm32-mcu-series-lse-32-768khz-crystal-selection-tool/
+Part Number/s	           STM32 Series	        gm   Design Gm_ Oscill. Actual gmcrit 	Size	        ESR   Tolerance	CL 	C0	Operating 	Rating	Data-sheet	Inventory
+                                               (uA/V) crit-Max	Margin	  (µA/V)	Size	       K Ohms  (ppm)	 pF 	 	 Temp.	        Rating	Data-sheet	Inventory
+ECS-.327-4-16R-TR	F4_g1 series / Standard	2.80	0.56	9.10	0.3077487	1.6 x 1.0mm	60	20	4.0	1.5		        -	https://ecsxtal.com/store/pdf/ECX-16R.pdf	https://dilp.netcomponents.com/cgi-bin/ecsxtal.asp?=1&partnumber1=ECS-.327-4-16R-TR
+ECS-.327-4-16R-TR	F4_g2 series / high	7.50	1.5	24.37	0.3077487	1.6 x 1.0mm	60	20	4.0	1.5		        -	https://ecsxtal.com/store/pdf/ECX-16R.pdf	https://dilp.netcomponents.com/cgi-bin/ecsxtal.asp?=1&partnumber1=ECS-.327-4-16R-TR
+ECS-.327-7-16-C-TR	F4_g2 series / high	7.50	1.5	7.13	1.0512	        1.6 x 1.0mm	90	10	7.0	1.3	-40 ~ +85°C	-	https://ecsxtal.com/store/pdf/ECX-16.pdf	https://dilp.netcomponents.com/cgi-bin/ecsxtal.asp?=1&partnumber1=ECS-.327-7-16-C-TR
+ECS-.327-6-16R-TR	F4_g2 series / high	7.50	1.5	13.11	0.5722	        1.6 x 1.0mm	60	20	6.0	1.5	-40 ~ +85°C	-	https://ecsxtal.com/store/pdf/ECX-16R.pdf	https://dilp.netcomponents.com/cgi-bin/ecsxtal.asp?=1&partnumber1=ECS-.327-6-16R-TR
+ECS-.327-6-16-TR3	F4_g2 series / high	7.50	1.5	8.08	0.9284	        1.6 x 1.0mm	90	20	6.0	1.3	-40 ~ +85°C	-	https://ecsxtal.com/store/pdf/ECX-16.pdf	https://dilp.netcomponents.com/cgi-bin/ecsxtal.asp?=1&partnumber1=ECS-.327-6-16-TR3
+
+Above results from ECS DESIGN TOOL for gm_critical and Oscill.Margin (=gain_margin) 
+compare with no R_ext result below.  (Note uA/V above vs A/V below)
+
+Notes from AN2867 table 5, p25)
+     drive Low   g_m(min)=2.8 uA/V;  G_m_crit_max = 0.56 uA/V
+     drive High  g_m(min)=7.5 uA/V;  G_m_crit_max = 1.5  uA/V
+
+ECS-.327-4-16R-TR   ** Should have no  R_ext  **
+>>> crit_margin(F=32768.0,  ESR=60*10**3,  C0=1.5*10**-12, CL=4.0*10**-12, CS= 0, gm=2.80*10**-6, Vpp=3.2)  # drive Low
+  Require external capacitors C1 = C2 =  8e-12
+  Require external resistor R_ext =  607127.9262233557
+  gm_critical =  3.4217958694061296e-06  A/V; gain_margin = 0.8182837629311752  # gain margin SHOULD BE >> 1  !!
+  gm_critical with no R_ext =  3.0774870020301075e-07  A/V; gain_margin with no R_ext = 9.098332497108649
+
+ECS-.327-4-16R-TR    F4_g2 series / high    ** probably  no  R_ext  **
+>>> crit_margin(F=32768.0,  ESR=60*10**3,  C0=1.5*10**-12, CL=4.0*10**-12, CS= 0, gm=7.50**-6, Vpp=3.2) # drive High
+  Require external capacitors C1 = C2 =  8e-12
+  Require external resistor R_ext =  607127.9262233557
+  gm_critical =  3.4217958694061296e-06  A/V; gain_margin = 1.6420195438791367  # gain margin ok but not big
+  gm_critical with no R_ext =  3.0774870020301075e-07  A/V; gain_margin with no R_ext = 18.257284885438484
+
+ECS-.327-4-16R-TR    F4_g2 series / low   ** with low setting gain margin is good even with R_ext **
+>>> crit_margin(F=32768.0,  ESR=60*10**3,  C0=1.5*10**-12, CL=4.0*10**-12, CS= 0, gm=2.80**-6, Vpp=3.2)   # drive Low
+  Require external capacitors C1 = C2 =  8e-12
+  Require external resistor R_ext =  607127.9262233557
+  gm_critical =  3.4217958694061296e-06  A/V; gain_margin = 606.4537896301986
+  gm_critical with no R_ext =  3.0774870020301075e-07  A/V; gain_margin with no R_ext = 6743.03765043816
 
 
 //////////////////////////////////////////////////////// 
 //////// High speed oscillator (HSE)  F = 25.0 *10**6  Hz  (25MHz)    4-pin, gnd on 2 & 4   2.0 x 1.6mm or 1.60 x 1.20mm footprint
 //////////////////////////////////////////////////////// 
+
+######   Epson  FA-128 25.0000MF20X-K0   2.0 x 1.6mm   10pf
+https://support.epson.biz/td/api/doc_check.php?dl=brief_FA-128&lang=en
+>>>crit_margin(F=25.0*10**6,  ESR=80,  C0=math.nan, CL=10.0*10**-12, CS= 5*10**-12, gm=math.nan, Vpp=3.2)
+Require external capacitors C1 = C2 =  1e-11        # 10pF
+Require external resistor R_ext =  636.6197723675814
+gm_critical =  nan  A/V; gain_margin = nan
+gm_critical with no R_ext =  nan  A/V; gain_margin with no R_ext = nan
+
+Notes
+Use COG NPO 1% capacitor types to minimize the impact of temperature.
+F4 HSE resonator needs frequency 4-26 MHz;  g_m(min) = 5mA/V;  G_m_crit_max = 1 mA/V (from AN2867 table 6, p29)
+()
+
 
 ###### look for SJK  q-crystal.com  referenced in 2.0 x 1.6mm footprint
 https://q-crystal.com/home/index/product/eng/MHz-Crystal/f_eng/Crystal-Resonator-List.html
@@ -381,7 +446,7 @@ Shenzhen SCTF Electronics	SX1B25.000F0810F30	(25 days digi.ca  )
 25 MHz ±10ppm Crystal 8pF 80 Ohms 4-SMD, No Lead   2.0 x 1.6mm 
 https://www.sctf-crystal.com/data/upload/admin/20240930/1X-Series-2024-09-30.pdf
 CL= 6-20 pF ;  C0=3pF max ; gm=    drive level 10uW typ 100uW max ;
->>>crit_margin(F=25.0*10**6,  ESR=80,  C0=3.0*10**-12, CL=8.0*10**-12, CS= 5*10**-12, gm=math.nan)
+>>>crit_margin(F=25.0*10**6,  ESR=80,  C0=3.0*10**-12, CL=8.0*10**-12, CS= 5*10**-12, gm=math.nan, Vpp=3.2)
 Require external capacitors C1 = C2 =  6e-12                      # 6pF
 Require external resistor R_ext =  1061.032953945969              # 1.1 K
 gm_critical =  0.013626468075504283  A/V; gain_margin = nan
@@ -400,7 +465,7 @@ F4 HSE resonator needs frequency 4-26 MHz;  g_m(min) = 5mA/V;  G_m_crit_max = 1 
 #                      (MHz)            (mA/V)      (mA/V)       Margin   (mA/V)                   (ppm)  (ppm) (pF)   (pF)
 #ECS-250-8-37B2-RWY-TR	25.00	STM32F4	5.00	    1.00	 8.37	 0.597	  2.0 x 1.6   50   15      15	 8     3    -30/85C	-	https://ecsxtal.com/store/pdf/ECX-1637B2.pdf
 
->>>crit_margin(F=25.0*10**6,  ESR=50,  C0=3.0*10**-12, CL=8.0*10**-12, CS= 5*10**-12, gm=5.0*10**-3)
+>>>crit_margin(F=25.0*10**6,  ESR=50,  C0=3.0*10**-12, CL=8.0*10**-12, CS= 5*10**-12, gm=5.0*10**-3, Vpp=3.2)
 Require external capacitors C1 = C2 =  6e-12                                    # 6pF
 Require external resistor R_ext =  1061.032953945969                            # 1.1 K
 gm_critical =  0.01326820143574474  A/V; gain_margin = 0.3768408268606718
@@ -413,7 +478,7 @@ F4 HSE resonator needs frequency 4-26 MHz;  g_m(min) = 5mA/V;  G_m_crit_max = 1 
 ######   Wurth  IQXC-26  830081609    1.60 x 1.20mm   CHECK FOOTPRINT
  https://www.we-online.com/components/products/datasheet/830081609.pdf
 drive level 100uW max     ESR=150max on datasheet, 200 on Digikey
->>> crit_margin(F=25.0*10**6,  ESR=150,  C0=3*10**-12, CL=8.0*10**-12, CS= 5*10**-12, gm=math.nan)
+>>> crit_margin(F=25.0*10**6,  ESR=150,  C0=3*10**-12, CL=8.0*10**-12, CS= 5*10**-12, gm=math.nan, Vpp=3.2)
 
 DOES THIS MAKE SENSE??
 
@@ -431,7 +496,7 @@ F411  drive High  g_m(min)=7.5 uA/V;  G_m_crit_max = 1.5  uA/V (from AN2867 tabl
 ######   IQD Frequency Products   LFXTAL081609    1.60 x 1.20mm
 https://www.iqdfrequencyproducts.com/products/datasheets/LFXTAL081609.pdf
  ESR=150 on digikey  200max on datasheet;  drive level  100uW max
->>> crit_margin(F=25.0*10**6,  ESR=150,  C0=7*10**-12, CL=8.0*10**-12, CS= 5*10**-12, gm=math.nan)
+>>> crit_margin(F=25.0*10**6,  ESR=150,  C0=7*10**-12, CL=8.0*10**-12, CS= 5*10**-12, gm=math.nan, Vpp=3.2)
 
 Require external capacitors C1 = C2 =  6e-12                                      # 6pF
 Require external resistor R_ext =  1061.032953945969                              # 1.1 K
@@ -456,17 +521,17 @@ https://www.iqdfrequencyproducts.com/products/datasheets/LFXTAL081609.pdf
 with tecknolegy not subject to this calculation (if I understand correctly, which is unlikely)
 
 # Abracon   ABM12W at 25 MHz
-crit_margin(F=25.0*10**6,  ESR=80,  C0=2.0*10**-12, CL=4.0*10**-12, gm=5.68*10**-3)
+crit_margin(F=25.0*10**6,  ESR=80,  C0=2.0*10**-12, CL=4.0*10**-12, gm=5.68*10**-3, Vpp=3.2)
 gm_critical =  0.0002842446067513735  A/V; gain_margin = 19.98278899612773
 that is gm_critical =  0.284 mA/V but their table shows 5.68  mA/V
 
 
 # Abracon   ABM12W at 52 MHz
-crit_margin(F=52.0*10**6,  ESR=40*10**3,  C0=1.3*10**-12, CL=3.0*10**-12, gm=0.38*10**-3)
+crit_margin(F=52.0*10**6,  ESR=40*10**3,  C0=1.3*10**-12, CL=3.0*10**-12, gm=0.38*10**-3, Vpp=3.2)
 gm_critical =  0.3158081385325368  A/V; gain_margin = 0.0012032622140953778
 that is gm_critical =  315 mA/V but their table shows 5.68  mA/V
 
 # Abracon   ABS07W  LSE
-crit_margin(F=32.768*10**3,  ESR=80,  C0=1.3*10**-12, CL=3.0*10**-12, gm=0.38*10**-3)
+crit_margin(F=32.768*10**3,  ESR=80,  C0=1.3*10**-12, CL=3.0*10**-12, gm=0.38*10**-3, Vpp=3.2)
 gm_critical =  2.508109517026411e-10  A/V; gain_margin = 1515085.355804256
 

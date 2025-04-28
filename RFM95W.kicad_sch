@@ -1456,7 +1456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.nicerf.com/rf-antenna/915mhz-spring-antenna-sw915-th06.html"
 			(at 128.27 72.39 0)
 			(effects
 				(font
@@ -1465,7 +1465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Antenna"
+		(property "Description" "spring antenna"
 			(at 128.27 72.39 0)
 			(effects
 				(font
@@ -1474,7 +1474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UTC"
+		(property "Manufacturer" "G-NiceRF"
 			(at 128.27 72.39 0)
 			(effects
 				(font
@@ -1483,7 +1483,7 @@
 				(hide yes)
 			)
 		)
-		(property "MfgPart" "AA066"
+		(property "MfgPart" "SW915-TH06"
 			(at 128.27 72.39 0)
 			(effects
 				(font
@@ -1492,7 +1492,7 @@
 				(hide yes)
 			)
 		)
-		(property "MountType" "SMT"
+		(property "MountType" "PTH"
 			(at 128.27 72.39 0)
 			(effects
 				(font
@@ -1508,6 +1508,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "pads" "1"
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -1583,6 +1591,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "pads" "2"
+			(at 95.25 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -1885,6 +1901,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "pads" "16"
+			(at 115.57 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"

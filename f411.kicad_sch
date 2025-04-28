@@ -4118,6 +4118,14 @@
 				(hide yes)
 			)
 		)
+		(property "pads" "2"
+			(at 64.77 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9c9e570d-49f4-4758-9472-bde90552b64d")
 		)
@@ -4204,7 +4212,7 @@
 		(at 167.64 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "17850ab0-7b55-4df0-a332-35ccea908883")
@@ -4260,6 +4268,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "pads" ""
+			(at 167.64 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4509,7 +4525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411111206_JILN-22850210ANG1SYA01_C41431943.pdf"
 			(at 189.23 109.22 0)
 			(effects
 				(font
@@ -4518,7 +4534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" "PinSocket header 2x02  4P"
 			(at 189.23 109.22 0)
 			(effects
 				(font
@@ -4538,6 +4554,38 @@
 		)
 		(property "Note" "ST-LINK"
 			(at 178.054 104.648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JILN"
+			(at 189.23 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MfgPart" "22850202ANG1SYA01"
+			(at 189.23 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" "or equivalent"
+			(at 189.23 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pads" "4"
+			(at 189.23 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4694,6 +4742,14 @@
 				(hide yes)
 			)
 		)
+		(property "pads" "2"
+			(at 123.19 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f50d244a-8efd-4e71-9007-aa1e145652c5")
 		)
@@ -4796,6 +4852,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "pads" "2"
+			(at 69.85 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5008,6 +5072,14 @@
 				(hide yes)
 			)
 		)
+		(property "pads" "2"
+			(at 96.52 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3670bf22-01cf-4f50-b09b-c3c03eac8b4f")
 		)
@@ -5150,6 +5222,14 @@
 				(hide yes)
 			)
 		)
+		(property "pads" "2"
+			(at 67.31 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "174678e8-b872-4b59-9610-bed3fec3b247")
 		)
@@ -5244,6 +5324,14 @@
 				(hide yes)
 			)
 		)
+		(property "pads" "2"
+			(at 58.42 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4053b2a9-6c2f-4f62-b6b8-326739e8b2ea")
 		)
@@ -5320,6 +5408,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "pads" "2"
+			(at 170.18 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5416,6 +5512,14 @@
 				(hide yes)
 			)
 		)
+		(property "pads" "2"
+			(at 71.12 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "07aad041-e5a2-43b7-bc91-685286a73d70")
 		)
@@ -5502,6 +5606,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MountType" "SMT"
+			(at 144.78 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "pads" "48"
+			(at 144.78 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "49"
@@ -5881,6 +6001,14 @@
 				(hide yes)
 			)
 		)
+		(property "pads" "2"
+			(at 170.18 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "cc2bca7e-929c-46eb-a22c-65052e43de3e")
 		)
@@ -6183,6 +6311,14 @@
 				(hide yes)
 			)
 		)
+		(property "pads" "2"
+			(at 41.91 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b0e3c940-ce23-4393-acf1-76937cecea67")
 		)
@@ -6328,6 +6464,14 @@
 				(hide yes)
 			)
 		)
+		(property "pads" "2"
+			(at 93.98 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f81d41f7-b805-47f1-9a8c-98611714f97b")
 		)
@@ -6471,6 +6615,14 @@
 				(hide yes)
 			)
 		)
+		(property "pads" "2"
+			(at 62.23 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "24824abd-cbf3-4ae3-b53c-d76f8c0c9d04")
 		)
@@ -6545,6 +6697,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "pads" "2"
+			(at 41.91 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"

@@ -2796,6 +2796,14 @@
 				(hide yes)
 			)
 		)
+		(property "pads" "2"
+			(at 120.65 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cb72f974-6d19-4355-978b-97f8bbb43b84")
 		)
@@ -2821,7 +2829,7 @@
 		(dnp no)
 		(uuid "074c8642-6dfe-4243-b438-fcebab511da1")
 		(property "Reference" "J15"
-			(at 76.835 222.25 0)
+			(at 69.342 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2829,7 +2837,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 66.04 228.6 0)
+			(at 66.294 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2845,7 +2853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "~https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 76.2 227.33 0)
 			(effects
 				(font
@@ -2854,7 +2862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "Connector JST_B2B-XH-A_1x02"
 			(at 76.2 227.33 0)
 			(effects
 				(font
@@ -2864,6 +2872,42 @@
 			)
 		)
 		(property "MountType" "PTH"
+			(at 76.2 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 76.2 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPart" "B2B-XH-A"
+			(at 76.2 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
+			(at 76.2 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "pads" "2"
 			(at 76.2 227.33 0)
 			(effects
 				(font
@@ -2966,6 +3010,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "pads" "10"
+			(at 125.73 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3137,6 +3189,14 @@
 				(hide yes)
 			)
 		)
+		(property "pads" "2"
+			(at 135.89 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "507d16c9-943b-4801-a682-e7024adecfd7")
 		)
@@ -3162,7 +3222,7 @@
 		(dnp no)
 		(uuid "0dc0e685-bffc-4606-91e3-2dbbc49e884e")
 		(property "Reference" "J16"
-			(at 45.085 245.11 0)
+			(at 40.132 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3170,7 +3230,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 35.56 251.46 0)
+			(at 35.814 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3186,7 +3246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "~https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 44.45 250.19 0)
 			(effects
 				(font
@@ -3195,7 +3255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "Connector JST_B2B-XH-A_1x02"
 			(at 44.45 250.19 0)
 			(effects
 				(font
@@ -3205,6 +3265,42 @@
 			)
 		)
 		(property "MountType" "PTH"
+			(at 44.45 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 44.45 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPart" "B2B-XH-A"
+			(at 44.45 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
+			(at 44.45 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "pads" "2"
 			(at 44.45 250.19 0)
 			(effects
 				(font
@@ -3435,7 +3531,7 @@
 		(dnp no)
 		(uuid "25e16c07-66d7-43a0-a814-b73f8b425ba1")
 		(property "Reference" "J12"
-			(at 43.815 179.07 0)
+			(at 38.608 183.642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3443,7 +3539,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 33.02 185.42 0)
+			(at 33.782 186.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3459,7 +3555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "~https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 43.18 184.15 0)
 			(effects
 				(font
@@ -3468,7 +3564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "Connector JST_B2B-XH-A_1x02"
 			(at 43.18 184.15 0)
 			(effects
 				(font
@@ -3478,6 +3574,42 @@
 			)
 		)
 		(property "MountType" "PTH"
+			(at 43.18 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 43.18 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPart" "B2B-XH-A"
+			(at 43.18 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
+			(at 43.18 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "pads" "2"
 			(at 43.18 184.15 0)
 			(effects
 				(font
@@ -3563,6 +3695,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "pads" "2"
+			(at 143.51 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3721,7 +3861,7 @@
 		(dnp no)
 		(uuid "316342c3-779f-4b11-ac6b-eb0f24cb8d6d")
 		(property "Reference" "J11"
-			(at 76.835 167.64 0)
+			(at 72.39 172.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3729,7 +3869,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 66.04 173.99 0)
+			(at 67.564 175.514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3745,7 +3885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "~https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 76.2 172.72 0)
 			(effects
 				(font
@@ -3754,7 +3894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "Connector JST_B2B-XH-A_1x02"
 			(at 76.2 172.72 0)
 			(effects
 				(font
@@ -3764,6 +3904,42 @@
 			)
 		)
 		(property "MountType" "PTH"
+			(at 76.2 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 76.2 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPart" "B2B-XH-A"
+			(at 76.2 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
+			(at 76.2 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "pads" "2"
 			(at 76.2 172.72 0)
 			(effects
 				(font
@@ -3849,6 +4025,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "pads" "2"
+			(at 135.89 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3996,6 +4180,14 @@
 				(hide yes)
 			)
 		)
+		(property "pads" "2"
+			(at 81.28 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c6f476c2-1e3a-429d-9cf3-3d05b891a226")
 		)
@@ -4087,7 +4279,7 @@
 		(dnp no)
 		(uuid "3efa3228-3feb-4866-abbd-70c65c427f2f")
 		(property "Reference" "J14"
-			(at 43.815 209.55 0)
+			(at 36.83 214.884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4095,7 +4287,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 31.75 215.9 0)
+			(at 33.274 217.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4111,7 +4303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "~https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 43.18 214.63 0)
 			(effects
 				(font
@@ -4120,7 +4312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "Connector JST_B2B-XH-A_1x02"
 			(at 43.18 214.63 0)
 			(effects
 				(font
@@ -4130,6 +4322,42 @@
 			)
 		)
 		(property "MountType" "PTH"
+			(at 43.18 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 43.18 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPart" "B2B-XH-A"
+			(at 43.18 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
+			(at 43.18 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "pads" "2"
 			(at 43.18 214.63 0)
 			(effects
 				(font
@@ -4281,6 +4509,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "pads" "2"
+			(at 48.26 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4506,7 +4742,7 @@
 		(dnp no)
 		(uuid "50d67a10-cb32-404f-b6a3-b357fbd35f1b")
 		(property "Reference" "J8"
-			(at 45.085 121.92 0)
+			(at 38.1 126.746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4514,7 +4750,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 34.29 128.27 0)
+			(at 34.798 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4530,7 +4766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "~https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 44.45 127 0)
 			(effects
 				(font
@@ -4539,7 +4775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "Connector JST_B2B-XH-A_1x02"
 			(at 44.45 127 0)
 			(effects
 				(font
@@ -4549,6 +4785,42 @@
 			)
 		)
 		(property "MountType" "PTH"
+			(at 44.45 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 44.45 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPart" "B2B-XH-A"
+			(at 44.45 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
+			(at 44.45 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "pads" "2"
 			(at 44.45 127 0)
 			(effects
 				(font
@@ -4582,7 +4854,7 @@
 		(dnp no)
 		(uuid "51cf83de-120c-4091-bece-74d24231b614")
 		(property "Reference" "J9"
-			(at 74.295 143.51 0)
+			(at 67.564 147.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4590,7 +4862,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 64.77 149.86 0)
+			(at 65.278 150.622 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4606,7 +4878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "~https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 73.66 148.59 0)
 			(effects
 				(font
@@ -4615,7 +4887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "Connector JST_B2B-XH-A_1x02"
 			(at 73.66 148.59 0)
 			(effects
 				(font
@@ -4625,6 +4897,42 @@
 			)
 		)
 		(property "MountType" "PTH"
+			(at 73.66 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 73.66 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPart" "B2B-XH-A"
+			(at 73.66 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
+			(at 73.66 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "pads" "2"
 			(at 73.66 148.59 0)
 			(effects
 				(font
@@ -4843,6 +5151,14 @@
 				(hide yes)
 			)
 		)
+		(property "pads" "2"
+			(at 78.74 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "789e5ed0-d68b-4768-8124-108f6af352e8")
 		)
@@ -4920,6 +5236,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "pads" "2"
+			(at 138.43 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5074,9 +5398,9 @@
 		(at 19.05 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6b8c4bb3-bf8a-4f33-ab57-b4384b6ea6f6")
 		(property "Reference" "H3"
@@ -5124,6 +5448,14 @@
 				(hide yes)
 			)
 		)
+		(property "pads" ""
+			(at 19.05 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "SensorProject_t16-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
@@ -5141,10 +5473,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6c31a02f-e50e-4130-9cb9-8e23202a0e1b")
 		(property "Reference" "J2"
-			(at 43.815 34.29 0)
+			(at 38.862 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5152,7 +5483,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 43.815 36.83 0)
+			(at 34.544 42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5168,7 +5499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "~https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 43.18 39.37 0)
 			(effects
 				(font
@@ -5177,7 +5508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "Connector JST_B2B-XH-A_1x02"
 			(at 43.18 39.37 0)
 			(effects
 				(font
@@ -5187,6 +5518,42 @@
 			)
 		)
 		(property "MountType" "PTH"
+			(at 43.18 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 43.18 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPart" "B2B-XH-A"
+			(at 43.18 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
+			(at 43.18 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "pads" "2"
 			(at 43.18 39.37 0)
 			(effects
 				(font
@@ -5340,6 +5707,14 @@
 				(hide yes)
 			)
 		)
+		(property "pads" "2"
+			(at 81.28 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "116f25ca-5048-4e2a-9b2a-ed442d1e6824")
 		)
@@ -5417,6 +5792,14 @@
 				(hide yes)
 			)
 		)
+		(property "pads" "2"
+			(at 120.65 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cb30f75e-04c1-4bc9-babf-118e54fa662f")
 		)
@@ -5437,9 +5820,9 @@
 		(at 19.05 260.35 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "74d55b8d-4816-4fd0-8b17-a3c0948ea73d")
 		(property "Reference" "H4"
@@ -5485,6 +5868,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "pads" ""
+			(at 19.05 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(instances
@@ -5595,7 +5986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "~https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 43.18 157.48 0)
 			(effects
 				(font
@@ -5604,7 +5995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "Connector JST_B2B-XH-A_1x02"
 			(at 43.18 157.48 0)
 			(effects
 				(font
@@ -5614,6 +6005,42 @@
 			)
 		)
 		(property "MountType" "PTH"
+			(at 43.18 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 43.18 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPart" "B2B-XH-A"
+			(at 43.18 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
+			(at 43.18 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "pads" "2"
 			(at 43.18 157.48 0)
 			(effects
 				(font
@@ -5701,6 +6128,14 @@
 				(hide yes)
 			)
 		)
+		(property "pads" "2"
+			(at 78.74 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "78261a83-a282-4a90-881a-0200dc845000")
 		)
@@ -5778,6 +6213,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "pads" "2"
+			(at 78.74 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5923,6 +6366,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "pads" "2"
+			(at 135.89 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6132,6 +6583,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "pads" "2"
+			(at 123.19 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6408,6 +6867,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "pads" "2"
+			(at 48.26 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6770,6 +7237,14 @@
 				(hide yes)
 			)
 		)
+		(property "pads" "10"
+			(at 128.27 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "90cf3445-9083-4465-beaa-8e088ff6ee88")
 		)
@@ -6887,7 +7362,7 @@
 		(dnp no)
 		(uuid "9776e7e3-7c7d-4252-b7bd-b426271bc281")
 		(property "Reference" "J17"
-			(at 154.94 102.8699 0)
+			(at 153.67 104.394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6913,7 +7388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411111206_JILN-22850104ANG1SYA01_C41431927.pdf"
 			(at 156.21 102.87 0)
 			(effects
 				(font
@@ -6922,7 +7397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" "PinSocket header 1x04  4P"
 			(at 156.21 102.87 0)
 			(effects
 				(font
@@ -6938,6 +7413,41 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JILN"
+			(at 146.812 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPart" "22850104ANG1SYA01"
+			(at 159.766 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
+			(at 155.702 115.824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "pads" "4"
+			(at 156.21 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -6966,9 +7476,9 @@
 		(at 170.18 227.33 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "97e06d61-2048-44bf-bea5-86c8aeb12065")
 		(property "Reference" "H1"
@@ -7014,6 +7524,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "pads" ""
+			(at 170.18 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(instances
@@ -7162,9 +7680,9 @@
 		(at 199.39 16.51 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "99e88154-98af-435b-9b4d-b1177eaeed03")
 		(property "Reference" "H2"
@@ -7210,6 +7728,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "pads" ""
+			(at 199.39 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(instances
@@ -7297,7 +7823,7 @@
 		(dnp no)
 		(uuid "9f1705bf-c712-4b3d-b56d-6c332d29d451")
 		(property "Reference" "J4"
-			(at 43.815 60.96 0)
+			(at 39.37 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7305,7 +7831,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 34.798 67.564 0)
+			(at 34.29 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7321,7 +7847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "~https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 43.18 66.04 0)
 			(effects
 				(font
@@ -7330,7 +7856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "Connector JST_B2B-XH-A_1x02"
 			(at 43.18 66.04 0)
 			(effects
 				(font
@@ -7340,6 +7866,42 @@
 			)
 		)
 		(property "MountType" "PTH"
+			(at 43.18 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 43.18 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPart" "B2B-XH-A"
+			(at 43.18 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
+			(at 43.18 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "pads" "2"
 			(at 43.18 66.04 0)
 			(effects
 				(font
@@ -7423,6 +7985,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "pads" "2"
+			(at 120.65 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8179,6 +8749,14 @@
 				(hide yes)
 			)
 		)
+		(property "pads" "10"
+			(at 125.73 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "724d85fa-3334-4ead-8108-5bb9bd87a679")
 		)
@@ -8481,6 +9059,14 @@
 				(hide yes)
 			)
 		)
+		(property "pads" "2"
+			(at 48.26 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "befe5683-8cc7-4462-bc08-f38bb689e9dd")
 		)
@@ -8572,7 +9158,7 @@
 		(dnp no)
 		(uuid "c99bf32f-5680-46c5-8a04-0f8fd0897b9a")
 		(property "Reference" "J1"
-			(at 74.295 22.86 0)
+			(at 69.342 27.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8580,7 +9166,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 64.77 29.21 0)
+			(at 65.024 30.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8596,7 +9182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "~https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 73.66 27.94 0)
 			(effects
 				(font
@@ -8605,7 +9191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "Connector JST_B2B-XH-A_1x02"
 			(at 73.66 27.94 0)
 			(effects
 				(font
@@ -8615,6 +9201,42 @@
 			)
 		)
 		(property "MountType" "PTH"
+			(at 73.66 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 73.66 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPart" "B2B-XH-A"
+			(at 73.66 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
+			(at 73.66 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "pads" "2"
 			(at 73.66 27.94 0)
 			(effects
 				(font
@@ -8700,6 +9322,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "pads" "2"
+			(at 78.74 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8913,6 +9543,14 @@
 				(hide yes)
 			)
 		)
+		(property "pads" "2"
+			(at 49.53 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d80159b8-4137-4d9a-960d-72b6294ed047")
 		)
@@ -8992,6 +9630,14 @@
 				(hide yes)
 			)
 		)
+		(property "pads" "2"
+			(at 48.26 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "48bd7b3c-62c8-4335-88bf-6c1a75ece5c5")
 		)
@@ -9017,7 +9663,7 @@
 		(dnp no)
 		(uuid "d5b75b94-15e2-4038-a1e6-c19c8d3a44ae")
 		(property "Reference" "J13"
-			(at 76.835 195.58 0)
+			(at 70.866 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9025,7 +9671,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 66.04 201.93 0)
+			(at 67.31 203.962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9041,7 +9687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "~https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 76.2 200.66 0)
 			(effects
 				(font
@@ -9050,7 +9696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "Connector JST_B2B-XH-A_1x02"
 			(at 76.2 200.66 0)
 			(effects
 				(font
@@ -9060,6 +9706,42 @@
 			)
 		)
 		(property "MountType" "PTH"
+			(at 76.2 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 76.2 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPart" "B2B-XH-A"
+			(at 76.2 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
+			(at 76.2 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "pads" "2"
 			(at 76.2 200.66 0)
 			(effects
 				(font
@@ -9213,6 +9895,14 @@
 				(hide yes)
 			)
 		)
+		(property "pads" "2"
+			(at 49.53 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bd74e0ec-5047-4383-a78d-69fee62fc004")
 		)
@@ -9358,6 +10048,14 @@
 				(hide yes)
 			)
 		)
+		(property "pads" "2"
+			(at 50.8 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "99fc8106-0186-4d57-b098-aedfad93a593")
 		)
@@ -9437,6 +10135,14 @@
 				(hide yes)
 			)
 		)
+		(property "pads" "2"
+			(at 48.26 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fee9c600-fb61-4be7-88ab-e2aaa007c901")
 		)
@@ -9462,7 +10168,7 @@
 		(dnp no)
 		(uuid "e003c0ba-5665-4146-8302-9ff80fccb2dc")
 		(property "Reference" "J3"
-			(at 74.295 49.53 0)
+			(at 68.072 54.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9470,7 +10176,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 64.77 55.88 0)
+			(at 65.278 57.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9486,7 +10192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "~https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 73.66 54.61 0)
 			(effects
 				(font
@@ -9495,7 +10201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "Connector JST_B2B-XH-A_1x02"
 			(at 73.66 54.61 0)
 			(effects
 				(font
@@ -9505,6 +10211,42 @@
 			)
 		)
 		(property "MountType" "PTH"
+			(at 73.66 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 73.66 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPart" "B2B-XH-A"
+			(at 73.66 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
+			(at 73.66 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "pads" "2"
 			(at 73.66 54.61 0)
 			(effects
 				(font
@@ -9657,6 +10399,14 @@
 				(hide yes)
 			)
 		)
+		(property "pads" "2"
+			(at 81.28 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bf8750c7-dc9e-43d3-b79d-c248fb81e960")
 		)
@@ -9682,7 +10432,7 @@
 		(dnp no)
 		(uuid "eb0494ad-e997-4185-8b7e-f6d832e3a45c")
 		(property "Reference" "J5"
-			(at 74.295 83.82 0)
+			(at 68.58 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9690,7 +10440,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 63.5 90.17 0)
+			(at 64.516 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9706,7 +10456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "~https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 73.66 88.9 0)
 			(effects
 				(font
@@ -9715,7 +10465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "Connector JST_B2B-XH-A_1x02"
 			(at 73.66 88.9 0)
 			(effects
 				(font
@@ -9725,6 +10475,42 @@
 			)
 		)
 		(property "MountType" "PTH"
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPart" "B2B-XH-A"
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "pads" "2"
 			(at 73.66 88.9 0)
 			(effects
 				(font
@@ -9758,7 +10544,7 @@
 		(dnp no)
 		(uuid "ebc53833-b22e-4c64-a4a4-f02a15447ff1")
 		(property "Reference" "J7"
-			(at 74.295 110.49 0)
+			(at 68.58 114.046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9782,7 +10568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "~https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 73.66 115.57 0)
 			(effects
 				(font
@@ -9791,7 +10577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "Connector JST_B2B-XH-A_1x02"
 			(at 73.66 115.57 0)
 			(effects
 				(font
@@ -9801,6 +10587,42 @@
 			)
 		)
 		(property "MountType" "PTH"
+			(at 73.66 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 73.66 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPart" "B2B-XH-A"
+			(at 73.66 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
+			(at 73.66 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "pads" "2"
 			(at 73.66 115.57 0)
 			(effects
 				(font
@@ -9954,6 +10776,14 @@
 				(hide yes)
 			)
 		)
+		(property "pads" "2"
+			(at 78.74 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "85b89277-4765-45dc-ad4e-4b535bae9a36")
 		)
@@ -10031,6 +10861,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "pads" "2"
+			(at 154.94 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10124,7 +10962,7 @@
 		(dnp no)
 		(uuid "fa61573a-7a32-49f4-a52d-64cb974904ce")
 		(property "Reference" "J6"
-			(at 46.355 95.25 0)
+			(at 39.878 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10132,7 +10970,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 35.56 101.6 0)
+			(at 36.83 103.378 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10148,7 +10986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "~https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 45.72 100.33 0)
 			(effects
 				(font
@@ -10157,7 +10995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "Connector JST_B2B-XH-A_1x02"
 			(at 45.72 100.33 0)
 			(effects
 				(font
@@ -10167,6 +11005,42 @@
 			)
 		)
 		(property "MountType" "PTH"
+			(at 45.72 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 45.72 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPart" "B2B-XH-A"
+			(at 35.814 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
+			(at 37.084 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "pads" "2"
 			(at 45.72 100.33 0)
 			(effects
 				(font
@@ -10269,6 +11143,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "pads" "10"
+			(at 125.73 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
