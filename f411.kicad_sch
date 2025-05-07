@@ -38,7 +38,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "ProjectLib:C_0805_2012Metric"
+			(property "Footprint" "ProjectLib:C_0603_1608Metric"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -57,6 +57,24 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MountType" "SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "pads" "2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -898,6 +916,24 @@
 				)
 			)
 			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MountType" "SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "pads" "2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4124,6 +4160,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4217,7 +4254,7 @@
 		(dnp yes)
 		(uuid "17850ab0-7b55-4df0-a332-35ccea908883")
 		(property "Reference" "J18"
-			(at 168.402 88.9 0)
+			(at 172.974 89.408 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4226,7 +4263,7 @@
 			)
 		)
 		(property "Value" "THTPad"
-			(at 173.482 88.9 0)
+			(at 177.546 89.154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4566,6 +4603,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MfgPart" "22850202ANG1SYA01"
@@ -4574,6 +4612,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Notes" "or equivalent"
@@ -4582,6 +4621,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "pads" "4"
@@ -4590,6 +4630,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "4"
@@ -4697,7 +4738,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "4.7µF"
 			(at 124.968 143.002 0)
 			(effects
 				(font
@@ -4748,6 +4789,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4860,6 +4902,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5078,6 +5121,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5228,6 +5272,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5330,6 +5375,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5365,8 +5411,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 164.592 53.848 0)
+		(property "Value" "100nF"
+			(at 162.814 54.102 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5416,6 +5462,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5518,6 +5565,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5581,7 +5629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 512KB flash, 128KB RAM, 100 MHz, 1.7-3.6V, 36 GPIO, UFQFPN48"
+		(property "Description" "Arm Cortex-M4 MCU, 512KB flash, 128KB RAM,  1.7-3.6V, UFQFPN48"
 			(at 144.78 102.87 0)
 			(effects
 				(font
@@ -6007,6 +6055,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6317,6 +6366,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6470,6 +6520,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6571,7 +6622,7 @@
 				)
 			)
 		)
-		(property "Value" "0K1"
+		(property "Value" "100"
 			(at 62.23 88.392 90)
 			(effects
 				(font
@@ -6621,6 +6672,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6655,7 +6707,7 @@
 				)
 			)
 		)
-		(property "Value" "0K4"
+		(property "Value" "400"
 			(at 37.338 80.01 0)
 			(effects
 				(font
@@ -6705,6 +6757,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"

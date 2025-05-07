@@ -1427,7 +1427,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "068f304e-7aa5-4db6-be24-360cfd458e94")
 		(property "Reference" "AE1"
 			(at 131.064 68.834 0)
@@ -1516,6 +1516,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1599,6 +1600,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -1858,7 +1860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low power long range transceiver module, SPI and parallel interface, 915 MHz, spreading factor 6 to12, bandwidth 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16"
+		(property "Description" "LoRa module, SPI, 915 MHz"
 			(at 115.57 85.09 0)
 			(effects
 				(font

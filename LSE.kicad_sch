@@ -211,7 +211,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "ProjectLib:C_0805_2012Metric"
+			(property "Footprint" "ProjectLib:C_0603_1608Metric"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -230,6 +230,24 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MountType" "SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "pads" "2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1138,7 +1156,7 @@
 		(dnp no)
 		(uuid "2a135479-c7c5-4de8-a046-907b29a0a9a5")
 		(property "Reference" "C13"
-			(at 138.176 104.14 0)
+			(at 135.89 104.394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1146,7 +1164,7 @@
 			)
 		)
 		(property "Value" "4pF C0G, NP0, +/- 0.1pF"
-			(at 145.542 108.204 0)
+			(at 147.066 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1195,6 +1213,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -1230,7 +1249,7 @@
 			)
 		)
 		(property "Value" "4pF C0G, NP0, +/- 0.1pF"
-			(at 99.568 108.204 0)
+			(at 96.266 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1279,6 +1298,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -1685,6 +1705,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"

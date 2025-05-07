@@ -946,7 +946,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectLib:C_0805_2012Metric"
+		(property "Footprint" "ProjectLib:C_0603_1608Metric"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -965,6 +965,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MountType" "SMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "pads" "2"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3587,6 +3605,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MountType" "SMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "pads" "2"
 			(at 0 0 0)
 			(effects
 				(font
