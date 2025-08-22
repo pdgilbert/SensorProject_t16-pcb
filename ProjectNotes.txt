@@ -1,59 +1,110 @@
 grep "/////////////// " ProjectNotes.txt   # for section index
 
 ////////////////////////////////////////////////////////////////////////////////
+///////////////     General Notes
+////////////////////////////////////////////////////////////////////////////////
+
+The 16 JST 2-pin connectors are a size used by many NTC suppliers. 
+The sensors are easily available and inexpensive.
+
+The board is 48.11mm by 70.83mm, which fits (tightly) in a standard NA electric outlet hole. 
+This allows for a standard outlet faceplate cover. The board needs to be supplied by low voltage (5v).
+An outlet box is not a good option because of the number of wires, but a low voltage single gang 
+wall plate as used for audio or TV cable is a good option.
+
+The mounting hole centers are 44mm apart in x direction and 66.9 mm in y direction.
+
+Current software does not require RTC, or LSE, or HSE oscillator. 
+LSE and HSE are experimentation for future possibilities.
+
+
+////////////////////////////////////////////////////////////////////////////////
 ///////////////            To Do
 ////////////////////////////////////////////////////////////////////////////////
 
-- specify HLE and caps
+///////////////  v0.2.0 2025-05 prototype notes
 
-- antenna footprint open loop?
+- status: works to measure and transmit. I2c for ssd is on wrong pin, so no display. Tab on regulator is
+wrong and has to be cut.
 
-- proper footprint for MCU, change to WLCSP?
-
-- manuf / part# for everything
-
-- reverse-polarity-protection  https://electronics.stackexchange.com/questions/665044/which-reverse-polarity-protection-is-better-and-why
-
-
-!!! When considering external capacitors for xtals use COG NPO 1% types to minimize the impact of capacitance change over temperature.
-
--  add header for ssd.
-
-- surface mount JST connectors not available in 2 connector. It is available for 3p and more.
-  through hole is JST part XH_B2B-XH-A
-  BM02B-XASS-TF(LF)(SN) is SMT but is XA connector, not sure it fits XH plugs
-    probably not according to 
-   https://www.mattmillman.com/info/crimpconnectors/common-jst-connector-types/#paxa
-
-- add radio needs MCU on board or second board
-
-- change to parts used in ads..  so BOM gets generated correctly. Done
-
--- For part line 4 item #2 TSSOP-10_3x3mm_P0.5mm the part you will supply
-      ADS1115IDGSR   Texas Instruments  IC ADC 16BIT SIGMA-DELTA 10VSSOP
-   is  OK.  An equivalent would also be OK.
-
-- check squareness of mounting holes.  Done. 44 x 66.9 mm  hole centers
-
-- jst not jts in silk screen. Done.   Repo switched to SensorProject_t16-pcb.
-
-- put 10K pull-up resistors on sla, sda. Done.
-
-- put  alert/rdy (1k - 10k typ.) -  possibly higher, check power loss implication
-    see  [ADS111x](http://www.ti.com/lit/ds/symlink/ads1115.pdf)  Done.
-
-- no mask on holes that may have solder connections. Done. CHECK oscill. test point.
-
-- document parts actually used (substitues) in v0.1.0.
-
-- connect other ads chip pins to something on MCU?
-- connect  alert/rdy to gpio. (Determine how this is used first and test in breadboard).
-      Do not conflict with serial, lora or other?
+- v0.2.0 2025-0  testing notes. (Test files in crate SensorProject_t16  examples/ and src/bin/
+    - blink runs.           0.02 A  with 5v input  ( 0.04A with st-link still attached but not powered)
+    - blink_impl runs.      ditto
+    - text_i2c   fails      init() error BusWriteError because sda1 mistakenly wired to pb6 on pin 42
+    - lora_spi_send runs.   0.02 A  with 5v input  ( ditto )
 
 
--spice?
+- errors to fix:
+  - get correct footprint for MLZ1608N2R2LT000. 
+  - and Consider also switching to smaller footprints.
+  - AMS1117 regulator tab should connect to output not gnd!
+  - stlink plug clearance for larger ssd. & low profile? & 2x4 smt?
+  - I2C2 is used for ads bus but is labelled 1 in schematics.
+  - I2C for ssd is mistakenly labelled scl2, sda2 but closer to I2C1, but still wrong.  
+      It has wrong pin for sda1. It has pb6 pin 42 but needs PB7 (pin 43) or PB9 (pin 46).
+      These are UFQFPN48 pins 45 and 42
+  - consider labelling sda2 as pin b?, etc.
+  - pull-ups on ssd bus (mistakenly sda2 and scl2).
+  - label bt0 and nrst vs sw1 and sw2. And check they work.
+  - make boot1 pin 20 available to pull high. (Shared pin, if boot0 is high it is read at boot then available for other function?)
+  - reduce led brightness.
+  - add label for battery type CR1216 3v
+  - consider power led blink off on reset?
+  - switch antenna hole for ipex 1
+  - lablel MCO as pin b? and add MCO2
+  - Done. (See below.) check if it works with 3.2v through regulator.
+  - check what happens to RTC when VDD is gone and so NRST goes low.
+  - check if RTC works?
+  - check in rfm95 doc https://cdn.sparkfun.com/assets/learn_tutorials/8/0/4/RFM95_96_97_98W.pdf
+  - check HSE and LSE oscillating
+  - consider reverse-polarity-protection
+      https://electronics.stackexchange.com/questions/665044/which-reverse-polarity-protection-is-better-and-why  
+  - cleanup and recheck BOM
+       check, this was in ads... -- For part line 4 item #2 TSSOP-10_3x3mm_P0.5mm supplied part
+        ADS1115IDGSR   Texas Instruments  IC ADC 16BIT SIGMA-DELTA 10VSSOP  is  OK.
 
-Move Spi Reset from PA0 to PA1 because PA0 is reset/wkup for mcu. Done
+  - learn spice.
+  
+//////////////////////// Sensitivity to Power Suppy
+
+When running 3.2v battery into the regulator (instead of 5v) the system boots and radio transmits,
+however the temperature readings are high by nearly 10C.
+The system clock (HSI) also seems sensitive to the power supply.
+
+
+///////////////  Temperature sensitivity to power suppy.
+              (need to consider possibilities to compensate for this)
+
+Temperature values for different power sources:
+
+fixed resistors :                              J1: 10k  J2: 33k  J3: 100k    J4: sensor 
+    should give temperature:                   J1: 25C  J2: 0.2C J3: -19C     J4: ~22-24C
+
+power by programming dongle                    J1: 26.9 J2:  2.7 J3:-10.1    J4: 24.5
+power by programming dongle                    J1: 25.4 J2:  0.3 J3:-12.8    J4: 23.0
+power by programming dongle                    J1: 25.9 J2:  1.2 J3:-11.8    J4: 23.6 
+
+power by 3.2v thru regulator                   J1: 43.2 J2: 27.7 J3: 19.5    J4: 41.8
+power by 3.?v thru 3v I2Cx                     J1: 28.5 J2:  5.2 J3: -7.1    J4: 26.8
+power by 3.0v (weak LiFePo bat) thru 3v I2Cx   J1: 31.3 J2:  9.5 J3: -2.1    J4: 29.8
+power by 3.7v (weak USB bat) thru regulator    J1: 23.6 J2: -2.3 J3:-16.0    J4: 21.8 but timing is fast
+
+power by 5v USB charger thru regulator         J1: 23.7 J2: -2.2 J3:-15.9    J4: 21.5 
+power by 5v USB charger thru regulator         J1: 23.6 J2: -2.3 J3:-16.0    J4: 21.7 
+power by 5v USB charger thru regulator         J1: 23.7 J2: -2.3 J3:-16.0    J4: 21.0 
+power by 5v USB charger thru regulator         J1: 23.7 J2: -2.3 J3:-16.0    J4: 21.6
+
+power by 5v wall supply thru regulator         J1: 23.7 J2: -2.3 J3:-16.0    J4: 19.3
+power by 5v wall supply thru regulator         J1: 23.7 J2: -2.3 J3:-16.0    J4: 19.3
+
+
+It looks like voltage into the regulator should be at least 3.7v. 
+(Documentation suggests 1v dropout, so 4.3v.)
+The programming dongle does not appear to a provide good 3.3v supply.
+My adc temperature calculation algorithm needs fine tuning.
+
+
+/////////////// Need to examine clock sensitivity to power suppy.
 
 /////////////////////  RFM95  LoRa radio
 
@@ -65,17 +116,6 @@ See  https://www.mouser.ca/datasheet/2/975/1463993415RFM95_96_97_98W-1858106.pdf
 "A manual reset of the RFM95/96/97/98(W) is possible even for applications in which VDD cannot
 be physically disconnected. Pin 7 should be pulled low for a hundred microseconds, 
 and then released. The user should then wait for 5 ms before using the chip."
-
-
-///////////////////// 3D models added
-Private/3dmodels/RFM95_LoRa_v15.step  from multiplexI2C
-
-These go in
-${KICAD9_3DMODEL_DIR}/  which is
-/var/lib/flatpak/runtime/org.kicad.KiCad.Library.Packages3D/x86_64/stable/.../files/3dmodels/
-
-from https://kicad.github.io/packages3d/Package_DFN_QFN
-Package_DFN_QFN.3dshapes/QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm.wrl
 
 
 /////////////////////////////////////////////////////////////////////////////////////////
@@ -90,6 +130,8 @@ Package_DFN_QFN.3dshapes/QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm.wrl
 
 See README.md  History section 
 
+To see tags and tag message use  git tag -n 
+  
 ////////////////////////////////////////////////////////////////////////////////
 ///////////////     alternate equivalent  parts
 ////////////////////////////////////////////////////////////////////////////////
@@ -100,8 +142,5 @@ See README.md  History section
   Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"  or Cixi Kefa Elec	KF128-2.54-2P	or ...
 https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-2-54-2P_C474920.pdf
 
-////////////////////////////////////////////////////////////////////////////////
-///////////////     General Notes
-////////////////////////////////////////////////////////////////////////////////
+- See also file ProjectAlternateParts.txt for (very disorganized notes on other (non-equivalent) parts.
 
-- CHECK  The mounting hole centers are 44mm apart in x direction and 66.9 mm in y direction.

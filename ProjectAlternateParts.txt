@@ -10,10 +10,6 @@ Helps to set range delimiter to -
 
 - The crystals/capacitors need testing and may need adjustment. 
 
-- Possibly smaller dimension resistors and capacitors as on blackpill. This will
-make the footprints easier to move near the MCU, but unsure about cost as 
-finer pick and place is needed. 
-
 - Consider WLCSP version of MCU.
 
 - Consider putting MCU, crystals, leds, and switches on module board.
@@ -31,6 +27,46 @@ finer pick and place is needed.
     https://github.com/FabienFerrero/Antenna_Radiation_Measurement
     and other https://github.com/FabienFerrero/   repositories?
 
+/////////////////////  Resistors, Capacitors and some connectors
+
+- surface mount JST connectors not available in 2 connector. It is available for 3p and more.
+  through hole is JST part XH_B2B-XH-A
+  BM02B-XASS-TF(LF)(SN) is SMT but is XA connector, not sure it fits XH plugs
+    probably not according to 
+   https://www.mattmillman.com/info/crimpconnectors/common-jst-connector-types/#paxa
+
+
+Resistors and Capacitors  can be left blank on PCBWay and they use value and footprint to choose stock part
+
+//// PCBWay  supplied
+Samsung	CL10A105KA8NNNC	Unpolarized capacitor	1µF
+Samsung	CL10A475KP8NNNC	Unpolarized capacitor	4.7µF
+Samsung	CL10B104KB8NNNC	Unpolarized capacitor	0.1µF
+Samsung	CL10C100JB8NNNC	Unpolarized capacitor	10pF C0G, NP0, +/- 0.1pF
+TDK Corp    CGA3E2C0G1H040CT0Y0N	Unpolarized capacitor	4pF C0G, NP0, +/- 0.1pF
+Samsung	CL10B104KB8NNNC	Unpolarized capacitor	100nF
+
+Panasonic	ERJ3EKF6980V	Resistor, US symbol	698
+Yageo	RC0603FR-07274RL	Resistor, US symbol	274
+Yageo	RC0603FR-070RL	Resistor, US symbol	0
+Yageo	RC0603FR-07634RL	Resistor, US symbol	634  1%
+Vishay	CRCW060310K0FKEA	Resistor, US symbol	10k 1%
+
+JILN	22850104ANG1SYA01	PinSocket header 1x04  4P
+Cixi Kefa Elec	KF128-2.54-2P	Generic screw terminal, 01x02
+JILN	22850202ANG1SYA01	PinSocket header 2x02  4P
+JST	B2B-XH-A	Connector JST_B2B-XH-A_1x02
+
+
+//// Digikey available parts 
+
+Sullins Connector Solutions  PPPC041LFBN-RC  PinSocket header 1x04  4P
+
+/////////////////////  LoRa
+
+NiceRF  LoRa1276-C1-915 is sheilded pin compatible replacement for RFM95W-915S2 (both using Semtech RF transceiver chip SX1276)
+Also posibly hpdteks hpd13 module. 
+See https://www.rocketscream.com/blog/2017/08/21/the-sx1276-modules-shootout-hoperfs-rfm95w-vs-nicerfs-lora1276-c1-vs-hpdteks-hpd13/
 
 /////////////////////  Antenna
 
@@ -52,8 +88,8 @@ Even thought the chip is small these seem to require a large area of the pcb for
 
 Specified subject to finding good footprint. Temp using coilcraft_MA5532-AE_RFID which is about right size:
 
-//Other Antennas  
 
+//Other Antennas  
 
 Unictron Technologies Corporation AA066   (digikey  H2U646MHLQ0200)
 https://www.unictron.com/wireless-communications/wp-content/uploads/2021/04/AA066.pdf
@@ -96,6 +132,8 @@ https://electronics.stackexchange.com/questions/665044/which-reverse-polarity-pr
 
 
 /////////////////////  leds
+Resistance calculator:
+https://www.digikey.cn/en/resources/conversion-calculators/conversion-calculator-led-series-resistor
 
 blue:   Yongyu Photoelectric  yy0603bl-nn1s0-t2ar4  2.6~3.1v forward  0603 (1608 metric) 5ma 34~100mcd
                               yy0603bl-nz1s0-t2ar4 
