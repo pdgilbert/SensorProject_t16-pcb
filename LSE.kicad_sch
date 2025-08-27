@@ -593,7 +593,7 @@
 				)
 			)
 			(symbol "GND_LSE_1_1"
-				(pin power_out line
+				(pin power_in line
 					(at 0 0 270)
 					(length 0)
 					(name "~"
@@ -701,7 +701,7 @@
 				)
 			)
 			(symbol "NetTie_2_1_1"
-				(pin bidirectional line
+				(pin power_in line
 					(at -2.54 0 0)
 					(length 2.54)
 					(name "1"
@@ -719,7 +719,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_out line
 					(at 2.54 0 180)
 					(length 2.54)
 					(name "2"

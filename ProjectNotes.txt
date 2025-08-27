@@ -14,10 +14,6 @@ wall plate as used for audio or TV cable is a good option.
 
 The mounting hole centers are 44mm apart in x direction and 66.9 mm in y direction.
 
-Current software does not require RTC, or LSE, or HSE oscillator. 
-LSE and HSE are experimentation for future possibilities.
-
-
 ////////////////////////////////////////////////////////////////////////////////
 ///////////////            To Do
 ////////////////////////////////////////////////////////////////////////////////
@@ -34,36 +30,44 @@ wrong and has to be cut.
     - lora_spi_send runs.   0.02 A  with 5v input  ( ditto )
 
 
-- errors to fix:
-  - get correct footprint for MLZ1608N2R2LT000. 
-  - and Consider also switching to smaller footprints.
-  - AMS1117 regulator tab should connect to output not gnd!
+- errors/fixes:
+  - Done. get correct footprint L1 for MLZ1608N2R2LT000. 
+  - Done. AMS1117 regulator tab should connect to output not gnd!
   - stlink plug clearance for larger ssd. & low profile? & 2x4 smt?
-  - I2C2 is used for ads bus but is labelled 1 in schematics.
-  - I2C for ssd is mistakenly labelled scl2, sda2 but closer to I2C1, but still wrong.  
-      It has wrong pin for sda1. It has pb6 pin 42 but needs PB7 (pin 43) or PB9 (pin 46).
-      These are UFQFPN48 pins 45 and 42
-  - consider labelling sda2 as pin b?, etc.
-  - pull-ups on ssd bus (mistakenly sda2 and scl2).
-  - label bt0 and nrst vs sw1 and sw2. And check they work.
+  - Done. I2C2 is used for ads bus but is labelled 1 in schematics.
+  - Done. I2C for ssd is mistakenly labelled scl2, sda2. Closer to I2C1, but still wrong.  
+          It has wrong pin for sda1. It has b6 on pin 42 but needs b9 (pin 46 UFQFPN48).
+  - Done. consider labelling sda1 as pin b?, etc.
+  - Done. pull-ups on ssd bus (mistakenly sda2 and scl2).
+  - Done. label bt0 and nrst vs sw1 and sw2. And check they work.
   - make boot1 pin 20 available to pull high. (Shared pin, if boot0 is high it is read at boot then available for other function?)
+      (see notes https://community.st.com/t5/stm32-mcus-products/quadspi-and-boot1-with-stm32f446ret6/m-p/786873)
+           https://deepbluembedded.com/stm32-boot-modes-stm32-boot0-boot1-pins/
   - reduce led brightness.
-  - add label for battery type CR1216 3v
-  - consider power led blink off on reset?
-  - switch antenna hole for ipex 1
-  - lablel MCO as pin b? and add MCO2
+  - Done. add label for battery type CR1216 3v
+7  - switch antenna hole for ipex 1 NNED MANUF/PART/DATASHEET
+  - Done. label MCO as pin b? (MCO2 not possible with UFQFPN48 package).
   - Done. (See below.) check if it works with 3.2v through regulator.
-  - check what happens to RTC when VDD is gone and so NRST goes low.
-  - check if RTC works?
-  - check in rfm95 doc https://cdn.sparkfun.com/assets/learn_tutorials/8/0/4/RFM95_96_97_98W.pdf
-  - check HSE and LSE oscillating
-  - consider reverse-polarity-protection
-      https://electronics.stackexchange.com/questions/665044/which-reverse-polarity-protection-is-better-and-why  
+10  - check in rfm95 doc https://cdn.sparkfun.com/assets/learn_tutorials/8/0/4/RFM95_96_97_98W.pdf
   - cleanup and recheck BOM
        check, this was in ads... -- For part line 4 item #2 TSSOP-10_3x3mm_P0.5mm supplied part
         ADS1115IDGSR   Texas Instruments  IC ADC 16BIT SIGMA-DELTA 10VSSOP  is  OK.
+  - check question about some orientatins. led?
+  - different cheaper radio options?
 
-  - learn spice.
+-improvements:
+  - Consider switching to smaller footprints for R, C, and L.
+  - consider power led blink off on reset?
+  - consider reverse-polarity-protection
+      https://electronics.stackexchange.com/questions/665044/which-reverse-polarity-protection-is-better-and-why  
+- radio on same side as MCU.
+
+-testing:
+  - check what happens to RTC when VDD is gone and so NRST goes low.
+  - check if RTC works?
+  - check HSE and LSE oscillating
+
+- learn spice.
   
 //////////////////////// Sensitivity to Power Suppy
 
@@ -106,7 +110,26 @@ My adc temperature calculation algorithm needs fine tuning.
 
 /////////////// Need to examine clock sensitivity to power suppy.
 
+////////////////////////////////////////////////////////////////////////////////
+///////////////            LSE and HSE oscillators
+////////////////////////////////////////////////////////////////////////////////
+
+Current software does not require RTC, or LSE, or HSE oscillator. 
+LSE and HSE are experimentation for future possibilities.
+
+Regarding Master Clock Output on pins see 
+https://community.st.com/t5/stm32-mcus/how-can-i-output-a-clock-signal-to-the-stm32-s-mco-pin/ta-p/588222
+and
+https://aticleworld.com/stm32h573-mco-clock-output-configuration/
+
+From the datasheet, for UFQFPN48 chip, MCO_1 is on pa8 pin 29. 
+MCO_2 requires a 64 pin package to get pc9 so some diagnostics are not available.
+
+///  See ProjectAlternateParts.txt re alternative parts and especially xtal calculations
+
+////////////////////////////////////////////////////////////////////////////////
 /////////////////////  RFM95  LoRa radio
+////////////////////////////////////////////////////////////////////////////////
 
 Reset pin has internal pull-up.  Do not hold low for long. Leaving it floating mostly works 
 but connect to an io pin for programable reset. 
@@ -118,19 +141,13 @@ be physically disconnected. Pin 7 should be pulled low for a hundred microsecond
 and then released. The user should then wait for 5 ms before using the chip."
 
 
-/////////////////////////////////////////////////////////////////////////////////////////
-///  See ProjectAlternateParts.txt re alternative parts and especially xtal calculations
-///  See BOM.csv re specified selections
-/////////////////////////////////////////////////////////////////////////////////////////
-
-
 ////////////////////////////////////////////////////////////////////////////////
 ///////////////     tags and versions
 ////////////////////////////////////////////////////////////////////////////////
 
 See README.md  History section 
 
-To see tags and tag message use  git tag -n 
+To see tags and tag messages use  git tag -n 
   
 ////////////////////////////////////////////////////////////////////////////////
 ///////////////     alternate equivalent  parts

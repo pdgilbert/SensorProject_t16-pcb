@@ -2579,16 +2579,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "PA8 Hz_out"
-		(exclude_from_sim no)
-		(at 176.53 87.376 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6ff51f13-314f-49d7-8a37-233ca47cf848")
-	)
 	(junction
 		(at 170.18 46.99)
 		(diameter 0)
@@ -2650,12 +2640,12 @@
 		(uuid "feac5291-44e9-45ac-b5c3-2f3ef6768216")
 	)
 	(no_connect
-		(at 127 128.27)
-		(uuid "3e1c4d98-576b-4064-b568-c97cc108b8da")
+		(at 127 110.49)
+		(uuid "2001b1d3-5c37-4e7b-a9f8-3b3da4f4e849")
 	)
 	(no_connect
-		(at 127 118.11)
-		(uuid "3e34603a-9b0f-41b4-a2b9-f82655064bb1")
+		(at 127 128.27)
+		(uuid "3e1c4d98-576b-4064-b568-c97cc108b8da")
 	)
 	(no_connect
 		(at 162.56 105.41)
@@ -2978,16 +2968,6 @@
 		)
 		(uuid "1d5e4dd0-3966-4d69-8c8b-cbb7744d5415")
 	)
-	(wire
-		(pts
-			(xy 127 110.49) (xy 110.49 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20ffde35-dd2b-455e-b628-49005b507985")
-	)
 	(bus
 		(pts
 			(xy 210.82 80.01) (xy 210.82 82.55)
@@ -3157,6 +3137,16 @@
 			(type default)
 		)
 		(uuid "459e8f50-b849-41ff-91ee-3c555ce78788")
+	)
+	(wire
+		(pts
+			(xy 110.49 144.78) (xy 110.49 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48677cdc-3822-4d96-a59f-ce8e1e359524")
 	)
 	(wire
 		(pts
@@ -3520,16 +3510,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 110.49) (xy 110.49 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba291b12-2c7b-488b-81e3-ae83e78fa706")
-	)
-	(wire
-		(pts
 			(xy 102.87 91.44) (xy 127 91.44)
 		)
 		(stroke
@@ -3770,6 +3750,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 118.11) (xy 127 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbaecaa9-687d-4883-a7b1-1d8c91b8e19c")
+	)
+	(wire
+		(pts
 			(xy 73.66 85.09) (xy 127 85.09)
 		)
 		(stroke
@@ -3798,7 +3788,7 @@
 		)
 		(uuid "012b19d9-bc9d-44ba-b592-1318ab08de09")
 	)
-	(label "SDA2"
+	(label "SDA1"
 		(at 74.93 144.78 0)
 		(effects
 			(font
@@ -3808,7 +3798,7 @@
 		)
 		(uuid "0c20db99-5726-4518-a94f-e28988e20f78")
 	)
-	(label "SDA1"
+	(label "SDA2"
 		(at 80.01 124.46 0)
 		(effects
 			(font
@@ -3848,7 +3838,7 @@
 		)
 		(uuid "2f736ac9-f37e-4ff1-9290-3fb373a47670")
 	)
-	(label "SCL1"
+	(label "SCL2"
 		(at 80.01 120.65 0)
 		(effects
 			(font
@@ -3888,7 +3878,7 @@
 		)
 		(uuid "642115d2-4b69-46d3-9c30-5fa6668a617f")
 	)
-	(label "SCL2"
+	(label "SCL1"
 		(at 74.93 140.97 0)
 		(effects
 			(font
@@ -3980,7 +3970,7 @@
 			)
 		)
 	)
-	(global_label "{SCL2 SDA2}"
+	(global_label "{SCL1 SDA1}"
 		(shape input)
 		(at 72.39 139.7 180)
 		(fields_autoplaced yes)
@@ -4046,7 +4036,7 @@
 			)
 		)
 	)
-	(global_label "{SCL1 SDA1}"
+	(global_label "{SCL2 SDA2}"
 		(shape input)
 		(at 72.39 115.57 180)
 		(fields_autoplaced yes)
@@ -4280,8 +4270,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "THTPad"
-			(at 177.546 89.154 0)
+		(property "Value" "a8 MCO"
+			(at 171.958 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5379,7 +5369,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "BT0"
 			(at 58.42 54.61 0)
 			(effects
 				(font
@@ -5587,7 +5577,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "RST"
 			(at 71.12 34.29 0)
 			(effects
 				(font
