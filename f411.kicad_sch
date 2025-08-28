@@ -4117,7 +4117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 64.77 63.5 0)
 			(effects
 				(font
@@ -4570,7 +4570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411111206_JILN-22850210ANG1SYA01_C41431943.pdf"
+		(property "Datasheet" "~"
 			(at 189.23 109.22 0)
 			(effects
 				(font
@@ -4579,7 +4579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "PinSocket header 2x02  4P"
+		(property "Description" "Generic connector, single row, 01x04, script generated"
 			(at 189.23 109.22 0)
 			(effects
 				(font
@@ -4764,7 +4764,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 123.19 139.7 0)
 			(effects
 				(font
@@ -4868,7 +4868,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APHD1608LVBC-D.pdf"
+		(property "Datasheet" "~"
 			(at 69.85 85.09 0)
 			(effects
 				(font
@@ -4877,7 +4877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode blue"
+		(property "Description" "Light emitting diode"
 			(at 69.85 85.09 0)
 			(effects
 				(font
@@ -5114,7 +5114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 96.52 109.22 0)
 			(effects
 				(font
@@ -5283,7 +5283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 67.31 44.45 0)
 			(effects
 				(font
@@ -5386,7 +5386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 58.42 54.61 0)
 			(effects
 				(font
@@ -5491,7 +5491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 170.18 50.8 0)
 			(effects
 				(font
@@ -5594,7 +5594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 71.12 34.29 0)
 			(effects
 				(font
@@ -5709,7 +5709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Arm Cortex-M4 MCU, 512KB flash, 128KB RAM,  1.7-3.6V, UFQFPN48"
+		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 512KB flash, 128KB RAM, 100 MHz, 1.7-3.6V, 36 GPIO, UFQFPN48"
 			(at 144.78 102.87 0)
 			(effects
 				(font
@@ -6075,7 +6075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 170.18 43.18 0)
 			(effects
 				(font
@@ -6386,7 +6386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.cn/en/products/detail/kingbright/APTD1608LSECK-J3-PF/5177446"
+		(property "Datasheet" "~"
 			(at 41.91 72.39 0)
 			(effects
 				(font
@@ -6395,7 +6395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode red"
+		(property "Description" "Light emitting diode"
 			(at 41.91 72.39 0)
 			(effects
 				(font
@@ -6567,7 +6567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 93.98 40.64 0)
 			(effects
 				(font
@@ -6737,7 +6737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 62.23 85.09 0)
 			(effects
 				(font
@@ -6840,7 +6840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 41.91 80.01 0)
 			(effects
 				(font

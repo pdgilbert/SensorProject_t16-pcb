@@ -32,35 +32,39 @@ wrong and has to be cut.
 
 - errors/fixes:
   - Done. get correct footprint L1 for MLZ1608N2R2LT000. 
-  - Done. AMS1117 regulator tab should connect to output not gnd!
-  - stlink plug clearance for larger ssd. & low profile? & 2x4 smt?
+  - Done. AMS1117 regulator tab should connect to output not gnd! BEWARE require symbol edit pin 4 GND -> VO
+             and watch it does not reset as updating symbol may mess this up. REPORT SYMBOL BUG? maybe both ? and ?_tab2
   - Done. I2C2 is used for ads bus but is labelled 1 in schematics.
   - Done. I2C for ssd is mistakenly labelled scl2, sda2. Closer to I2C1, but still wrong.  
-          It has wrong pin for sda1. It has b6 on pin 42 but needs b9 (pin 46 UFQFPN48).
+          v0.2.0 2025-0 has wrong pin for sda1. It has b6 on pin 42 but needs b9 (pin 46 UFQFPN48).
   - Done. consider labelling sda1 as pin b?, etc.
   - Done. pull-ups on ssd bus (mistakenly sda2 and scl2).
   - Done. label bt0 and nrst vs sw1 and sw2. And check they work.
+  - Done. add label for battery type CR1216 3v
+  - Done. switch antenna hole for U.FL-R-SMT-1 (ipex 1). 
+          Added zone GND_ANT on RFM pin10 since it is closest to ant pin, but there is no documention about 
+          which gnd pin to use, or even suggesting analog and digital grd parts of RFM are separated.
+  - Done. label MCO as pin b? (MCO2 not possible with UFQFPN48 package).
+  - Done. (See below.) check if it works with 3.2v through regulator.
+  - Done. check in rfm95 doc https://cdn.sparkfun.com/assets/learn_tutorials/8/0/4/RFM95_96_97_98W.pdf
+12  - cleanup and recheck BOM
+       check, this was in ads... -- For part line 4 item #2 TSSOP-10_3x3mm_P0.5mm supplied part
+        ADS1115IDGSR   Texas Instruments  IC ADC 16BIT SIGMA-DELTA 10VSSOP  is  OK.
+11  - check question about some orientatins. led?
+  - reduce led brightness.
+  - stlink plug clearance for larger ssd. & low profile? & 2x4 smt?
   - make boot1 pin 20 available to pull high. (Shared pin, if boot0 is high it is read at boot then available for other function?)
       (see notes https://community.st.com/t5/stm32-mcus-products/quadspi-and-boot1-with-stm32f446ret6/m-p/786873)
            https://deepbluembedded.com/stm32-boot-modes-stm32-boot0-boot1-pins/
-  - reduce led brightness.
-  - Done. add label for battery type CR1216 3v
-7  - switch antenna hole for ipex 1 NNED MANUF/PART/DATASHEET
-  - Done. label MCO as pin b? (MCO2 not possible with UFQFPN48 package).
-  - Done. (See below.) check if it works with 3.2v through regulator.
-10  - check in rfm95 doc https://cdn.sparkfun.com/assets/learn_tutorials/8/0/4/RFM95_96_97_98W.pdf
-  - cleanup and recheck BOM
-       check, this was in ads... -- For part line 4 item #2 TSSOP-10_3x3mm_P0.5mm supplied part
-        ADS1115IDGSR   Texas Instruments  IC ADC 16BIT SIGMA-DELTA 10VSSOP  is  OK.
-  - check question about some orientatins. led?
-  - different cheaper radio options?
 
 -improvements:
+  - Consider different cheaper radio options?
   - Consider switching to smaller footprints for R, C, and L.
+  - radio on same side as MCU.
+  - mv R23 and R25 to same side as MCU and radio and eliminate PTH in MCU area.
   - consider power led blink off on reset?
   - consider reverse-polarity-protection
       https://electronics.stackexchange.com/questions/665044/which-reverse-polarity-protection-is-better-and-why  
-- radio on same side as MCU.
 
 -testing:
   - check what happens to RTC when VDD is gone and so NRST goes low.

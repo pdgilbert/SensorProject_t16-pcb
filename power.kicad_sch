@@ -129,7 +129,7 @@
 				(pin power_in line
 					(at 2.54 -7.62 90)
 					(length 2.54)
-					(name "GND"
+					(name "VO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2285,7 +2285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 111.76 91.44 0)
 			(effects
 				(font
@@ -2389,7 +2389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 102.87 91.44 0)
 			(effects
 				(font
@@ -2494,7 +2494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=BAT-HLD-012-SMT&DocType=Data+Sheet&DocLang=English&DocFormat=pdf&PartCntxt=BAT-HLD-012-SMT"
+		(property "Datasheet" "~"
 			(at 160.02 121.666 90)
 			(effects
 				(font
@@ -2503,7 +2503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "battery retainer coin 12mm smd"
+		(property "Description" "Single-cell battery"
 			(at 160.02 123.19 0)
 			(effects
 				(font
@@ -2613,7 +2613,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 152.4 68.58 0)
 			(effects
 				(font
@@ -2622,7 +2622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, 01x02"
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 152.4 68.58 0)
 			(effects
 				(font
@@ -2857,7 +2857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 85.09 91.44 0)
 			(effects
 				(font
@@ -2962,7 +2962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.comchiptech.com/admin/files/product/QW-JB083%20BAT54-HF%20Series%20RevA.pdf"
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf"
 			(at 142.748 118.11 0)
 			(effects
 				(font
@@ -3079,7 +3079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 156.21 99.06 0)
 			(effects
 				(font
@@ -3185,7 +3185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 119.38 71.12 0)
 			(effects
 				(font
@@ -3421,7 +3421,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 95.25 91.44 0)
 			(effects
 				(font
