@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.8,
-          "width": 0.9
+          "height": 10.2,
+          "width": 10.2
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -597,7 +597,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "outputs/BOM_OctoPart.csv",
+    "bom_export_filename": "outputs/BOM_revising.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ";",
@@ -606,7 +606,7 @@
       "name": "---",
       "ref_delimiter": ",",
       "ref_range_delimiter": "-",
-      "string_delimiter": ""
+      "string_delimiter": "'"
     },
     "bom_presets": [
       {
@@ -836,6 +836,137 @@
         "sort_field": "Reference"
       },
       {
+        "exclude_dnp": false,
+        "fields_ordered": [
+          {
+            "group_by": false,
+            "label": "#",
+            "name": "${ITEM_NUMBER}",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Reference",
+            "name": "Reference",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Qty",
+            "name": "${QUANTITY}",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "MountType",
+            "name": "MountType",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "DNP",
+            "name": "${DNP}",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "Value",
+            "name": "Value",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Manufacturer",
+            "name": "Manufacturer",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "MfgPart",
+            "name": "MfgPart",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Description",
+            "name": "Description",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Package",
+            "name": "Package",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Footprint",
+            "name": "Footprint",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Exclude from Board",
+            "name": "${EXCLUDE_FROM_BOARD}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Exclude from Simulation",
+            "name": "${EXCLUDE_FROM_SIM}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Notes",
+            "name": "Notes",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Exclude from BOM",
+            "name": "${EXCLUDE_FROM_BOM}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Datasheet",
+            "name": "Datasheet",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "pads",
+            "name": "pads",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Manuf Series",
+            "name": "Manuf Series",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Manuf Part",
+            "name": "Manuf Part",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Note",
+            "name": "Note",
+            "show": false
+          }
+        ],
+        "filter_string": "",
+        "group_symbols": true,
+        "include_excluded_from_bom": false,
+        "name": "PCBway_revised",
+        "sort_asc": true,
+        "sort_field": "${DNP}"
+      },
+      {
         "exclude_dnp": true,
         "fields_ordered": [
           {
@@ -984,8 +1115,20 @@
         },
         {
           "group_by": false,
+          "label": "MountType",
+          "name": "MountType",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Value",
+          "name": "Value",
           "show": true
         },
         {
@@ -1007,16 +1150,16 @@
           "show": true
         },
         {
-          "group_by": true,
-          "label": "Value",
-          "name": "Value",
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
           "show": true
         },
         {
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -1029,12 +1172,6 @@
           "label": "Exclude from Simulation",
           "name": "${EXCLUDE_FROM_SIM}",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MountType",
-          "name": "MountType",
-          "show": true
         },
         {
           "group_by": false,
@@ -1084,7 +1221,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "${DNP}"
     },
     "connection_grid_size": 50.0,
     "drawing": {

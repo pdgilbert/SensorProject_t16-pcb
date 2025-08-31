@@ -2957,7 +2957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 120.65 85.09 0)
 			(effects
 				(font
@@ -3003,6 +3003,24 @@
 			)
 		)
 		(property "MfgPart" "CL10B104KB8NNNC"
+			(at 120.65 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "C_0603_1608Metric"
+			(at 120.65 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 120.65 85.09 90)
 			(effects
 				(font
@@ -3060,7 +3078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 76.2 227.33 0)
 			(effects
 				(font
@@ -3069,7 +3087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "JST connector, 01x02"
 			(at 76.2 227.33 0)
 			(effects
 				(font
@@ -3115,6 +3133,15 @@
 			)
 		)
 		(property "pads" "2"
+			(at 76.2 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 76.2 227.33 0)
 			(effects
 				(font
@@ -3225,6 +3252,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Package" "TSSOP-10_3x3mm_P0.5mm"
+			(at 125.73 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
+			(at 125.73 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3368,7 +3413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 135.89 91.44 0)
 			(effects
 				(font
@@ -3414,6 +3459,24 @@
 			)
 		)
 		(property "MfgPart" "CRCW060310K0FKEA"
+			(at 135.89 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "R_0603_1608Metric"
+			(at 135.89 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 135.89 91.44 0)
 			(effects
 				(font
@@ -3471,7 +3534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 44.45 250.19 0)
 			(effects
 				(font
@@ -3480,7 +3543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "JST connector, 01x02"
 			(at 44.45 250.19 0)
 			(effects
 				(font
@@ -3526,6 +3589,15 @@
 			)
 		)
 		(property "pads" "2"
+			(at 44.45 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 44.45 250.19 0)
 			(effects
 				(font
@@ -3780,7 +3852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 43.18 184.15 0)
 			(effects
 				(font
@@ -3789,7 +3861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "JST connector, 01x02"
 			(at 43.18 184.15 0)
 			(effects
 				(font
@@ -3835,6 +3907,15 @@
 			)
 		)
 		(property "pads" "2"
+			(at 43.18 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 43.18 184.15 0)
 			(effects
 				(font
@@ -3895,7 +3976,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 143.51 39.37 0)
 			(effects
 				(font
@@ -3941,6 +4022,24 @@
 			)
 		)
 		(property "MfgPart" "CRCW060310K0FKEA"
+			(at 143.51 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "R_0603_1608Metric"
+			(at 143.51 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 143.51 39.37 0)
 			(effects
 				(font
@@ -4129,7 +4228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 76.2 172.72 0)
 			(effects
 				(font
@@ -4138,7 +4237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "JST connector, 01x02"
 			(at 76.2 172.72 0)
 			(effects
 				(font
@@ -4184,6 +4283,15 @@
 			)
 		)
 		(property "pads" "2"
+			(at 76.2 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 76.2 172.72 0)
 			(effects
 				(font
@@ -4243,7 +4351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 135.89 147.32 0)
 			(effects
 				(font
@@ -4289,6 +4397,24 @@
 			)
 		)
 		(property "MfgPart" "CRCW060310K0FKEA"
+			(at 135.89 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "R_0603_1608Metric"
+			(at 135.89 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 135.89 147.32 0)
 			(effects
 				(font
@@ -4481,7 +4607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 81.28 196.85 0)
 			(effects
 				(font
@@ -4527,6 +4653,24 @@
 			)
 		)
 		(property "MfgPart" "CRCW060310K0FKEA"
+			(at 81.28 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "R_0603_1608Metric"
+			(at 81.28 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 81.28 196.85 0)
 			(effects
 				(font
@@ -4650,7 +4794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 43.18 214.63 0)
 			(effects
 				(font
@@ -4659,7 +4803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "JST connector, 01x02"
 			(at 43.18 214.63 0)
 			(effects
 				(font
@@ -4705,6 +4849,15 @@
 			)
 		)
 		(property "pads" "2"
+			(at 43.18 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 43.18 214.63 0)
 			(effects
 				(font
@@ -4831,7 +4984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 48.26 153.67 0)
 			(effects
 				(font
@@ -4877,6 +5030,24 @@
 			)
 		)
 		(property "MfgPart" "CRCW060310K0FKEA"
+			(at 48.26 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "R_0603_1608Metric"
+			(at 48.26 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 48.26 153.67 0)
 			(effects
 				(font
@@ -5132,7 +5303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 44.45 127 0)
 			(effects
 				(font
@@ -5141,7 +5312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "JST connector, 01x02"
 			(at 44.45 127 0)
 			(effects
 				(font
@@ -5187,6 +5358,15 @@
 			)
 		)
 		(property "pads" "2"
+			(at 44.45 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 44.45 127 0)
 			(effects
 				(font
@@ -5244,7 +5424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 73.66 148.59 0)
 			(effects
 				(font
@@ -5253,7 +5433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "JST connector, 01x02"
 			(at 73.66 148.59 0)
 			(effects
 				(font
@@ -5299,6 +5479,15 @@
 			)
 		)
 		(property "pads" "2"
+			(at 73.66 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 73.66 148.59 0)
 			(effects
 				(font
@@ -5490,7 +5679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 78.74 50.8 0)
 			(effects
 				(font
@@ -5536,6 +5725,24 @@
 			)
 		)
 		(property "MfgPart" "CRCW060310K0FKEA"
+			(at 78.74 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "R_0603_1608Metric"
+			(at 78.74 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 78.74 50.8 0)
 			(effects
 				(font
@@ -5595,7 +5802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 138.43 201.93 0)
 			(effects
 				(font
@@ -5641,6 +5848,24 @@
 			)
 		)
 		(property "MfgPart" "CRCW060310K0FKEA"
+			(at 138.43 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "R_0603_1608Metric"
+			(at 138.43 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 138.43 201.93 0)
 			(effects
 				(font
@@ -5860,6 +6085,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" ""
+			(at 19.05 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "SensorProject_t16-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
@@ -5903,7 +6137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 43.18 39.37 0)
 			(effects
 				(font
@@ -5912,7 +6146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "JST connector, 01x02"
 			(at 43.18 39.37 0)
 			(effects
 				(font
@@ -5958,6 +6192,15 @@
 			)
 		)
 		(property "pads" "2"
+			(at 43.18 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 43.18 39.37 0)
 			(effects
 				(font
@@ -6082,7 +6325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 81.28 223.52 0)
 			(effects
 				(font
@@ -6128,6 +6371,24 @@
 			)
 		)
 		(property "MfgPart" "CRCW060310K0FKEA"
+			(at 81.28 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "R_0603_1608Metric"
+			(at 81.28 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 81.28 223.52 0)
 			(effects
 				(font
@@ -6186,7 +6447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 120.65 24.13 0)
 			(effects
 				(font
@@ -6232,6 +6493,24 @@
 			)
 		)
 		(property "MfgPart" "CL10B104KB8NNNC"
+			(at 120.65 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "C_0603_1608Metric"
+			(at 120.65 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 120.65 24.13 90)
 			(effects
 				(font
@@ -6311,6 +6590,15 @@
 			)
 		)
 		(property "pads" ""
+			(at 19.05 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 19.05 260.35 0)
 			(effects
 				(font
@@ -6427,7 +6715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 43.18 157.48 0)
 			(effects
 				(font
@@ -6436,7 +6724,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "JST connector, 01x02"
 			(at 43.18 157.48 0)
 			(effects
 				(font
@@ -6482,6 +6770,15 @@
 			)
 		)
 		(property "pads" "2"
+			(at 43.18 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 43.18 157.48 0)
 			(effects
 				(font
@@ -6542,7 +6839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 78.74 111.76 0)
 			(effects
 				(font
@@ -6588,6 +6885,24 @@
 			)
 		)
 		(property "MfgPart" "CRCW060310K0FKEA"
+			(at 78.74 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "R_0603_1608Metric"
+			(at 78.74 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 78.74 111.76 0)
 			(effects
 				(font
@@ -6648,7 +6963,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 78.74 144.78 0)
 			(effects
 				(font
@@ -6694,6 +7009,24 @@
 			)
 		)
 		(property "MfgPart" "CRCW060310K0FKEA"
+			(at 78.74 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "R_0603_1608Metric"
+			(at 78.74 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 78.74 144.78 0)
 			(effects
 				(font
@@ -6819,7 +7152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 135.89 29.21 0)
 			(effects
 				(font
@@ -6865,6 +7198,24 @@
 			)
 		)
 		(property "MfgPart" "CRCW060310K0FKEA"
+			(at 135.89 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "R_0603_1608Metric"
+			(at 135.89 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 135.89 29.21 0)
 			(effects
 				(font
@@ -7055,7 +7406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 123.19 196.85 0)
 			(effects
 				(font
@@ -7101,6 +7452,24 @@
 			)
 		)
 		(property "MfgPart" "CL10B104KB8NNNC"
+			(at 123.19 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "C_0603_1608Metric"
+			(at 123.19 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 123.19 196.85 90)
 			(effects
 				(font
@@ -7358,7 +7727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 48.26 62.23 0)
 			(effects
 				(font
@@ -7404,6 +7773,24 @@
 			)
 		)
 		(property "MfgPart" "CRCW060310K0FKEA"
+			(at 48.26 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "R_0603_1608Metric"
+			(at 48.26 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 48.26 62.23 0)
 			(effects
 				(font
@@ -7780,6 +8167,24 @@
 				)
 			)
 		)
+		(property "Package" "TSSOP-10_3x3mm_P0.5mm"
+			(at 128.27 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
+			(at 128.27 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "90cf3445-9083-4465-beaa-8e088ff6ee88")
 		)
@@ -7923,7 +8328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411111206_JILN-22850104ANG1SYA01_C41431927.pdf"
 			(at 156.21 102.87 0)
 			(effects
 				(font
@@ -7932,7 +8337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" "PinSocket connector, 01x04"
 			(at 156.21 102.87 0)
 			(effects
 				(font
@@ -7983,6 +8388,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Package" "PinSocket_1x04_P2.54mm_Vertical"
+			(at 156.21 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -8062,6 +8476,15 @@
 			)
 		)
 		(property "pads" ""
+			(at 170.18 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 170.18 227.33 0)
 			(effects
 				(font
@@ -8275,6 +8698,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" ""
+			(at 199.39 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "SensorProject_t16-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
@@ -8384,7 +8816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 43.18 66.04 0)
 			(effects
 				(font
@@ -8393,7 +8825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "JST connector, 01x02"
 			(at 43.18 66.04 0)
 			(effects
 				(font
@@ -8439,6 +8871,15 @@
 			)
 		)
 		(property "pads" "2"
+			(at 43.18 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 43.18 66.04 0)
 			(effects
 				(font
@@ -8497,7 +8938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 120.65 142.24 0)
 			(effects
 				(font
@@ -8543,6 +8984,24 @@
 			)
 		)
 		(property "MfgPart" "CL10B104KB8NNNC"
+			(at 120.65 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "C_0603_1608Metric"
+			(at 120.65 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 120.65 142.24 90)
 			(effects
 				(font
@@ -9379,6 +9838,24 @@
 				)
 			)
 		)
+		(property "Package" "TSSOP-10_3x3mm_P0.5mm"
+			(at 125.73 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
+			(at 125.73 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "724d85fa-3334-4ead-8108-5bb9bd87a679")
 		)
@@ -9455,7 +9932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 172.72 113.03 0)
 			(effects
 				(font
@@ -9501,6 +9978,24 @@
 			)
 		)
 		(property "MfgPart" "CRCW060310K0FKEA"
+			(at 172.72 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "R_0603_1608Metric"
+			(at 172.72 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 172.72 113.03 0)
 			(effects
 				(font
@@ -9760,7 +10255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 48.26 35.56 0)
 			(effects
 				(font
@@ -9806,6 +10301,24 @@
 			)
 		)
 		(property "MfgPart" "CRCW060310K0FKEA"
+			(at 48.26 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "R_0603_1608Metric"
+			(at 48.26 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 48.26 35.56 0)
 			(effects
 				(font
@@ -9928,7 +10441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 73.66 27.94 0)
 			(effects
 				(font
@@ -9937,7 +10450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "JST connector, 01x02"
 			(at 73.66 27.94 0)
 			(effects
 				(font
@@ -9983,6 +10496,15 @@
 			)
 		)
 		(property "pads" "2"
+			(at 73.66 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 73.66 27.94 0)
 			(effects
 				(font
@@ -10043,7 +10565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 78.74 24.13 0)
 			(effects
 				(font
@@ -10089,6 +10611,24 @@
 			)
 		)
 		(property "MfgPart" "CRCW060310K0FKEA"
+			(at 78.74 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "R_0603_1608Metric"
+			(at 78.74 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 78.74 24.13 0)
 			(effects
 				(font
@@ -10215,7 +10755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 172.72 97.79 0)
 			(effects
 				(font
@@ -10261,6 +10801,24 @@
 			)
 		)
 		(property "MfgPart" "CRCW060310K0FKEA"
+			(at 172.72 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "R_0603_1608Metric"
+			(at 172.72 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 172.72 97.79 0)
 			(effects
 				(font
@@ -10387,7 +10945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 49.53 123.19 0)
 			(effects
 				(font
@@ -10433,6 +10991,24 @@
 			)
 		)
 		(property "MfgPart" "CRCW060310K0FKEA"
+			(at 49.53 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "R_0603_1608Metric"
+			(at 49.53 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 49.53 123.19 0)
 			(effects
 				(font
@@ -10493,7 +11069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 48.26 210.82 0)
 			(effects
 				(font
@@ -10539,6 +11115,24 @@
 			)
 		)
 		(property "MfgPart" "CRCW060310K0FKEA"
+			(at 48.26 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "R_0603_1608Metric"
+			(at 48.26 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 48.26 210.82 0)
 			(effects
 				(font
@@ -10596,7 +11190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 76.2 200.66 0)
 			(effects
 				(font
@@ -10605,7 +11199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "JST connector, 01x02"
 			(at 76.2 200.66 0)
 			(effects
 				(font
@@ -10651,6 +11245,15 @@
 			)
 		)
 		(property "pads" "2"
+			(at 76.2 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 76.2 200.66 0)
 			(effects
 				(font
@@ -10777,7 +11380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 49.53 246.38 0)
 			(effects
 				(font
@@ -10823,6 +11426,24 @@
 			)
 		)
 		(property "MfgPart" "CRCW060310K0FKEA"
+			(at 49.53 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "R_0603_1608Metric"
+			(at 49.53 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 49.53 246.38 0)
 			(effects
 				(font
@@ -10949,7 +11570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 50.8 96.52 0)
 			(effects
 				(font
@@ -10995,6 +11616,24 @@
 			)
 		)
 		(property "MfgPart" "CRCW060310K0FKEA"
+			(at 50.8 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "R_0603_1608Metric"
+			(at 50.8 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 50.8 96.52 0)
 			(effects
 				(font
@@ -11055,7 +11694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 48.26 180.34 0)
 			(effects
 				(font
@@ -11101,6 +11740,24 @@
 			)
 		)
 		(property "MfgPart" "CRCW060310K0FKEA"
+			(at 48.26 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "R_0603_1608Metric"
+			(at 48.26 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 48.26 180.34 0)
 			(effects
 				(font
@@ -11158,7 +11815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 73.66 54.61 0)
 			(effects
 				(font
@@ -11167,7 +11824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "JST connector, 01x02"
 			(at 73.66 54.61 0)
 			(effects
 				(font
@@ -11213,6 +11870,15 @@
 			)
 		)
 		(property "pads" "2"
+			(at 73.66 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 73.66 54.61 0)
 			(effects
 				(font
@@ -11338,7 +12004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 81.28 168.91 0)
 			(effects
 				(font
@@ -11384,6 +12050,24 @@
 			)
 		)
 		(property "MfgPart" "CRCW060310K0FKEA"
+			(at 81.28 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "R_0603_1608Metric"
+			(at 81.28 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 81.28 168.91 0)
 			(effects
 				(font
@@ -11441,7 +12125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 73.66 88.9 0)
 			(effects
 				(font
@@ -11450,7 +12134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "JST connector, 01x02"
 			(at 73.66 88.9 0)
 			(effects
 				(font
@@ -11496,6 +12180,15 @@
 			)
 		)
 		(property "pads" "2"
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 73.66 88.9 0)
 			(effects
 				(font
@@ -11553,7 +12246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 73.66 115.57 0)
 			(effects
 				(font
@@ -11562,7 +12255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "JST connector, 01x02"
 			(at 73.66 115.57 0)
 			(effects
 				(font
@@ -11608,6 +12301,15 @@
 			)
 		)
 		(property "pads" "2"
+			(at 73.66 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 73.66 115.57 0)
 			(effects
 				(font
@@ -11734,7 +12436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 78.74 85.09 0)
 			(effects
 				(font
@@ -11780,6 +12482,24 @@
 			)
 		)
 		(property "MfgPart" "CRCW060310K0FKEA"
+			(at 78.74 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "R_0603_1608Metric"
+			(at 78.74 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 78.74 85.09 0)
 			(effects
 				(font
@@ -11840,7 +12560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 154.94 36.83 0)
 			(effects
 				(font
@@ -11886,6 +12606,24 @@
 			)
 		)
 		(property "MfgPart" "CRCW060310K0FKEA"
+			(at 154.94 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "R_0603_1608Metric"
+			(at 154.94 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 154.94 36.83 0)
 			(effects
 				(font
@@ -12009,7 +12747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 45.72 100.33 0)
 			(effects
 				(font
@@ -12018,7 +12756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "JST connector, 01x02"
 			(at 45.72 100.33 0)
 			(effects
 				(font
@@ -12064,6 +12802,15 @@
 			)
 		)
 		(property "pads" "2"
+			(at 45.72 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 45.72 100.33 0)
 			(effects
 				(font
@@ -12174,6 +12921,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Package" "TSSOP-10_3x3mm_P0.5mm"
+			(at 125.73 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
+			(at 125.73 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"

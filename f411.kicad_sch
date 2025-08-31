@@ -4117,7 +4117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 64.77 63.5 0)
 			(effects
 				(font
@@ -4163,6 +4163,24 @@
 			)
 		)
 		(property "MfgPart" "CRCW060310K0FKEA"
+			(at 64.77 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "R_0603_1608Metric"
+			(at 64.77 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 64.77 63.5 0)
 			(effects
 				(font
@@ -4321,6 +4339,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Package" ""
+			(at 167.64 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4570,7 +4597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 189.23 109.22 0)
 			(effects
 				(font
@@ -4579,7 +4606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" "PinSocket connector, 02x02"
 			(at 189.23 109.22 0)
 			(effects
 				(font
@@ -4633,6 +4660,15 @@
 			)
 		)
 		(property "pads" "4"
+			(at 189.23 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "PinSocket_2x02_P2.54mm_Vertical"
 			(at 189.23 109.22 0)
 			(effects
 				(font
@@ -4764,7 +4800,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 123.19 139.7 0)
 			(effects
 				(font
@@ -4810,6 +4846,24 @@
 			)
 		)
 		(property "MfgPart" "CL10A475KP8NNNC"
+			(at 123.19 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "C_0603_1608Metric"
+			(at 123.19 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 123.19 139.7 0)
 			(effects
 				(font
@@ -4868,7 +4922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 69.85 85.09 0)
 			(effects
 				(font
@@ -4923,6 +4977,15 @@
 			)
 		)
 		(property "pads" "2"
+			(at 69.85 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LED_0603_1608Metric"
 			(at 69.85 85.09 0)
 			(effects
 				(font
@@ -5114,7 +5177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 96.52 109.22 0)
 			(effects
 				(font
@@ -5160,6 +5223,24 @@
 			)
 		)
 		(property "MfgPart" "CRCW060310K0FKEA"
+			(at 96.52 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "R_0603_1608Metric"
+			(at 96.52 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 96.52 109.22 0)
 			(effects
 				(font
@@ -5283,7 +5364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 67.31 44.45 0)
 			(effects
 				(font
@@ -5337,6 +5418,24 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "C_0603_1608Metric"
+			(at 67.31 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
+			(at 67.31 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "174678e8-b872-4b59-9610-bed3fec3b247")
 		)
@@ -5369,7 +5468,7 @@
 				)
 			)
 		)
-		(property "Value" "BT0"
+		(property "Value" "SW_Push"
 			(at 58.42 54.61 0)
 			(effects
 				(font
@@ -5386,7 +5485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 58.42 54.61 0)
 			(effects
 				(font
@@ -5432,6 +5531,24 @@
 			)
 		)
 		(property "pads" "2"
+			(at 58.42 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SW_SPST_B3U-1000P"
+			(at 58.42 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 58.42 59.69 0)
 			(effects
 				(font
@@ -5491,7 +5608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 170.18 50.8 0)
 			(effects
 				(font
@@ -5545,6 +5662,24 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "C_0603_1608Metric"
+			(at 170.18 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
+			(at 170.18 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "940dcb7b-d63d-4047-9f9a-ff5e1488fdad")
 		)
@@ -5577,7 +5712,7 @@
 				)
 			)
 		)
-		(property "Value" "RST"
+		(property "Value" "SW_Push"
 			(at 71.12 34.29 0)
 			(effects
 				(font
@@ -5594,7 +5729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 71.12 34.29 0)
 			(effects
 				(font
@@ -5640,6 +5775,24 @@
 			)
 		)
 		(property "pads" "2"
+			(at 71.12 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SW_SPST_B3U-1000P"
+			(at 71.12 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 71.12 39.37 0)
 			(effects
 				(font
@@ -5750,6 +5903,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Package" "QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm"
+			(at 144.78 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "49"
@@ -6075,7 +6237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 170.18 43.18 0)
 			(effects
 				(font
@@ -6130,6 +6292,15 @@
 			)
 		)
 		(property "pads" "2"
+			(at 170.18 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "L_0603_1608Metric"
 			(at 170.18 43.18 0)
 			(effects
 				(font
@@ -6369,7 +6540,7 @@
 				)
 			)
 		)
-		(property "Value" "red 2ma 2.65Vf"
+		(property "Value" "red 2ma 1.8Vf"
 			(at 32.004 72.644 90)
 			(effects
 				(font
@@ -6386,7 +6557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 41.91 72.39 0)
 			(effects
 				(font
@@ -6442,6 +6613,15 @@
 		)
 		(property "pads" "2"
 			(at 41.91 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LED_0603_1608Metric"
+			(at 41.91 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6567,7 +6747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 93.98 40.64 0)
 			(effects
 				(font
@@ -6613,6 +6793,24 @@
 			)
 		)
 		(property "MfgPart" "CRCW060310K0FKEA"
+			(at 93.98 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "R_0603_1608Metric"
+			(at 93.98 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 93.98 40.64 0)
 			(effects
 				(font
@@ -6737,7 +6935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 62.23 85.09 0)
 			(effects
 				(font
@@ -6783,6 +6981,24 @@
 			)
 		)
 		(property "MfgPart" "RC0603FR-07274RL"
+			(at 62.23 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "R_0603_1608Metric"
+			(at 62.23 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 62.23 85.09 90)
 			(effects
 				(font
@@ -6840,7 +7056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 41.91 80.01 0)
 			(effects
 				(font
@@ -6886,6 +7102,24 @@
 			)
 		)
 		(property "MfgPart" "ERJ3EKF6980V"
+			(at 41.91 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "R_0603_1608Metric"
+			(at 41.91 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 41.91 80.01 0)
 			(effects
 				(font

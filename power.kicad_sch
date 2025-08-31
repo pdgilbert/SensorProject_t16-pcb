@@ -2089,6 +2089,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "SOT-223"
+			(at 152.4 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "a68d12de-a432-43af-b791-063ba5935078")
 		)
@@ -2285,7 +2294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 111.76 91.44 0)
 			(effects
 				(font
@@ -2331,6 +2340,24 @@
 			)
 		)
 		(property "MfgPart" "CL10B104KB8NNNC"
+			(at 111.76 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "C_0603_1608Metric"
+			(at 111.76 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 111.76 91.44 0)
 			(effects
 				(font
@@ -2389,7 +2416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 102.87 91.44 0)
 			(effects
 				(font
@@ -2435,6 +2462,24 @@
 			)
 		)
 		(property "MfgPart" "CL10B104KB8NNNC"
+			(at 102.87 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "C_0603_1608Metric"
+			(at 102.87 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 102.87 91.44 0)
 			(effects
 				(font
@@ -2494,7 +2539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=BAT-HLD-012-SMT&DocType=Data+Sheet&DocLang=English&DocFormat=pdf&PartCntxt=BAT-HLD-012-SMT"
 			(at 160.02 121.666 90)
 			(effects
 				(font
@@ -2503,7 +2548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single-cell battery"
+		(property "Description" "12mm coin battery retainer smd"
 			(at 160.02 123.19 0)
 			(effects
 				(font
@@ -2549,6 +2594,15 @@
 			)
 		)
 		(property "pads" "3"
+			(at 160.02 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "BatteryHolder_LINX_BAT-HLD-012-SMT"
 			(at 160.02 123.19 0)
 			(effects
 				(font
@@ -2613,7 +2667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 152.4 68.58 0)
 			(effects
 				(font
@@ -2622,7 +2676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Screw terminal 1x02"
 			(at 152.4 68.58 0)
 			(effects
 				(font
@@ -2673,6 +2727,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Package" "1x02_P2.54mm_Horizontal"
+			(at 152.4 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2857,7 +2920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 85.09 91.44 0)
 			(effects
 				(font
@@ -2903,6 +2966,24 @@
 			)
 		)
 		(property "MfgPart" "CL10A105KA8NNNC"
+			(at 85.09 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "C_0603_1608Metric"
+			(at 85.09 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 85.09 91.44 0)
 			(effects
 				(font
@@ -3025,6 +3106,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "SOT-23"
+			(at 144.78 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "db190524-39ec-4772-a387-5816a52f7feb")
 		)
@@ -3079,7 +3169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 156.21 99.06 0)
 			(effects
 				(font
@@ -3125,6 +3215,24 @@
 			)
 		)
 		(property "MfgPart" "CL10B104KB8NNNC"
+			(at 156.21 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "C_0603_1608Metric"
+			(at 156.21 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 156.21 99.06 0)
 			(effects
 				(font
@@ -3185,7 +3293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 119.38 71.12 0)
 			(effects
 				(font
@@ -3231,6 +3339,24 @@
 			)
 		)
 		(property "MfgPart" "CL10B104KB8NNNC"
+			(at 119.38 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "C_0603_1608Metric"
+			(at 119.38 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 119.38 71.12 0)
 			(effects
 				(font
@@ -3421,7 +3547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 95.25 91.44 0)
 			(effects
 				(font
@@ -3467,6 +3593,24 @@
 			)
 		)
 		(property "MfgPart" "CL10B104KB8NNNC"
+			(at 95.25 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "C_0603_1608Metric"
+			(at 95.25 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 95.25 91.44 0)
 			(effects
 				(font

@@ -1442,7 +1442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 154.94 109.22 0)
 			(effects
 				(font
@@ -1488,6 +1488,24 @@
 			)
 		)
 		(property "MfgPart" "CL10C100JB8NNNC"
+			(at 154.94 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "C_0603_1608Metric"
+			(at 154.94 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 154.94 109.22 0)
 			(effects
 				(font
@@ -1545,7 +1563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 154.94 82.55 0)
 			(effects
 				(font
@@ -1591,6 +1609,24 @@
 			)
 		)
 		(property "MfgPart" "RC0603FR-07634RL"
+			(at 154.94 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "R_0603_1608Metric"
+			(at 154.94 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 154.94 82.55 0)
 			(effects
 				(font
@@ -1780,7 +1816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://support.epson.biz/td/api/doc_check.php?dl=brief_FA-128&lang=en"
 			(at 147.32 93.98 0)
 			(effects
 				(font
@@ -1789,7 +1825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+		(property "Description" "Four pin crystal, GND on pins 2 and 4, 7pF"
 			(at 147.32 93.98 0)
 			(effects
 				(font
@@ -1843,6 +1879,24 @@
 			)
 		)
 		(property "pads" "4"
+			(at 147.32 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "Crystal_SMD_2016-4Pin_2.0x1.6mm"
+			(at 147.32 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 147.32 93.98 0)
 			(effects
 				(font
@@ -1932,6 +1986,15 @@
 				)
 			)
 		)
+		(property "Package" ""
+			(at 128.27 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "401322b4-89e1-4aa6-b759-d11a216a2f75")
 		)
@@ -1981,7 +2044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 138.43 109.22 0)
 			(effects
 				(font
@@ -2027,6 +2090,24 @@
 			)
 		)
 		(property "MfgPart" "CL10C100JB8NNNC"
+			(at 138.43 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "C_0603_1608Metric"
+			(at 138.43 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 138.43 109.22 0)
 			(effects
 				(font

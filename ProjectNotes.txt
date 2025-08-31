@@ -28,7 +28,7 @@ wrong and has to be cut.
     - blink_impl runs.      ditto
     - text_i2c   fails      init() error BusWriteError because sda1 mistakenly wired to pb6 on pin 42
     - lora_spi_send runs.   0.02 A  with 5v input  ( ditto )
-
+    - measured temperature is sensitive to good supply voltage (see below).
 
 - errors/fixes:
   - Done. get correct footprint L1 for MLZ1608N2R2LT000. 
@@ -47,19 +47,20 @@ wrong and has to be cut.
   - Done. label MCO as pin b? (MCO2 not possible with UFQFPN48 package).
   - Done. (See below.) check if it works with 3.2v through regulator.
   - Done. check in rfm95 doc https://cdn.sparkfun.com/assets/learn_tutorials/8/0/4/RFM95_96_97_98W.pdf
-12  - cleanup and recheck BOM
-       check, this was in ads... -- For part line 4 item #2 TSSOP-10_3x3mm_P0.5mm supplied part
-        ADS1115IDGSR   Texas Instruments  IC ADC 16BIT SIGMA-DELTA 10VSSOP  is  OK.
-11  - check question about some orientatins. led?
+  - Done. cleanup and recheck BOM.
+  - Done. check question about led orientatins. Add indicators.
+          For BT1, no solder paste on the center big pad added to fab layer notes. 
   - reduce led brightness.
   - stlink plug clearance for larger ssd. & low profile? & 2x4 smt?
   - make boot1 pin 20 available to pull high. (Shared pin, if boot0 is high it is read at boot then available for other function?)
       (see notes https://community.st.com/t5/stm32-mcus-products/quadspi-and-boot1-with-stm32f446ret6/m-p/786873)
            https://deepbluembedded.com/stm32-boot-modes-stm32-boot0-boot1-pins/
+  - Done. fab layer red led D1 indicates 2.65Vf. Should be 1.8Vf. (Blue is  2.65Vf.)
+  - make J18 (MCO) a test point rather than hole.
 
 -improvements:
   - Consider different cheaper radio options?
-  - Consider switching to smaller footprints for R, C, and L.
+  - Consider switching to smaller footprints for R, C, L, and leds.
   - radio on same side as MCU.
   - mv R23 and R25 to same side as MCU and radio and eliminate PTH in MCU area.
   - consider power led blink off on reset?
