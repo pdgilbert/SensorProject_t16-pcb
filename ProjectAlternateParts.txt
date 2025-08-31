@@ -135,10 +135,20 @@ https://electronics.stackexchange.com/questions/665044/which-reverse-polarity-pr
 Resistance calculator:
 https://www.digikey.cn/en/resources/conversion-calculators/conversion-calculator-led-series-resistor
 
+blue very common: 2mA  2.65Vf  => 280 ohm resistor
+
 blue:   Yongyu Photoelectric  yy0603bl-nn1s0-t2ar4  2.6~3.1v forward  0603 (1608 metric) 5ma 34~100mcd
                               yy0603bl-nz1s0-t2ar4 
                               yy0603bl-nn1s2-t2ar4            => 100 ohm resistor
- 
+
+blue:   Kingbright  APT1608LVBC/D        2mA  2.65Vf        => 280 ohm resistor
+                or  APTD1608LVBC/D   APTD is slightly higher than APT and
+                or  APTD1608LQBC/D   all have slightly different brightness.
+                or  APHD1608LVBC/
+
+
+red very common: 2mA  1.8Vf  => 715 ohm resistor
+
 red:  (power led - consider Do Not Populate)
    Yongyu Photoelectric  yy0603re-nn1s0-t2ar4  1.8~2.3v forward  0603 (1608 metric) 5ma 34~100mcd
                          yy0603re-rn1s0-t2ar4 
@@ -146,6 +156,9 @@ red:  (power led - consider Do Not Populate)
                          yy0603re-nn2s0-t2ar4 
                          yy0603re-nn3s0-t2ar4 
 
+   
+red:  Kingbright   APT1608LSECK/J3-PRV       2mA  1.8Vf     => 715 ohm resistor
+            or  ...
 
 
 /////////////////////  MCU 
