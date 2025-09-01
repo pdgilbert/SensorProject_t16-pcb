@@ -51,9 +51,9 @@ wrong and has to be cut.
   - Done. check question about led orientatins. Add indicators.
           For BT1, no solder paste on the center big pad added to fab layer notes. 
   - Done. reduce led brightness. Changed MfgPart and adjusted resistors.
-  - stlink plug clearance for larger ssd. & low profile? & 2x4 smt?
+  - Done. Replaced ssd and st-link connections with 2x4 smt pinsocket. (stlink plug clearance for larger ssd. & low profile? 2x4 smt?)
   - Done. make boot1 pin 20 available to pull high. (Shared pin, if boot0 is high it is read at boot then available for other function?)
-      (see notes https://community.st.com/t5/stm32-mcus-products/quadspi-and-boot1-with-stm32f446ret6/m-p/786873)
+          (see notes https://community.st.com/t5/stm32-mcus-products/quadspi-and-boot1-with-stm32f446ret6/m-p/786873)
            https://deepbluembedded.com/stm32-boot-modes-stm32-boot0-boot1-pins/
   - Done. fab layer red led D1 indicates 2.65Vf. Should be 1.8Vf. (Blue is  2.65Vf.)
   - Done. make J18 (MCO) a test point pad rather than hole.
@@ -61,8 +61,8 @@ wrong and has to be cut.
 -improvements:
   - Consider different cheaper radio options?
   - Consider switching to smaller footprints for R, C, L, and leds.
-  - radio on same side as MCU.
-  - mv R23 and R25 to same side as MCU and radio and eliminate PTH in MCU area.
+  - Done. radio on same side as MCU.
+  - Done. mv R23 and R25 to same side as MCU and radio and eliminate PTH in MCU area.
   - consider power led blink off on reset?
   - consider reverse-polarity-protection
       https://electronics.stackexchange.com/questions/665044/which-reverse-polarity-protection-is-better-and-why  
