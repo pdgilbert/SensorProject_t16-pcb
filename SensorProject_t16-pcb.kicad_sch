@@ -2578,6 +2578,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 120.65 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cb72f974-6d19-4355-978b-97f8bbb43b84")
 		)
@@ -2691,6 +2700,15 @@
 			)
 		)
 		(property "Package" "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 76.2 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 76.2 227.33 0)
 			(effects
 				(font
@@ -2813,6 +2831,15 @@
 			)
 		)
 		(property "Notes" "or equivalent"
+			(at 125.73 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 125.73 43.18 0)
 			(effects
 				(font
@@ -3034,6 +3061,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 135.89 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "507d16c9-943b-4801-a682-e7024adecfd7")
 		)
@@ -3147,6 +3183,15 @@
 			)
 		)
 		(property "Package" "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 44.45 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 44.45 250.19 0)
 			(effects
 				(font
@@ -3473,6 +3518,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 43.18 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8c601a69-7741-40db-9111-0ede08c5e47e")
 		)
@@ -3589,6 +3643,15 @@
 			)
 		)
 		(property "Notes" "or equivalent"
+			(at 143.51 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 143.51 39.37 0)
 			(effects
 				(font
@@ -3849,6 +3912,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 76.2 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a1d5f905-2d35-46b5-b8d4-f0b38a9bfe0d")
 		)
@@ -3964,6 +4036,15 @@
 			)
 		)
 		(property "Notes" "or equivalent"
+			(at 135.89 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 135.89 147.32 0)
 			(effects
 				(font
@@ -4162,6 +4243,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 81.28 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c6f476c2-1e3a-429d-9cf3-3d05b891a226")
 		)
@@ -4341,6 +4431,15 @@
 			)
 		)
 		(property "Package" "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 43.18 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 43.18 214.63 0)
 			(effects
 				(font
@@ -4531,6 +4630,15 @@
 			)
 		)
 		(property "Notes" "or equivalent"
+			(at 48.26 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 48.26 153.67 0)
 			(effects
 				(font
@@ -4858,6 +4966,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 44.45 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "064c03ec-1ff2-41a8-b317-b35267144989")
 		)
@@ -4971,6 +5088,15 @@
 			)
 		)
 		(property "Package" "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 73.66 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 73.66 148.59 0)
 			(effects
 				(font
@@ -5234,6 +5360,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 78.74 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "789e5ed0-d68b-4768-8124-108f6af352e8")
 		)
@@ -5349,6 +5484,15 @@
 			)
 		)
 		(property "Notes" "or equivalent"
+			(at 138.43 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 138.43 201.93 0)
 			(effects
 				(font
@@ -5577,6 +5721,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 19.05 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "SensorProject_t16-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
@@ -5684,6 +5837,15 @@
 			)
 		)
 		(property "Package" "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 43.18 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 43.18 39.37 0)
 			(effects
 				(font
@@ -5880,6 +6042,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 81.28 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "116f25ca-5048-4e2a-9b2a-ed442d1e6824")
 		)
@@ -6002,6 +6173,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 120.65 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cb30f75e-04c1-4bc9-babf-118e54fa662f")
 		)
@@ -6082,6 +6262,15 @@
 			)
 		)
 		(property "Package" ""
+			(at 19.05 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 19.05 260.35 0)
 			(effects
 				(font
@@ -6270,6 +6459,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 43.18 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dddfd510-1224-4618-a7b3-9d0edf49b2e0")
 		)
@@ -6394,6 +6592,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 78.74 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "78261a83-a282-4a90-881a-0200dc845000")
 		)
@@ -6510,6 +6717,15 @@
 			)
 		)
 		(property "Notes" "or equivalent"
+			(at 78.74 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 78.74 144.78 0)
 			(effects
 				(font
@@ -6699,6 +6915,15 @@
 			)
 		)
 		(property "Notes" "or equivalent"
+			(at 135.89 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 135.89 29.21 0)
 			(effects
 				(font
@@ -6961,6 +7186,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 123.19 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "773b0935-0078-4535-b745-12f254811ef3")
 		)
@@ -7208,6 +7442,15 @@
 			)
 		)
 		(property "Notes" "or equivalent"
+			(at 48.26 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 48.26 62.23 0)
 			(effects
 				(font
@@ -7602,6 +7845,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 128.27 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "90cf3445-9083-4465-beaa-8e088ff6ee88")
 		)
@@ -7773,6 +8025,15 @@
 			)
 		)
 		(property "Package" ""
+			(at 170.18 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 170.18 227.33 0)
 			(effects
 				(font
@@ -7995,6 +8256,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 199.39 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "SensorProject_t16-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
@@ -8176,6 +8446,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 43.18 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fd21ed0c-05e4-469e-ad10-ef66b183dfcd")
 		)
@@ -8290,6 +8569,15 @@
 			)
 		)
 		(property "Notes" "or equivalent"
+			(at 120.65 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 120.65 142.24 90)
 			(effects
 				(font
@@ -9078,6 +9366,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 125.73 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "724d85fa-3334-4ead-8108-5bb9bd87a679")
 		)
@@ -9425,6 +9722,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 48.26 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "befe5683-8cc7-4462-bc08-f38bb689e9dd")
 		)
@@ -9611,6 +9917,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 73.66 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "37ff4eb6-0ab4-4282-98cd-7f83b3fe5b80")
 		)
@@ -9727,6 +10042,15 @@
 			)
 		)
 		(property "Notes" "or equivalent"
+			(at 78.74 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 78.74 24.13 0)
 			(effects
 				(font
@@ -9925,6 +10249,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 49.53 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d80159b8-4137-4d9a-960d-72b6294ed047")
 		)
@@ -10049,6 +10382,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 48.26 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "48bd7b3c-62c8-4335-88bf-6c1a75ece5c5")
 		)
@@ -10162,6 +10504,15 @@
 			)
 		)
 		(property "Package" "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 76.2 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 76.2 200.66 0)
 			(effects
 				(font
@@ -10360,6 +10711,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 49.53 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bd74e0ec-5047-4383-a78d-69fee62fc004")
 		)
@@ -10550,6 +10910,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 50.8 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "99fc8106-0186-4d57-b098-aedfad93a593")
 		)
@@ -10674,6 +11043,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 48.26 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fee9c600-fb61-4be7-88ab-e2aaa007c901")
 		)
@@ -10787,6 +11165,15 @@
 			)
 		)
 		(property "Package" "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 73.66 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 73.66 54.61 0)
 			(effects
 				(font
@@ -10984,6 +11371,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 81.28 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bf8750c7-dc9e-43d3-b79d-c248fb81e960")
 		)
@@ -11105,6 +11501,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2917f23a-ba7a-461d-bbce-d53ebe02f40d")
 		)
@@ -11218,6 +11623,15 @@
 			)
 		)
 		(property "Package" "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 73.66 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 73.66 115.57 0)
 			(effects
 				(font
@@ -11416,6 +11830,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 78.74 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "85b89277-4765-45dc-ad4e-4b535bae9a36")
 		)
@@ -11532,6 +11955,15 @@
 			)
 		)
 		(property "Notes" "or equivalent"
+			(at 154.94 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 154.94 36.83 0)
 			(effects
 				(font
@@ -11727,6 +12159,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 45.72 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "79634271-d98c-4849-8534-0a1f0f264856")
 		)
@@ -11841,6 +12282,15 @@
 			)
 		)
 		(property "Notes" "or equivalent"
+			(at 125.73 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 125.73 104.14 0)
 			(effects
 				(font

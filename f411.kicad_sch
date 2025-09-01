@@ -4731,6 +4731,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 64.77 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9c9e570d-49f4-4758-9472-bde90552b64d")
 		)
@@ -4853,6 +4862,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 186.69 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8d101b16-98e9-4e23-925a-84bb21aa8c36")
 		)
@@ -4940,6 +4958,15 @@
 			)
 		)
 		(property "Package" ""
+			(at 167.64 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 167.64 87.63 0)
 			(effects
 				(font
@@ -5332,6 +5359,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 123.19 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f50d244a-8efd-4e71-9007-aa1e145652c5")
 		)
@@ -5454,6 +5490,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 69.85 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1bd0c7e8-c402-4ad3-9f37-0c66423bc733")
 		)
@@ -5516,6 +5561,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 106.68 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 106.68 100.33 0)
 			(effects
 				(font
@@ -5907,6 +5961,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 96.52 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3670bf22-01cf-4f50-b09b-c3c03eac8b4f")
 		)
@@ -5957,7 +6020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C42163136.pdf"
 			(at 175.26 128.27 0)
 			(effects
 				(font
@@ -5967,6 +6030,42 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x04, row letter first pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. a1, ..., aN; b1, ..., bN), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 175.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Hong Cheng"
+			(at 175.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPart" "HC-PM254-5.0H-2x8PS"
+			(at 175.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 175.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 175.26 128.27 0)
 			(effects
 				(font
@@ -6180,6 +6279,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 67.31 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "174678e8-b872-4b59-9610-bed3fec3b247")
 		)
@@ -6293,6 +6401,15 @@
 			)
 		)
 		(property "Notes" "or equivalent"
+			(at 58.42 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 58.42 59.69 0)
 			(effects
 				(font
@@ -6424,6 +6541,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 170.18 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "940dcb7b-d63d-4047-9f9a-ff5e1488fdad")
 		)
@@ -6545,6 +6671,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 71.12 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "07aad041-e5a2-43b7-bc91-685286a73d70")
 		)
@@ -6650,6 +6785,15 @@
 			)
 		)
 		(property "Package" "QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm"
+			(at 144.78 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 144.78 102.87 0)
 			(effects
 				(font
@@ -7045,6 +7189,15 @@
 			)
 		)
 		(property "Package" "L_0603_1608Metric"
+			(at 170.18 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 170.18 43.18 0)
 			(effects
 				(font
@@ -7505,6 +7658,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 41.91 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b0e3c940-ce23-4393-acf1-76937cecea67")
 		)
@@ -7687,6 +7849,15 @@
 			)
 		)
 		(property "Notes" "or equivalent"
+			(at 93.98 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 93.98 40.64 0)
 			(effects
 				(font
@@ -7886,6 +8057,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 190.5 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "75599e95-bd74-4949-84bc-b7fe4eb04e04")
 		)
@@ -8007,6 +8187,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 62.23 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "24824abd-cbf3-4ae3-b53c-d76f8c0c9d04")
 		)
@@ -8120,6 +8309,15 @@
 			)
 		)
 		(property "Notes" "or equivalent"
+			(at 41.91 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 41.91 80.01 0)
 			(effects
 				(font

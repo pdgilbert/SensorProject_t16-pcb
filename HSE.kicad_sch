@@ -1514,6 +1514,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 154.94 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0900e8e2-ae65-46c6-b1cc-48b353022f25")
 		)
@@ -1627,6 +1636,15 @@
 			)
 		)
 		(property "Notes" "or equivalent"
+			(at 154.94 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 154.94 82.55 0)
 			(effects
 				(font
@@ -1905,6 +1923,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 147.32 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6e2a8b19-a114-4680-9de9-d5e226432dbe")
 		)
@@ -1987,6 +2014,15 @@
 			)
 		)
 		(property "Package" ""
+			(at 128.27 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 128.27 123.19 0)
 			(effects
 				(font
@@ -2108,6 +2144,15 @@
 			)
 		)
 		(property "Notes" "or equivalent"
+			(at 138.43 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 138.43 109.22 0)
 			(effects
 				(font

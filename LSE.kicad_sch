@@ -1270,6 +1270,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 129.54 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "63fa2c41-ad69-474a-8c24-cca00e9479b3")
 		)
@@ -1391,6 +1400,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 113.03 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a006efe8-c9f1-4ae8-aded-c97b52059480")
 		)
@@ -1467,6 +1485,15 @@
 			)
 		)
 		(property "Package" ""
+			(at 104.14 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 104.14 114.3 0)
 			(effects
 				(font
@@ -1663,6 +1690,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" ""
+			(at 129.54 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d677e969-6dd9-4b61-9d33-38ae0f4f8b86")
 		)
@@ -1844,6 +1880,15 @@
 			)
 		)
 		(property "Package" "Crystal_SMD_MicroCrystal_CM9V-T1A-2Pin_1.6x1.0mm"
+			(at 120.65 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
 			(at 120.65 95.25 0)
 			(effects
 				(font
