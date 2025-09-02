@@ -1189,7 +1189,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProjectLib:C_0603_1608Metric"
+		(property "Footprint" "ProjectLib:C_0402_1005Metric"
 			(at 128.5748 101.6 0)
 			(effects
 				(font
@@ -1234,7 +1234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TDK Corp"
+		(property "Manufacturer" ""
 			(at 129.54 105.41 0)
 			(effects
 				(font
@@ -1243,7 +1243,7 @@
 				(hide yes)
 			)
 		)
-		(property "MfgPart" "CGA3E2C0G1H040CT0Y0N"
+		(property "MfgPart" ""
 			(at 129.54 105.41 0)
 			(effects
 				(font
@@ -1252,7 +1252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "C_0603_1608Metric"
+		(property "Package" "C_0402_1005Metric"
 			(at 129.54 105.41 0)
 			(effects
 				(font
@@ -1319,7 +1319,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProjectLib:C_0603_1608Metric"
+		(property "Footprint" "ProjectLib:C_0402_1005Metric"
 			(at 112.0648 101.6 0)
 			(effects
 				(font
@@ -1364,7 +1364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TDK Corp"
+		(property "Manufacturer" ""
 			(at 113.03 105.41 0)
 			(effects
 				(font
@@ -1373,7 +1373,7 @@
 				(hide yes)
 			)
 		)
-		(property "MfgPart" "CGA3E2C0G1H040CT0Y0N"
+		(property "MfgPart" ""
 			(at 113.03 105.41 0)
 			(effects
 				(font
@@ -1382,7 +1382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "C_0603_1608Metric"
+		(property "Package" "C_0402_1005Metric"
 			(at 113.03 105.41 0)
 			(effects
 				(font
@@ -1609,7 +1609,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectLib:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0402_1005Metric"
 			(at 130.556 85.344 90)
 			(effects
 				(font
@@ -1654,7 +1654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" ""
 			(at 129.54 85.09 0)
 			(effects
 				(font
@@ -1663,7 +1663,7 @@
 				(hide yes)
 			)
 		)
-		(property "MfgPart" "RC0603FR-070RL"
+		(property "MfgPart" ""
 			(at 129.54 85.09 0)
 			(effects
 				(font
@@ -1672,7 +1672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "R_0603_1608Metric"
+		(property "Package" "R_0402_1005Metric"
 			(at 129.54 85.09 0)
 			(effects
 				(font

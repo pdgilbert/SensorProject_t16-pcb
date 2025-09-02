@@ -59,13 +59,13 @@ wrong and has to be cut.
   - Done. make J18 (MCO) a test point pad rather than hole.
 
 -improvements:
-  - Consider different cheaper radio options?
-  - Consider switching to smaller footprints for R, C, L, and leds.
+  - Done. Consider switching to smaller footprints for R, C, L, and leds.
   - Done. radio on same side as MCU.
   - Done. mv R23 and R25 to same side as MCU and radio and eliminate PTH in MCU area.
   - consider power led blink off on reset?
   - consider reverse-polarity-protection
       https://electronics.stackexchange.com/questions/665044/which-reverse-polarity-protection-is-better-and-why  
+  - consider different cheaper radio options?
 
 -testing:
   - check what happens to RTC when VDD is gone and so NRST goes low.

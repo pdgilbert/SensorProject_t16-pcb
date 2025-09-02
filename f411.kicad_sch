@@ -4650,7 +4650,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectLib:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0402_1005Metric"
 			(at 62.992 63.5 90)
 			(effects
 				(font
@@ -4695,7 +4695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay"
+		(property "Manufacturer" ""
 			(at 64.77 63.5 0)
 			(effects
 				(font
@@ -4704,7 +4704,7 @@
 				(hide yes)
 			)
 		)
-		(property "MfgPart" "CRCW060310K0FKEA"
+		(property "MfgPart" ""
 			(at 64.77 63.5 0)
 			(effects
 				(font
@@ -4713,7 +4713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "R_0603_1608Metric"
+		(property "Package" "R_0402_1005Metric"
 			(at 64.77 63.5 0)
 			(effects
 				(font
@@ -4781,7 +4781,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProjectLib:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0402_1005Metric"
 			(at 185.674 152.654 90)
 			(effects
 				(font
@@ -4826,7 +4826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay"
+		(property "Manufacturer" ""
 			(at 186.69 152.4 0)
 			(effects
 				(font
@@ -4835,7 +4835,7 @@
 				(hide yes)
 			)
 		)
-		(property "MfgPart" "CRCW060310K0FKEA"
+		(property "MfgPart" ""
 			(at 186.69 152.4 0)
 			(effects
 				(font
@@ -4844,7 +4844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "R_0603_1608Metric"
+		(property "Package" "R_0402_1005Metric"
 			(at 186.69 152.4 0)
 			(effects
 				(font
@@ -5278,7 +5278,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectLib:C_0603_1608Metric"
+		(property "Footprint" "ProjectLib:C_0402_1005Metric"
 			(at 124.1552 143.51 0)
 			(effects
 				(font
@@ -5323,7 +5323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" ""
 			(at 123.19 139.7 0)
 			(effects
 				(font
@@ -5332,7 +5332,7 @@
 				(hide yes)
 			)
 		)
-		(property "MfgPart" "CL10A475KP8NNNC"
+		(property "MfgPart" ""
 			(at 123.19 139.7 0)
 			(effects
 				(font
@@ -5341,7 +5341,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "C_0603_1608Metric"
+		(property "Package" "C_0402_1005Metric"
 			(at 123.19 139.7 0)
 			(effects
 				(font
@@ -5880,7 +5880,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectLib:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0402_1005Metric"
 			(at 94.742 109.22 90)
 			(effects
 				(font
@@ -5925,7 +5925,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay"
+		(property "Manufacturer" ""
 			(at 96.52 109.22 0)
 			(effects
 				(font
@@ -5934,7 +5934,7 @@
 				(hide yes)
 			)
 		)
-		(property "MfgPart" "CRCW060310K0FKEA"
+		(property "MfgPart" ""
 			(at 96.52 109.22 0)
 			(effects
 				(font
@@ -5943,7 +5943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "R_0603_1608Metric"
+		(property "Package" "R_0402_1005Metric"
 			(at 96.52 109.22 0)
 			(effects
 				(font
@@ -6198,7 +6198,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProjectLib:C_0603_1608Metric"
+		(property "Footprint" "ProjectLib:C_0402_1005Metric"
 			(at 71.12 43.4848 0)
 			(effects
 				(font
@@ -6243,7 +6243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" ""
 			(at 67.31 44.45 90)
 			(effects
 				(font
@@ -6252,7 +6252,7 @@
 				(hide yes)
 			)
 		)
-		(property "MfgPart" "CL10B104KB8NNNC"
+		(property "MfgPart" ""
 			(at 67.31 44.45 90)
 			(effects
 				(font
@@ -6261,7 +6261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "C_0603_1608Metric"
+		(property "Package" "C_0402_1005Metric"
 			(at 67.31 44.45 90)
 			(effects
 				(font
@@ -6460,7 +6460,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectLib:C_0603_1608Metric"
+		(property "Footprint" "ProjectLib:C_0402_1005Metric"
 			(at 171.1452 54.61 0)
 			(effects
 				(font
@@ -6505,7 +6505,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" ""
 			(at 170.18 50.8 0)
 			(effects
 				(font
@@ -6514,7 +6514,7 @@
 				(hide yes)
 			)
 		)
-		(property "MfgPart" "CL10B104KB8NNNC"
+		(property "MfgPart" ""
 			(at 170.18 50.8 0)
 			(effects
 				(font
@@ -6523,7 +6523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "C_0603_1608Metric"
+		(property "Package" "C_0402_1005Metric"
 			(at 170.18 50.8 0)
 			(effects
 				(font
@@ -7116,7 +7116,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProjectLib:L_TDK_MLZ1608"
+		(property "Footprint" "ProjectLib:L_0402_1005Metric"
 			(at 170.18 43.18 0)
 			(effects
 				(font
@@ -7125,7 +7125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_decoupling_mlz1608_en.pdf"
+		(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_decoupling_mlz1005_en.pdf"
 			(at 170.18 43.18 0)
 			(effects
 				(font
@@ -7161,7 +7161,7 @@
 				(hide yes)
 			)
 		)
-		(property "MfgPart" "MLZ1608N2R2LT000"
+		(property "MfgPart" " MLZ1005M2R2WT000"
 			(at 170.18 43.18 0)
 			(effects
 				(font
@@ -7188,7 +7188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "L_0603_1608Metric"
+		(property "Package" "L_0402_1005Metric"
 			(at 170.18 43.18 0)
 			(effects
 				(font
@@ -7776,7 +7776,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectLib:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0402_1005Metric"
 			(at 92.202 40.64 90)
 			(effects
 				(font
@@ -7821,7 +7821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay"
+		(property "Manufacturer" ""
 			(at 93.98 40.64 0)
 			(effects
 				(font
@@ -7830,7 +7830,7 @@
 				(hide yes)
 			)
 		)
-		(property "MfgPart" "CRCW060310K0FKEA"
+		(property "MfgPart" ""
 			(at 93.98 40.64 0)
 			(effects
 				(font
@@ -7839,7 +7839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "R_0603_1608Metric"
+		(property "Package" "R_0402_1005Metric"
 			(at 93.98 40.64 0)
 			(effects
 				(font
@@ -7976,7 +7976,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectLib:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0402_1005Metric"
 			(at 189.484 141.224 90)
 			(effects
 				(font
@@ -8021,7 +8021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay"
+		(property "Manufacturer" ""
 			(at 190.5 140.97 0)
 			(effects
 				(font
@@ -8030,7 +8030,7 @@
 				(hide yes)
 			)
 		)
-		(property "MfgPart" "CRCW060310K0FKEA"
+		(property "MfgPart" ""
 			(at 190.5 140.97 0)
 			(effects
 				(font
@@ -8039,7 +8039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "R_0603_1608Metric"
+		(property "Package" "R_0402_1005Metric"
 			(at 190.5 140.97 0)
 			(effects
 				(font
@@ -8106,7 +8106,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProjectLib:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0402_1005Metric"
 			(at 62.23 86.868 90)
 			(effects
 				(font
@@ -8169,7 +8169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "R_0603_1608Metric"
+		(property "Package" "R_0402_1005Metric"
 			(at 62.23 85.09 90)
 			(effects
 				(font
@@ -8236,7 +8236,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProjectLib:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0402_1005Metric"
 			(at 40.132 80.01 90)
 			(effects
 				(font
@@ -8299,7 +8299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "R_0603_1608Metric"
+		(property "Package" "R_0402_1005Metric"
 			(at 41.91 80.01 0)
 			(effects
 				(font

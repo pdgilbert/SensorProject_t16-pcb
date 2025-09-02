@@ -2294,7 +2294,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProjectLib:C_0603_1608Metric"
+		(property "Footprint" "ProjectLib:C_0402_1005Metric"
 			(at 110.7948 95.25 0)
 			(effects
 				(font
@@ -2339,7 +2339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" ""
 			(at 111.76 91.44 0)
 			(effects
 				(font
@@ -2348,7 +2348,7 @@
 				(hide yes)
 			)
 		)
-		(property "MfgPart" "CL10B104KB8NNNC"
+		(property "MfgPart" ""
 			(at 111.76 91.44 0)
 			(effects
 				(font
@@ -2357,7 +2357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "C_0603_1608Metric"
+		(property "Package" "C_0402_1005Metric"
 			(at 111.76 91.44 0)
 			(effects
 				(font
@@ -2425,7 +2425,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProjectLib:C_0603_1608Metric"
+		(property "Footprint" "ProjectLib:C_0402_1005Metric"
 			(at 101.9048 95.25 0)
 			(effects
 				(font
@@ -2470,7 +2470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" ""
 			(at 102.87 91.44 0)
 			(effects
 				(font
@@ -2479,7 +2479,7 @@
 				(hide yes)
 			)
 		)
-		(property "MfgPart" "CL10B104KB8NNNC"
+		(property "MfgPart" ""
 			(at 102.87 91.44 0)
 			(effects
 				(font
@@ -2488,7 +2488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "C_0603_1608Metric"
+		(property "Package" "C_0402_1005Metric"
 			(at 102.87 91.44 0)
 			(effects
 				(font
@@ -2956,7 +2956,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProjectLib:C_0603_1608Metric"
+		(property "Footprint" "ProjectLib:C_0402_1005Metric"
 			(at 84.1248 95.25 0)
 			(effects
 				(font
@@ -3001,7 +3001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" ""
 			(at 85.09 91.44 0)
 			(effects
 				(font
@@ -3010,7 +3010,7 @@
 				(hide yes)
 			)
 		)
-		(property "MfgPart" "CL10A105KA8NNNC"
+		(property "MfgPart" ""
 			(at 85.09 91.44 0)
 			(effects
 				(font
@@ -3019,7 +3019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "C_0603_1608Metric"
+		(property "Package" "C_0402_1005Metric"
 			(at 85.09 91.44 0)
 			(effects
 				(font
@@ -3223,7 +3223,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectLib:C_0603_1608Metric"
+		(property "Footprint" "ProjectLib:C_0402_1005Metric"
 			(at 157.1752 102.87 0)
 			(effects
 				(font
@@ -3268,7 +3268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" ""
 			(at 156.21 99.06 0)
 			(effects
 				(font
@@ -3277,7 +3277,7 @@
 				(hide yes)
 			)
 		)
-		(property "MfgPart" "CL10B104KB8NNNC"
+		(property "MfgPart" ""
 			(at 156.21 99.06 0)
 			(effects
 				(font
@@ -3286,7 +3286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "C_0603_1608Metric"
+		(property "Package" "C_0402_1005Metric"
 			(at 156.21 99.06 0)
 			(effects
 				(font
@@ -3356,7 +3356,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectLib:C_0603_1608Metric"
+		(property "Footprint" "ProjectLib:C_0402_1005Metric"
 			(at 120.3452 74.93 0)
 			(effects
 				(font
@@ -3401,7 +3401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" ""
 			(at 119.38 71.12 0)
 			(effects
 				(font
@@ -3410,7 +3410,7 @@
 				(hide yes)
 			)
 		)
-		(property "MfgPart" "CL10B104KB8NNNC"
+		(property "MfgPart" ""
 			(at 119.38 71.12 0)
 			(effects
 				(font
@@ -3419,7 +3419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "C_0603_1608Metric"
+		(property "Package" "C_0402_1005Metric"
 			(at 119.38 71.12 0)
 			(effects
 				(font
@@ -3619,7 +3619,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProjectLib:C_0603_1608Metric"
+		(property "Footprint" "ProjectLib:C_0402_1005Metric"
 			(at 94.2848 95.25 0)
 			(effects
 				(font
@@ -3664,7 +3664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" ""
 			(at 95.25 91.44 0)
 			(effects
 				(font
@@ -3673,7 +3673,7 @@
 				(hide yes)
 			)
 		)
-		(property "MfgPart" "CL10B104KB8NNNC"
+		(property "MfgPart" ""
 			(at 95.25 91.44 0)
 			(effects
 				(font
@@ -3682,7 +3682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "C_0603_1608Metric"
+		(property "Package" "C_0402_1005Metric"
 			(at 95.25 91.44 0)
 			(effects
 				(font
