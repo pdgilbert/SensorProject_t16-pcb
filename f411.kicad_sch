@@ -5418,7 +5418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APT1608LVBC-D.pdf"
 			(at 69.85 85.09 0)
 			(effects
 				(font
@@ -5570,6 +5570,15 @@
 			)
 		)
 		(property "Note" ""
+			(at 106.68 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MountType" "SMT"
 			(at 106.68 100.33 0)
 			(effects
 				(font
@@ -6029,7 +6038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x04, row letter first pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. a1, ..., aN; b1, ..., bN), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "PinSocket  02x04 connector, low profile"
 			(at 175.26 128.27 0)
 			(effects
 				(font
@@ -6066,6 +6075,24 @@
 			)
 		)
 		(property "Notes" "or equivalent"
+			(at 175.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MountType" "SMT"
+			(at 175.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "2x04_P2.54mm, verticle pinsocket"
 			(at 175.26 128.27 0)
 			(effects
 				(font
@@ -7586,7 +7613,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APT1608LSECK-J3-PRV.pdf"
 			(at 41.91 72.39 0)
 			(effects
 				(font

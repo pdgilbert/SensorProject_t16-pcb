@@ -6,17 +6,8 @@ Helps to set range delimiter to -
 ( -N Don't use line numbers. -S Chop (truncate) long lines rather than wrapping. )
 
 
-///////////////////// To Do
+///////////////////// Antenna
 
-- The crystals/capacitors need testing and may need adjustment. 
-
-- Consider WLCSP version of MCU.
-
-- Consider putting MCU, crystals, leds, and switches on module board.
-
-- The antenna and radio need more work. Need software working for a radio update.
-
-- Consider different antennas need testing. Maybe pcb, or simple wire,  or ceramic?
   See specific antenna notes further below.
   Also see 
     https://www.youtube.com/@Mobilefish  tutorial 47 and others
@@ -27,6 +18,14 @@ Helps to set range delimiter to -
     https://github.com/FabienFerrero/Antenna_Radiation_Measurement
     and other https://github.com/FabienFerrero/   repositories?
 
+/////////////////////  Rome connectors
+- J18, J19,  1x20_P2.54mm_Vertical      Female Header 2.54mm 180°Vertical Single row 20 Circuits(DIP)
+     TXGA FFH25405-S20S1001K6K  or  JILN 22850120ANG1SYA01 or ...
+
+- J20   1x02_P2.54mm_Horizontal   2 Screw horz TerminalBlock
+  Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"  or Cixi Kefa Elec	KF128-2.54-2P	or ...
+https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-2-54-2P_C474920.pdf
+
 /////////////////////  Resistors, Capacitors and some connectors
 
 - surface mount JST connectors not available in 2 connector. It is available for 3p and more.
@@ -36,9 +35,7 @@ Helps to set range delimiter to -
    https://www.mattmillman.com/info/crimpconnectors/common-jst-connector-types/#paxa
 
 
-Resistors and Capacitors  can be left blank on PCBWay and they use value and footprint to choose stock part
-
-//// PCBWay  supplied
+//// PCBWay  has supplied
 Samsung	CL10A105KA8NNNC	Unpolarized capacitor	1µF
 Samsung	CL10A475KP8NNNC	Unpolarized capacitor	4.7µF
 Samsung	CL10B104KB8NNNC	Unpolarized capacitor	0.1µF
@@ -58,9 +55,6 @@ JILN	22850202ANG1SYA01	PinSocket header 2x02  4P
 JST	B2B-XH-A	Connector JST_B2B-XH-A_1x02
 
 
-//// Digikey available parts 
-
-Sullins Connector Solutions  PPPC041LFBN-RC  PinSocket header 1x04  4P
 
 /////////////////////  LoRa
 
@@ -70,14 +64,9 @@ See https://www.rocketscream.com/blog/2017/08/21/the-sx1276-modules-shootout-hop
 
 /////////////////////  Antenna
 
-Using spring antenna
-"1";"AE1";"1";"NiceRF";"sw915-th06";"Antenna";"915mhz antenna";"ProjectLib:915MHz_spring_antenna";"PTH";"or equivalent";"DNP";"https://www.nicerf.com/rf-antenna/915mhz-spring-antenna-sw915-th06.html"
-This may need to be indicated as DNP (do not populate) for the pcb assembly,
-then self installed. (One PCB assembler could not source.)
-Consider a socket for other possibilities.
 
-///////// IPEX1 or IPEX4
-Consider a socket for other possibilities (simple wire?)
+///////// socket
+ U.FL=IPEX1.  IPEX4 is smaller.
 
 
 ///////// ceramic chip antennas 

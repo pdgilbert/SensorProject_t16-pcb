@@ -2290,7 +2290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Antenna with extra pin for shielding"
+		(property "Description" "Antenna connector with shielding"
 			(at 128.27 72.39 0)
 			(effects
 				(font
@@ -2335,7 +2335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "U.FL"
 			(at 128.27 72.39 0)
 			(effects
 				(font

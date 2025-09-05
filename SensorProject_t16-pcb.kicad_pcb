@@ -123,7 +123,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "Private/Sunsel-submit_2025-05/v2/gerber_2025_05_22/")
+			(outputdirectory "outputs/")
 		)
 	)
 	(net 0 "")
@@ -1395,7 +1395,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1932,7 +1932,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3051,7 +3051,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3602,7 +3602,7 @@
 				)
 			)
 		)
-		(property "Description" "Antenna with extra pin for shielding"
+		(property "Description" "Antenna connector with shielding"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3680,7 +3680,7 @@
 				)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "U.FL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4056,7 +4056,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5608,7 +5608,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6993,7 +6993,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8982,7 +8982,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_decoupling_mlz1608_en.pdf"
+		(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_decoupling_mlz1005_en.pdf"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -9032,7 +9032,7 @@
 				)
 			)
 		)
-		(property "MfgPart" ""
+		(property "MfgPart" " MLZ1005M2R2WT000"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10540,7 +10540,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11109,6 +11109,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "95024a3a-0345-48c6-9920-b47951e20e74")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MountType" "SMT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d6493de-691a-41ba-992d-dae1df67c6bd")
 			(effects
 				(font
 					(size 1 1)
@@ -12938,7 +12951,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15993,7 +16006,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APT1608LVBC-D.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19544,7 +19557,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20729,7 +20742,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APT1608LSECK-J3-PRV.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21043,7 +21056,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22648,7 +22661,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23185,7 +23198,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26467,7 +26480,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x04, row letter first pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. a1, ..., aN; b1, ..., bN), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "PinSocket  02x04 connector, low profile"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26524,6 +26537,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "354dc980-1bdd-49db-b8fd-f7e3e88ab7a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MountType" "SMT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11e2f776-3efd-4684-a262-c3e4a4a68635")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "2x04_P2.54mm, verticle pinsocket"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a03c271-6ae0-4d04-998a-b8a9c1e2fc19")
 			(effects
 				(font
 					(size 1 1)
@@ -27120,7 +27159,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28962,7 +29001,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C474920.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29464,7 +29503,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30001,7 +30040,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30538,7 +30577,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40122,7 +40161,7 @@
 				(xy 92.456042 67.071342) (xy 92.456045 67.071344) (xy 92.456047 67.071346) (xy 92.489391 67.093625)
 				(xy 92.534195 67.147235) (xy 92.5445 67.196727) (xy 92.5445 70.904699) (xy 92.544499 70.904699)
 				(xy 92.5445 70.904702) (xy 92.572816 71.010377) (xy 92.627518 71.105123) (xy 92.704877 71.182482)
-				(xy 92.799623 71.237184) (xy 92.905298 71.2655) (xy 94.106532 71.2655) (xy 94.173571 71.285185)
+				(xy 92.799623 71.237184) (xy 92.905298 71.2655) (xy 93.014702 71.2655) (xy 94.106532 71.2655) (xy 94.173571 71.285185)
 				(xy 94.194213 71.301819) (xy 94.818181 71.925787) (xy 94.851666 71.98711) (xy 94.8545 72.013468)
 				(xy 94.8545 75.121443) (xy 94.834815 75.188482) (xy 94.782011 75.234237) (xy 94.777958 75.236002)
 				(xy 94.77293 75.238084) (xy 94.772919 75.23809) (xy 94.659832 75.313653) (xy 94.659828 75.313656)

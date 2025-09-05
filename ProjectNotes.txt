@@ -18,59 +18,21 @@ The mounting hole centers are 44mm apart in x direction and 66.9 mm in y directi
 ///////////////            To Do
 ////////////////////////////////////////////////////////////////////////////////
 
-///////////////  v0.2.0 2025-05 prototype notes
+- Report footprint BUG AMS1117 regulator tab should connect to output not gnd! Requires changing pin 4 GND -> VO
+- The crystals/capacitors need testing and may need adjustment. 
+- Consider WLCSP version of MCU (but need eh1 Rust crate).
+- Consider different cheaper radio options?
+- Need LoRa software and radio update.
+- The antenna and radio need more testing. 
 
-- status: works to measure and transmit. I2c for ssd is on wrong pin, so no display. Tab on regulator is
-wrong and has to be cut.
-
-- v0.2.0 2025-0  testing notes. (Test files in crate SensorProject_t16  examples/ and src/bin/
-    - blink runs.           0.02 A  with 5v input  ( 0.04A with st-link still attached but not powered)
-    - blink_impl runs.      ditto
-    - text_i2c   fails      init() error BusWriteError because sda1 mistakenly wired to pb6 on pin 42
-    - lora_spi_send runs.   0.02 A  with 5v input  ( ditto )
-    - measured temperature is sensitive to good supply voltage (see below).
-
-- errors/fixes:
-  - Done. get correct footprint L1 for MLZ1608N2R2LT000. 
-  - Done. AMS1117 regulator tab should connect to output not gnd! BEWARE require symbol edit pin 4 GND -> VO
-             and watch it does not reset as updating symbol may mess this up. REPORT SYMBOL BUG? maybe both ? and ?_tab2
-  - Done. I2C2 is used for ads bus but is labelled 1 in schematics.
-  - Done. I2C for ssd is mistakenly labelled scl2, sda2. Closer to I2C1, but still wrong.  
-          v0.2.0 2025-0 has wrong pin for sda1. It has b6 on pin 42 but needs b9 (pin 46 UFQFPN48).
-  - Done. consider labelling sda1 as pin b?, etc.
-  - Done. pull-ups on ssd bus (mistakenly sda2 and scl2).
-  - Done. label bt0 and nrst vs sw1 and sw2. And check they work.
-  - Done. add label for battery type CR1216 3v
-  - Done. switch antenna hole for U.FL-R-SMT-1 (ipex 1). 
-          Added zone GND_ANT on RFM pin10 since it is closest to ant pin, but there is no documention about 
-          which gnd pin to use, or even suggesting analog and digital grd parts of RFM are separated.
-  - Done. label MCO as pin b? (MCO2 not possible with UFQFPN48 package).
-  - Done. (See below.) check if it works with 3.2v through regulator.
-  - Done. check in rfm95 doc https://cdn.sparkfun.com/assets/learn_tutorials/8/0/4/RFM95_96_97_98W.pdf
-  - Done. cleanup and recheck BOM.
-  - Done. check question about led orientatins. Add indicators.
-          For BT1, no solder paste on the center big pad added to fab layer notes. 
-  - Done. reduce led brightness. Changed MfgPart and adjusted resistors.
-  - Done. Replaced ssd and st-link connections with 2x4 smt pinsocket. (stlink plug clearance for larger ssd. & low profile? 2x4 smt?)
-  - Done. make boot1 pin 20 available to pull high. (Shared pin, if boot0 is high it is read at boot then available for other function?)
-          (see notes https://community.st.com/t5/stm32-mcus-products/quadspi-and-boot1-with-stm32f446ret6/m-p/786873)
-           https://deepbluembedded.com/stm32-boot-modes-stm32-boot0-boot1-pins/
-  - Done. fab layer red led D1 indicates 2.65Vf. Should be 1.8Vf. (Blue is  2.65Vf.)
-  - Done. make J18 (MCO) a test point pad rather than hole.
-
--improvements:
-  - Done. Consider switching to smaller footprints for R, C, L, and leds.
-  - Done. radio on same side as MCU.
-  - Done. mv R23 and R25 to same side as MCU and radio and eliminate PTH in MCU area.
-  - consider power led blink off on reset?
-  - consider reverse-polarity-protection
+- Consider power led blink off on reset?
+- Consider reverse-polarity-protection
       https://electronics.stackexchange.com/questions/665044/which-reverse-polarity-protection-is-better-and-why  
-  - consider different cheaper radio options?
 
 -testing:
-  - check what happens to RTC when VDD is gone and so NRST goes low.
-  - check if RTC works?
-  - check HSE and LSE oscillating
+  - Check what happens to RTC when VDD is gone and so NRST goes low.
+  - Check if RTC works?
+  - Check HSE and LSE oscillating
 
 - learn spice.
   
@@ -136,14 +98,17 @@ MCO_2 requires a 64 pin package to get pc9 so some diagnostics are not available
 /////////////////////  RFM95  LoRa radio
 ////////////////////////////////////////////////////////////////////////////////
 
-Reset pin has internal pull-up.  Do not hold low for long. Leaving it floating mostly works 
-but connect to an io pin for programable reset. 
-(PA0 MAY NOT BE A GOOD CHOICE since it is WKUP on blackpill and  
-
+Reset pin has internal pull-up.  Do not hold low for long. Current code does not attempt reset.
 See  https://www.mouser.ca/datasheet/2/975/1463993415RFM95_96_97_98W-1858106.pdf
 "A manual reset of the RFM95/96/97/98(W) is possible even for applications in which VDD cannot
 be physically disconnected. Pin 7 should be pulled low for a hundred microseconds, 
 and then released. The user should then wait for 5 ms before using the chip."
+
+////////////////////////////////////////////////////////////////////////////////
+///////////////     alternate  parts
+////////////////////////////////////////////////////////////////////////////////
+
+- See also file ProjectAlternateParts.txt for (a very disorganized) notes on alternate parts.
 
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -153,16 +118,70 @@ and then released. The user should then wait for 5 ms before using the chip."
 See README.md  History section 
 
 To see tags and tag messages use  git tag -n 
-  
+ 
 ////////////////////////////////////////////////////////////////////////////////
-///////////////     alternate equivalent  parts
+///////////////     revision history and notes
 ////////////////////////////////////////////////////////////////////////////////
-- J18, J19,  1x20_P2.54mm_Vertical      Female Header 2.54mm 180°Vertical Single row 20 Circuits(DIP)
-     TXGA FFH25405-S20S1001K6K  or  JILN 22850120ANG1SYA01 or ...
 
-- J20   1x02_P2.54mm_Horizontal   2 Screw horz TerminalBlock
-  Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"  or Cixi Kefa Elec	KF128-2.54-2P	or ...
-https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-2-54-2P_C474920.pdf
 
-- See also file ProjectAlternateParts.txt for (very disorganized notes on other (non-equivalent) parts.
+///////////////  v0.2.0 2025-05 prototype notes
+- includes an stm32f411 MCU. 
+- has a LoRa module RFM95W.
 
+- status: works to measure and transmit. I2c for ssd is on wrong pin, so no display. Tab on regulator is
+wrong and has to be cut.
+
+- v0.2.0 2025-0  testing notes. (Test files in crate SensorProject_t16  examples/ and src/bin/
+    - blink runs.           0.02 A  with 5v input  ( 0.04A with st-link still attached but not powered)
+    - blink_impl runs.      ditto
+    - text_i2c   fails      init() error BusWriteError because sda1 mistakenly wired to pb6 on pin 42
+    - lora_spi_send runs.   0.02 A  with 5v input  ( ditto )
+    - measured temperature is sensitive to good supply voltage (see below).
+
+- errors/fixes (Done indicates the change should be in the next release.):
+  - Done (but then switched to smaller footprint). Get correct footprint L1 for MLZ1608N2R2LT000. 
+  - Done. AMS1117 regulator tab should connect to output not gnd! BEWARE require symbol edit pin 4 GND -> VO
+             and watch it does not reset as updating symbol may mess this up. REPORT SYMBOL BUG? maybe both ? and ?_tab2
+  - Done. I2C2 is used for ads bus but is labelled 1 in schematics.
+  - Done. I2C for ssd is mistakenly labelled scl2, sda2. Closer to I2C1, but still wrong.  
+          v0.2.0 2025-0 has wrong pin for sda1. It has b6 on pin 42 but needs b9 (pin 46 UFQFPN48).
+  - Done. consider labelling sda1 as pin b?, etc.
+  - Done. pull-ups on ssd bus (mistakenly sda2 and scl2).
+  - Done. label bt0 and nrst vs sw1 and sw2. And check they work.
+  - Done. add label for battery type CR1216 3v
+  - Done. switch antenna hole for U.FL-R-SMT-1 (ipex 1). 
+          Added zone GND_ANT on RFM pin10 since it is closest to ant pin, but there is no documention about 
+          which gnd pin to use, or even suggesting analog and digital grd parts of RFM are separated.
+  - Done. label MCO as pin b? (MCO2 not possible with UFQFPN48 package).
+  - Done. (See below.) check if it works with 3.2v through regulator.
+  - Done. check in rfm95 doc https://cdn.sparkfun.com/assets/learn_tutorials/8/0/4/RFM95_96_97_98W.pdf
+  - Done. cleanup and recheck BOM.
+  - Done. check question about led orientatins. Add indicators.
+          For BT1, no solder paste on the center big pad added to fab layer notes. 
+  - Done. reduce led brightness. Changed MfgPart and adjusted resistors.
+  - Done. Replaced ssd and st-link connections with 2x4 smt pinsocket. (stlink plug clearance for larger ssd. & low profile? 2x4 smt?)
+  - Done. make boot1 pin 20 available to pull high. (Shared pin, if boot0 is high it is read at boot then available for other function?)
+          (see notes https://community.st.com/t5/stm32-mcus-products/quadspi-and-boot1-with-stm32f446ret6/m-p/786873)
+           https://deepbluembedded.com/stm32-boot-modes-stm32-boot0-boot1-pins/
+  - Done. fab layer red led D1 indicates 2.65Vf. Should be 1.8Vf. (Blue is  2.65Vf.)
+  - Done. make J18 (MCO) a test point pad rather than hole.
+
+-improvements:
+  - Done. Switch to smaller footprints for R, C, L, and leds.
+  - Done. radio on same side as MCU.
+  - Done. mv R23 and R25 to same side as MCU and radio and eliminate PTH in MCU area.
+
+
+///////////////  version 0.1.1 2025-01 
+
+- has pull up resistors added but has not been manufactured/tested.
+
+
+///////////////  v0.1.0 2024-05 
+
+-This versin has no LoRa module.
+
+-It has pinsockets for a blackpill module.
+
+-needs manual addition of pull up resistors on the I2C lines. 
+   With this modification it works with `blackpill stm32f401` or `blackpill stm32f411` inserted.
