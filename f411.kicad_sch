@@ -6029,7 +6029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C42163136.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C42163132.html"
 			(at 175.26 128.27 0)
 			(effects
 				(font
@@ -6056,7 +6056,7 @@
 				(hide yes)
 			)
 		)
-		(property "MfgPart" "HC-PM254-5.0H-2x8PS"
+		(property "MfgPart" "HC-PM254-5.0H-2x4PS-02A"
 			(at 175.26 128.27 0)
 			(effects
 				(font

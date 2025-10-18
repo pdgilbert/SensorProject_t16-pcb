@@ -2281,7 +2281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.hirose.com/en/product/document?clcode=CL0331-0472-2-60&productname=U.FL-R-SMT-1(60)&series=U.FL&documenttype=Catalog&lang=en&documentid=ed_U.FL_CAT"
+		(property "Datasheet" "https://www.hirose.com/en/product/p/CL0480-0761-0-00"
 			(at 128.27 69.85 0)
 			(effects
 				(font
@@ -2308,7 +2308,7 @@
 				(hide yes)
 			)
 		)
-		(property "MfgPart" "U.FL-R-SMT-1"
+		(property "MfgPart" "U.FL-R-SMT-K(800)"
 			(at 128.27 72.39 0)
 			(effects
 				(font
