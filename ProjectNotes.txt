@@ -33,7 +33,8 @@ The HSE, LSE, and RTC are not used by current software but are on the board for 
 - silkscreen white space for module ID.
 - Report footprint BUG AMS1117 regulator tab should connect to output not gnd! Requires changing pin 4 GND -> VO
 - The crystals/capacitors need testing and may need adjustment. 
-- Consider WLCSP version of MCU (but need eh1 Rust crate).
+- Consider STM32WLE5CCU6 version of MCU with built in LoRa (but need eh1 Rust crate).
+    https://www.st.com/en/microcontrollers-microprocessors/stm32wl-series.html
 - Consider different cheaper radio options?
 - Need LoRa software and radio update.
 - The radio needs more testing. 
@@ -258,12 +259,12 @@ wrong (on ground and should be on output voltage) and has to be cut.
 
 ///////////////  version 0.1.1 2025-01 
 
-- has pull up resistors added but has not been manufactured/tested.
+- has pull up resistors added but was not manufactured/tested.
 
 
 ///////////////  v0.1.0 2024-05 
 
--This versin has no LoRa module.
+-This version has no LoRa module.
 
 -It has pinsockets for a blackpill module.
 

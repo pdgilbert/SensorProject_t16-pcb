@@ -5,9 +5,9 @@
 	(uuid "29ade065-c8eb-48f0-b9fa-b9018ec9d24d")
 	(paper "A4")
 	(title_block
-		(title "ADCs for 10K thermistors")
-		(date "2025-01-07")
-		(rev "v0.1.1")
+		(title "RFM95W 915MHz")
+		(date "2025-09-15")
+		(rev "v0.2.2")
 	)
 	(lib_symbols
 		(symbol "ProjectLib:Antenna_Shield"
