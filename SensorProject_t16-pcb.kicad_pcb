@@ -32741,7 +32741,7 @@
 		(uuid "d006f4fa-92ca-41c7-9d22-ca5c8962155c")
 	)
 	(gr_text "BT0"
-		(at 80.73 41.61 0)
+		(at 81.146 41.596 0)
 		(layer "F.SilkS")
 		(uuid "13320e55-050b-4386-9846-4ccb851acf48")
 		(effects
