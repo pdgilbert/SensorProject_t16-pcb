@@ -9,12 +9,12 @@ grep "/////////////// " ProjectNotes.txt   # for section index
 The 16 JST 2-pin connectors are a size used by many NTC suppliers. 
 The NTC sensors are easily available and inexpensive.
 
-The PCB board is 48.11mm by 70.83mm, which fits (tightly) in a standard NA electric outlet hole. 
+The PCB board is 48.1mm by 70.8mm (previously 48.11mm by 70.83mm), which fits (tightly) in a standard NA electric outlet hole. 
 This allows for a standard outlet faceplate cover. The board needs to be supplied by low voltage (5v).
 An outlet box is not a good option because of the number of sensor wires, but a low voltage single gang 
 wall plate with no back, as often used for audio or TV cable, is a good option.
 
-The mounting hole centers are 44mm apart in x direction and 66.9 mm in y direction.
+The mounting hole centers are 43.5mm apart in x direction and 66.5 mm in y direction.
 
 In addition to the JST connectors on the analog digital converter (adc) and the LoRa module, the board has 
   - 4 pins on an 8 pin header to connect a ST-link programming dongle.
