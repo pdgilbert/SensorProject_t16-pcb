@@ -585,7 +585,7 @@
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
-			(in_pos_files yes)
+			(in_pos_files no)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "NT"
 				(at 0 1.27 0)
@@ -630,6 +630,17 @@
 				)
 			)
 			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "pads" "2"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2193,7 +2204,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "bfc1d95e-e5af-49a4-8697-915ef7d3f153")
 		(property "Reference" "NT1"
