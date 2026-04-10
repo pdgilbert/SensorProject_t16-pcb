@@ -2623,7 +2623,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "100nF"
 			(at 120.65 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2688,7 +2688,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Yageo"
 			(at 120.65 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -2699,7 +2699,7 @@
 				)
 			)
 		)
-		(property "MfgPart" ""
+		(property "MfgPart" "CC0402KRX7R7BB104"
 			(at 120.65 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -6908,7 +6908,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "100nF"
 			(at 120.65 27.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6973,7 +6973,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Yageo"
 			(at 120.65 24.13 90)
 			(hide yes)
 			(show_name no)
@@ -6984,7 +6984,7 @@
 				)
 			)
 		)
-		(property "MfgPart" ""
+		(property "MfgPart" "CC0402KRX7R7BB104"
 			(at 120.65 24.13 90)
 			(hide yes)
 			(show_name no)
@@ -8117,7 +8117,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "100nF"
 			(at 123.19 200.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8182,7 +8182,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Yageo"
 			(at 123.19 196.85 90)
 			(hide yes)
 			(show_name no)
@@ -8193,7 +8193,7 @@
 				)
 			)
 		)
-		(property "MfgPart" ""
+		(property "MfgPart" "CC0402KRX7R7BB104"
 			(at 123.19 196.85 90)
 			(hide yes)
 			(show_name no)
@@ -9768,7 +9768,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "100nF"
 			(at 120.65 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9833,7 +9833,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Yageo"
 			(at 120.65 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -9844,7 +9844,7 @@
 				)
 			)
 		)
-		(property "MfgPart" ""
+		(property "MfgPart" "CC0402KRX7R7BB104"
 			(at 120.65 142.24 90)
 			(hide yes)
 			(show_name no)
