@@ -1,14 +1,14 @@
 (footprint "Crystal_SMD_MicroCrystal_CM9V-T1A-2Pin_1.6x1.0mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "SMD Crystal MicroCrystal CM9V-T1A series https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/CM9V-T1A.pdf, 1.6x1.0mm^2 package")
 	(tags "SMD SMT crystal")
 	(property "Reference" "REF**"
 		(at 0 -1.7 0)
 		(layer "F.SilkS")
-		(uuid "14c757f9-f88e-4490-b554-03e97e0a4ade")
+		(uuid "d66ea9b2-6bb0-413a-8989-02e54aa4620b")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "Crystal_SMD_MicroCrystal_CM9V-T1A-2Pin_1.6x1.0mm"
 		(at 0 1.7 0)
 		(layer "F.Fab")
-		(uuid "8d066a26-9c94-4f02-bd38-60feb617e4bb")
+		(uuid "5a8e5d54-97c0-43b6-9140-65551d85ca1f")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "48628f80-2930-4263-bbf8-61eef2575a18")
+		(uuid "6d6fbd54-2036-4cd4-8358-90e2df7c204b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a38fb33d-5600-4e0a-9593-c5b86c36d078")
+		(uuid "dbf1c139-5d3e-4aa5-be5b-a3fca5e1e5bf")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.1 -0.6)
 		(end -1.1 0.6)
@@ -62,7 +63,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "31583ade-faa7-4879-a712-e3401ca86815")
+		(uuid "c33ef8e3-2b60-4f18-8efb-94a1b7e16949")
 	)
 	(fp_line
 		(start -0.1 -0.7)
@@ -72,7 +73,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "635b6ef3-e141-46e7-b207-76ead69389bb")
+		(uuid "bd54a13e-d1e4-45d3-8036-c9d24f08fc72")
 	)
 	(fp_line
 		(start -0.1 0.7)
@@ -82,7 +83,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "a5a54115-f567-490c-b02f-b6e6c19ba083")
+		(uuid "900f6e5a-74c6-4052-af01-f204a6c07c94")
 	)
 	(fp_line
 		(start -1.2 -0.9)
@@ -92,7 +93,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "b7a470c3-8427-4f25-8cf1-f8bae056f1b5")
+		(uuid "fa5974a1-0246-47c5-b2c8-f31a62461401")
 	)
 	(fp_line
 		(start -1.2 0.9)
@@ -102,7 +103,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "1ca6f0e0-59e0-4053-89f8-bb53bbc57841")
+		(uuid "69ecb1b1-5ed9-43d7-8dd2-ba6afdcf6634")
 	)
 	(fp_line
 		(start 1.2 -0.9)
@@ -112,7 +113,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "e534c0ad-f60e-45cf-aef2-83900a961925")
+		(uuid "daebdb01-3d02-44e4-8272-a0101a900d57")
 	)
 	(fp_line
 		(start 1.2 0.9)
@@ -122,7 +123,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "423f0cf7-7c45-4d5d-8d1d-49d4991808a0")
+		(uuid "4a18f7a3-e1fc-4829-bf09-2fe700c6bbac")
 	)
 	(fp_line
 		(start -0.8 -0.5)
@@ -132,7 +133,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "e047ad83-835e-498c-8d8a-476f3d339d26")
+		(uuid "55a72dbd-6f40-44cc-9307-f26e69149286")
 	)
 	(fp_line
 		(start -0.8 0)
@@ -142,7 +143,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "fb3d767d-4075-4619-9dd1-605d987a6449")
+		(uuid "e2d3681f-6683-49a2-a1a7-e45b504fe312")
 	)
 	(fp_line
 		(start -0.8 0.5)
@@ -152,7 +153,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "7486582a-b0e2-45a1-b89c-2bdd10bc9eda")
+		(uuid "9f4b2179-58d4-4dfa-8b3b-df2b27afb17c")
 	)
 	(fp_line
 		(start 0.8 -0.5)
@@ -162,7 +163,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "6cacf149-e4ea-4500-b98d-74500e494080")
+		(uuid "9be1ac87-6450-4ea8-b286-629cbd9206b1")
 	)
 	(fp_line
 		(start 0.8 0.5)
@@ -172,12 +173,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "0babbf48-10a0-4d49-bd84-22827e14d010")
+		(uuid "58ab31f9-2dbe-41bc-b2fa-a5473e5ac6dd")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "d8aa155d-f2a0-4cf5-a708-46f75b761a5d")
+		(uuid "32c946a4-696e-4b2d-b134-4c9094e06a66")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -189,16 +190,16 @@
 		(at -0.6 0)
 		(size 0.6 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "0ec89329-7e35-4036-89da-026fb9ec9287")
+		(uuid "1223e882-5020-46c5-a08f-d28113d7d0a5")
 	)
 	(pad "2" smd rect
 		(at 0.6 0)
 		(size 0.6 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "22c46bcb-b315-419c-b76f-0158d5b6054f")
+		(uuid "80f28013-d1ad-421c-8fab-ffff7bd1f0b1")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_MicroCrystal_CM9V-T1A-2Pin_1.6x1.0mm.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_MicroCrystal_CM9V-T1A-2Pin_1.6x1.0mm.step"
 		(offset
 			(xyz 0 0 0)
 		)
