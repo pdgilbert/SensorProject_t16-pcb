@@ -26,11 +26,11 @@ In addition to the JST connectors on the analog digital converter (adc) and the 
   - a coin cell battery holder to supply the real time clock (RTC). (still untested)
   
 The HSE, LSE, and RTC are not used by current software but are on the board for future possibilities.
+They can be marked do not populate (DNP) to reduce cost.
 
 ////////////////////////////////////////////////////////////////////////////////
 ///////////////            To Do
 ////////////////////////////////////////////////////////////////////////////////
-- silkscreen white space for module ID.
 - Report footprint BUG AMS1117 regulator tab should connect to output not gnd! Requires changing pin 4 GND -> VO
 - The crystals/capacitors need testing and may need adjustment. 
 - Consider STM32WLE5CCU6 version of MCU with built in LoRa (but need eh1 Rust crate).
@@ -41,8 +41,6 @@ The HSE, LSE, and RTC are not used by current software but are on the board for 
 
 - 5v J20 connector is a bit fragile. Consider something more robust.
 - red led is still pretty bright.
-- shift + and add - on J20 for better visibility
-- Add A and K on silkscreen or fab layer for the LEDs (anode and cathode). 
 
 - Consider power led blink off on reset?
 - Consider reverse-polarity-protection

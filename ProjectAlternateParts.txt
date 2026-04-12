@@ -5,6 +5,24 @@ This assumes ; has been set as field separator. Otherwise "," in some fields cau
 Helps to set range delimiter to -
 ( -N Don't use line numbers. -S Chop (truncate) long lines rather than wrapping. )
 
+///////////////////// Caps  C_0402_1005Metric  Unpolarized capacitor
+
+10pF C0G, NP0, +/- 0.1pF
+4pF C0G, NP0, +/- 0.1pF
+
+100nF (= 0.1uF)             Yageo  CC0402KRX7R7BB104  
+
+4.7uF
+10uF
+
+///////////////////// Resisters   R_0402_1005Metric
+
+10k 1%
+715 1%
+280 1%
+0
+634  1%
+
 
 ///////////////////// Antenna
 
@@ -574,4 +592,27 @@ that is gm_critical =  315 mA/V but their table shows 5.68  mA/V
 # Abracon   ABS07W  LSE
 crit_margin(F=32.768*10**3,  ESR=80,  C0=1.3*10**-12, CL=3.0*10**-12, gm=0.38*10**-3, Vpp=3.2)
 gm_critical =  2.508109517026411e-10  A/V; gain_margin = 1515085.355804256
+
+
+
+########## CR1216 battery Retainer, SMT
+
+BatteryHolder_LINX_BAT-HLD-012-SMT
+https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=BAT-HLD-012-SMT&DocType=Data+Sheet&DocLang=English&DocFormat=pdf&PartCntxt=BAT-HLD-012-SMT
+
+
+########## CR1220 battery Holders, SMT  (Holders are bigger than retainers)
+	
+MPD (Memory Protection Devices)   BC501SM
+www.batteryholders.com/uploads/parts/BC501SM/datasheets/BC501SM-datasheet.pdf
+https://www.batteryholders.com/uploads/parts/BC501SM/stepfiles/BC501SM.STEP
+
+adam tech  BH-44D-5
+https://www.digikey.cn/en/products/detail/adam-tech/BH-44D-5/13537718
+
+Keystone  1056
+https://www.keyelco.com/userAssets/file/K75p2.pdf
+
+Harwin  S8411-45R
+https://content.harwin.com/m/8aa8c741728fa9cb/original/DRG-02355-Technical-Drawing-Datasheet-S8411R-pdf.pdf
 

@@ -2570,7 +2570,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" ""
 			(at 111.76 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2581,7 +2581,7 @@
 				)
 			)
 		)
-		(property "MfgPart" "CC0402KRX7R7BB104"
+		(property "MfgPart" ""
 			(at 111.76 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2727,7 +2727,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" ""
 			(at 102.87 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2738,7 +2738,7 @@
 				)
 			)
 		)
-		(property "MfgPart" "CC0402KRX7R7BB104"
+		(property "MfgPart" ""
 			(at 102.87 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -3675,7 +3675,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" ""
 			(at 156.21 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -3686,7 +3686,7 @@
 				)
 			)
 		)
-		(property "MfgPart" "CC0402KRX7R7BB104"
+		(property "MfgPart" ""
 			(at 156.21 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -3834,7 +3834,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" ""
 			(at 119.38 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -3845,7 +3845,7 @@
 				)
 			)
 		)
-		(property "MfgPart" "CC0402KRX7R7BB104"
+		(property "MfgPart" ""
 			(at 119.38 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4147,7 +4147,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" ""
 			(at 95.25 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4158,7 +4158,7 @@
 				)
 			)
 		)
-		(property "MfgPart" "CC0402KRX7R7BB104"
+		(property "MfgPart" ""
 			(at 95.25 91.44 0)
 			(hide yes)
 			(show_name no)

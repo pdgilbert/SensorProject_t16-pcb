@@ -2626,7 +2626,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" ""
 			(at 100.33 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -2637,7 +2637,29 @@
 				)
 			)
 		)
-		(property "MfgPart" "CC0402KRX7R7BB104"
+		(property "MfgPart" ""
+			(at 100.33 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" "or equivalent"
+			(at 100.33 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "C_0402_1005Metric"
 			(at 100.33 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -2741,6 +2763,28 @@
 			)
 		)
 		(property "pads" "2"
+			(at 106.68 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" "or equivalent"
+			(at 106.68 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "C_0402_1005Metric"
 			(at 106.68 62.23 0)
 			(hide yes)
 			(show_name no)
