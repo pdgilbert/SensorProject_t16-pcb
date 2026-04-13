@@ -5,9 +5,9 @@
 	(uuid "6ac5a44d-4ec6-47b2-a9a0-2d39c98d192e")
 	(paper "A4")
 	(title_block
-		(title "HSE")
-		(date "2025-09-15")
-		(rev "v0.2.2")
+		(title "stm32f411, RFM95W")
+		(date "2026-04-12")
+		(rev "v0.3.1")
 	)
 	(lib_symbols
 		(symbol "ProjectLib:C"
@@ -1553,8 +1553,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "5d7fba7a-7500-4cdc-abf4-6f3adda648bc")
 		(property "Reference" "C10"
 			(at 161.036 108.204 0)
@@ -1709,8 +1709,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "6ef0b011-8f11-4809-ba4a-be61ba0534e1")
 		(property "Reference" "R30"
 			(at 159.766 80.772 0)
@@ -2021,8 +2021,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "a21ab5c5-3991-486c-8a6e-e7f468862097")
 		(property "Reference" "Y1"
 			(at 160.528 93.218 0)
@@ -2315,8 +2315,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "f1cf36d8-fb6e-45fa-913f-f8e109b7e60c")
 		(property "Reference" "C11"
 			(at 132.08 108.204 0)

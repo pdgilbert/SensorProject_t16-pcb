@@ -2571,7 +2571,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_pos_files dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -2722,7 +2722,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C13"
-			(at 0 -1.16 225)
+			(at 0 -1.16 45)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "eafe824e-c506-4211-b7e9-44cb38bf1b6a")
@@ -2734,7 +2734,7 @@
 			)
 		)
 		(property "Value" "4pF C0G, NP0, +/- 0.1pF"
-			(at -10.168194 0.933384 225)
+			(at -10.168194 0.933384 45)
 			(layer "F.Fab")
 			(uuid "42e549b2-e05e-4540-bb50-ba20222a6086")
 			(effects
@@ -2745,7 +2745,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 225)
+			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1475fc57-0a44-4cae-82dd-a90649482c8e")
@@ -2757,7 +2757,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 225)
+			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dfe4db94-5033-4df2-9aaf-938dbca8be6a")
@@ -2869,7 +2869,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_pos_files dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.107836 0.36)
@@ -2972,7 +2972,7 @@
 			(uuid "b3df9466-157a-4ef0-9214-78e2cc0a9dc7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 225)
+			(at 0 0 45)
 			(layer "F.Fab")
 			(uuid "ff8b0943-1293-4275-8421-2e819919651f")
 			(effects
@@ -5476,7 +5476,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_pos_files dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -11276,6 +11276,19 @@
 				)
 			)
 		)
+		(property "Package" "none"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4f7e8cd-bd12-457c-9c05-e600d9635c31")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/f12d0b95-be3f-41e2-8b41-943aec5e1edf/5ce0d213-d9aa-474c-8505-f3eacfcb973d")
 		(sheetname "/f411/")
@@ -11286,7 +11299,7 @@
 				(pins "1")
 			)
 		)
-		(attr dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -15140,7 +15153,7 @@
 				)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "none"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15176,7 +15189,7 @@
 				(pins "1")
 			)
 		)
-		(attr dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -19449,7 +19462,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C10"
-			(at 0 -1.16 225)
+			(at 0 -1.16 45)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "97aad652-0280-4765-bfa0-c79b74155b5e")
@@ -19461,7 +19474,7 @@
 			)
 		)
 		(property "Value" "10pF C0G, NP0, +/- 0.1pF"
-			(at -8.188297 -0.056569 225)
+			(at -8.188297 -0.056569 45)
 			(layer "F.Fab")
 			(uuid "2ceee7d8-73c6-4fdc-8fc1-a31916776596")
 			(effects
@@ -19472,7 +19485,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 225)
+			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "69885063-939f-40ca-9429-0fe258c31315")
@@ -19484,7 +19497,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 225)
+			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fc6835cf-5999-4c57-9ee9-197f0c945489")
@@ -19596,7 +19609,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_pos_files dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.107836 0.36)
@@ -19699,7 +19712,7 @@
 			(uuid "797cb746-b4b7-4bbb-985d-8f6804c2f1d0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 225)
+			(at 0 0 45)
 			(layer "F.Fab")
 			(uuid "a55f48f0-f309-4191-9558-b3bde0144f0d")
 			(effects
@@ -20807,7 +20820,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C11"
-			(at 0 -1.16 315)
+			(at 0 -1.16 135)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d5b67cc0-9fc0-43c0-a9f4-9f251b764040")
@@ -20830,7 +20843,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 315)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "143a6341-899c-4749-9094-1e55bd11bcee")
@@ -20842,7 +20855,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 315)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2981575b-57fd-4be3-abeb-3b8376e5ba7a")
@@ -20954,7 +20967,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_pos_files dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.107836 0.36)
@@ -21057,7 +21070,7 @@
 			(uuid "98af4f49-f980-4189-9a17-690b43d11c83")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 315)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(uuid "c469ae9b-2b61-4bd0-9937-f8e110cda7a9")
 			(effects
@@ -22335,7 +22348,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C5"
-			(at 0 -1.16 270)
+			(at 0 -1.16 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "07587f1b-2b4a-4288-8270-39720e87b049")
@@ -22346,8 +22359,8 @@
 				)
 			)
 		)
-		(property "Value" "1µF"
-			(at -0.960001 -0.869997 225)
+		(property "Value" "1uF"
+			(at -0.960001 -0.869997 45)
 			(layer "F.Fab")
 			(uuid "135a8d52-1250-4b49-92d5-2be35ee68053")
 			(effects
@@ -22358,7 +22371,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a6c940c0-c515-478a-9954-beca03beee0e")
@@ -22370,7 +22383,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bae84a1f-18af-497f-9079-42668e229414")
@@ -22585,7 +22598,7 @@
 			(uuid "86223725-af66-42db-95bb-02db68d1df91")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "bfe8cb76-c159-4a98-961f-9a505aa43fb3")
 			(effects
@@ -24774,7 +24787,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C14"
-			(at 0 -1.16 270)
+			(at 0 -1.16 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "8e73d454-d056-4c52-a268-bd3adc6f6349")
@@ -24785,8 +24798,8 @@
 				)
 			)
 		)
-		(property "Value" "4.7µF"
-			(at -0.830001 -1.289997 225)
+		(property "Value" "4.7uF"
+			(at -0.830001 -1.289997 45)
 			(layer "F.Fab")
 			(uuid "238f0904-3740-42c3-8341-8d5725dfe2e9")
 			(effects
@@ -24797,7 +24810,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "605dfe4b-5d7b-40ac-bb3d-a75525dd5d6a")
@@ -24809,7 +24822,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b6502ebe-267d-483d-bd33-ffd121d25c76")
@@ -25024,7 +25037,7 @@
 			(uuid "b25b0832-8d48-4ebf-b1f6-d58d334f1a39")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "005b942f-afb1-4ccc-90d7-b1053f418277")
 			(effects
@@ -26739,7 +26752,7 @@
 				(pins "1" "2" "4" "3")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_pos_files dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.35 -1.15)
@@ -27406,7 +27419,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_pos_files dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.1 0.7)
@@ -32302,7 +32315,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C12"
-			(at 0 -1.16 225)
+			(at 0 -1.16 45)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "81469d20-e831-4322-8ad6-716d89e9794f")
@@ -32314,7 +32327,7 @@
 			)
 		)
 		(property "Value" "4pF C0G, NP0, +/- 0.1pF"
-			(at -10.344971 0.64347 225)
+			(at -10.344971 0.64347 45)
 			(layer "F.Fab")
 			(uuid "ad1bd70c-a303-4ad1-8a0e-ddc980bda500")
 			(effects
@@ -32325,7 +32338,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 225)
+			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3ab71752-60d4-4c4c-800d-9eaa0c1ac316")
@@ -32337,7 +32350,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 225)
+			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "beef2138-16c6-484f-ab1d-b8fc7d855d71")
@@ -32449,7 +32462,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_pos_files dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.107836 0.36)
@@ -32552,7 +32565,7 @@
 			(uuid "4f7c6a7f-21c0-446d-9f51-52662ffeac59")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 225)
+			(at 0 0 45)
 			(layer "F.Fab")
 			(uuid "af8da769-a696-4ccf-814c-64ad7131697a")
 			(effects
@@ -33925,7 +33938,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_pos_files dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -6.55 -2.85)
@@ -34707,7 +34720,7 @@
 		(layer "Edge.Cuts")
 		(uuid "d006f4fa-92ca-41c7-9d22-ca5c8962155c")
 	)
-	(gr_text "v0.3.0 2026-04"
+	(gr_text "v0.3.1 2026-04"
 		(at 73.479997 93.099999 0)
 		(layer "F.SilkS")
 		(uuid "47497532-f073-4510-ae28-6255e991c482")

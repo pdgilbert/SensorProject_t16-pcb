@@ -5,9 +5,9 @@
 	(uuid "81648aa5-940b-4822-90ae-fe4e396bed12")
 	(paper "A4")
 	(title_block
-		(title "stm32f411, ST-Link & SSD")
-		(date "2025-09-15")
-		(rev "v0.2.2")
+		(title "stm32f411, RFM95W")
+		(date "2026-04-12")
+		(rev "v0.3.1")
 	)
 	(lib_symbols
 		(symbol "ProjectLib:C"
@@ -2427,9 +2427,9 @@
 				(hide yes)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
-			(in_pos_files yes)
+			(in_pos_files no)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "TP"
 				(at 0 6.858 0)
@@ -4997,9 +4997,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "17850ab0-7b55-4df0-a332-35ccea908883")
 		(property "Reference" "TP2"
@@ -5078,7 +5078,7 @@
 				)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "none"
 			(at 162.56 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -5446,7 +5446,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7µF"
+		(property "Value" "4.7uF"
 			(at 124.968 143.002 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5745,9 +5745,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5ce0d213-d9aa-474c-8505-f3eacfcb973d")
@@ -5818,6 +5818,17 @@
 			)
 		)
 		(property "MountType" "SMT"
+			(at 106.68 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "none"
 			(at 106.68 100.33 0)
 			(hide yes)
 			(show_name no)

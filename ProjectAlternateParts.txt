@@ -7,21 +7,22 @@ Helps to set range delimiter to -
 
 ///////////////////// Caps  C_0402_1005Metric  Unpolarized capacitor
 
-10pF C0G, NP0, +/- 0.1pF
-4pF C0G, NP0, +/- 0.1pF
+10pF C0G, NP0, +/- 0.1pF    TCC0402COG100K500AT
+4pF C0G, NP0, +/- 0.1pF     GCM1555C1H4R0CA16D
 
-100nF (= 0.1uF)             Yageo  CC0402KRX7R7BB104  
+100nF (= 0.1uF)             Yageo  CC0402KRX7R7BB104  CL05B104KO5NNNC
 
-4.7uF
+1uF                            CL05A105KP5NNNC
+4.7uF                          CL05A475MQ5NRNC
 10uF
 
 ///////////////////// Resisters   R_0402_1005Metric
 
-10k 1%
-715 1%
-280 1%
-0
-634  1%
+10k 1%           CRCW040210K0FKED
+715 1%           CRCW0402715RFKED
+280 1%           RC0402FR-07280RL
+0                RC0402FR-070RL
+634  1%          ERJ2RKF6340X
 
 
 ///////////////////// Antenna
